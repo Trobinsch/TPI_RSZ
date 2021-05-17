@@ -20,17 +20,19 @@ namespace View
         
         Account activeAccount;
         int idAccount;
-        private UserSettings settingsUser = new UserSettings();
 
+        private UserSettings settingsUser = new UserSettings();
+        private int idAccountRecipient;
         private int id;
         public frm_Versement(PaymentManager activePayment, Account activeAccount)
         {
             this.activeUser = activeUser;
             
-            settingsUser = JsonDataSaverReader.ReadUserSettings(activeUser.UserName);
+            //settingsUser = JsonDataSaverReader.ReadUserSettings(activeUser.UserName);
             this.activePayment = activePayment;
             this.activeAccount = activeAccount;
             this.idAccount = idAccount;
+            
             InitializeComponent();
         }
         public PaymentManager ActivePayment
@@ -56,11 +58,12 @@ namespace View
         {
             bool saveSuccess = false;
             bool flagDbError = false;
-            string accountRecipient = txt_accountRecipient.Text;
+            string AccountRecipient = txt_accountRecipient.Text;
             decimal amount = Int32.Parse(txt_amount.Text);
             string informationTransmitted = txt_informationTransmitted.Text;
             string personnalInformation = txt_personnalInformation.Text;
             DateTime dateTemps = DTP_datePayment.Value;
+            
 
             if ((string.IsNullOrEmpty(txt_accountRecipient.Text)) || (string.IsNullOrEmpty(txt_amount.Text)) )
             {
@@ -74,8 +77,8 @@ namespace View
             {
                 try
                 {
-                    activePayment = new PaymentManager(id, idAccount, accountRecipient, dateTemps, amount, informationTransmitted, personnalInformation);
-                    saveSuccess = activePayment.addPayment(activeAccount, accountRecipient, dateTemps, amount, informationTransmitted, personnalInformation);
+                    activePayment = new PaymentManager(id, idAccount, AccountRecipient, dateTemps, amount, informationTransmitted, personnalInformation, idAccountRecipient);
+                    saveSuccess = activePayment.addPayment(activeAccount, idAccountRecipient, dateTemps, amount, informationTransmitted, personnalInformation);
                 }
                 catch (DbError)
                 {

@@ -5,7 +5,7 @@ USE `E-Banking`;
 CREATE TABLE `Users` (
 	`ID` INT UNSIGNED NOT NULL AUTO_INCREMENT,
 	`Name` VARCHAR(50) NOT NULL,
-	`Hash_password` VARCHAR(30) NOT NULL,
+	`HashPassword` VARCHAR(30) NOT NULL,
 	PRIMARY KEY (`ID`),
 	UNIQUE INDEX `Name` (`Name`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=UTF8MB4;
@@ -22,13 +22,13 @@ CREATE TABLE `Accounts` (
 
 CREATE TABLE `Payments` (
 	`ID` INT UNSIGNED NOT NULL AUTO_INCREMENT,
-	`FkIDAccount_owner` INT UNSIGNED NOT NULL,
-	`FKIDAccount_recipient` int UNSIGNED NOT NULL,
+	`FkIDAccountOwner` INT UNSIGNED NOT NULL,
+	`FkIDAccountRecipient` int UNSIGNED NOT NULL,
 	`Amount` DECIMAL(10) NOT NULL,
-	`Date` DATETIME NOT NULL,
-	`Information_Transmitted` VARCHAR(100) NOT NULL,
-	`Personal_Information` VARCHAR(350) NOT NULL,
+	`DatePay` DATETIME NOT NULL,
+	`InformationTransmitted` VARCHAR(100) NOT NULL,
+	`PersonalInformation` VARCHAR(350) NOT NULL,
 	PRIMARY KEY (`ID`),
-    FOREIGN KEY (`FkIDAccount_owner`) REFERENCES `E-Banking`.`Accounts`(`ID`),
-	FOREIGN KEY (`FKIDAccount_recipient`) REFERENCES `E-Banking`.`Accounts`(`ID`)		
+    FOREIGN KEY (`FkIDAccountOwner`) REFERENCES `E-Banking`.`Accounts`(`ID`),
+	FOREIGN KEY (`FKIDAccountRecipient`) REFERENCES `E-Banking`.`Accounts`(`ID`)		
 	) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=UTF8MB4;

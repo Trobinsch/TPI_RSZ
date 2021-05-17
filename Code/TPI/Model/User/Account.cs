@@ -10,14 +10,14 @@ namespace Model
         private int idAccount;
         private decimal amount;
         private string accountNumber;
-        private int activerUser;
+        private User activeUser;
 
-        public Account(int idAccount, decimal amount, string accountNumber, int activeUser)
+        public Account(int idAccount, string accountNumber, decimal amount, User activeUser)
         {
             this.idAccount = idAccount;
             this.amount = amount;
             this.accountNumber = accountNumber;
-            this.activerUser = activeUser;
+            this.activeUser = activeUser;
         }
 
         public int IdAccount
@@ -32,9 +32,9 @@ namespace Model
         {
             get { return accountNumber; }
         }
-        public int ActiveUser
+        public User ActiveUser
         {
-            get { return activerUser; }
+            get { return activeUser; }
         }
     }
 }

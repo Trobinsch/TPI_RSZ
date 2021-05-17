@@ -12,13 +12,15 @@ namespace Model
         #region attributs
         private int idUser;
         private string userName;
+        private string password;
         #endregion attributs
 
         #region constructor
-        public User(int idUser, string userName)
+        public User(string userName, string password)
         {
             this.idUser = idUser;
             this.userName = userName;
+            this.password = password;
         }
         #endregion constructor
 

@@ -23,14 +23,14 @@ namespace Model
         /// </summary>
         /// <param name="userEmail">the mail of the user (used for the file name)</param>
         /// <param name="settings">the settings to put in Json</param>
-        public static void WriteUsersettings(string userEmail, UserSettings settings)
-        {
-            string jsonString = JsonConvert.SerializeObject(settings);
-            using (StreamWriter writer = new StreamWriter(path + userEmail + ".json", false))
-            {
-                writer.WriteLine(jsonString);
-            }
-        }
+        //public static void WriteUsersettings(string userEmail, UserSettings settings)
+        //{
+        //    string jsonString = JsonConvert.SerializeObject(settings);
+        //    using (StreamWriter writer = new StreamWriter(path + userEmail + ".json", false))
+        //    {
+        //        writer.WriteLine(jsonString);
+        //    }
+        //}
 
         public static ApplicationSettings ReadAppSettings()
         {
@@ -49,35 +49,35 @@ namespace Model
             }
         }
 
-        public static UserSettings ReadUserSettings(string userEmail)
-        {
-            if (File.Exists(path + userEmail + ".json"))
-            {
-                string json;
-                using (var reader = new StreamReader(path + userEmail + ".json"))
-                {
-                    json = reader.ReadToEnd();
-                }
-                return JsonConvert.DeserializeObject<UserSettings>(json);
-            }
-            else
-            {
-                string sourceFile = path + userDefaultSettingsFileName;
-                string destinationFile = path + userEmail + ".json";
-                File.Copy(sourceFile, destinationFile);
-                if (File.Exists(path + userEmail + ".json"))
-                {
+        //public static UserSettings ReadUserSettings(string userEmail)
+        //{
+        //    if (File.Exists(path + userEmail + ".json"))
+        //    {
+        //        string json;
+        //        using (var reader = new StreamReader(path + userEmail + ".json"))
+        //        {
+        //            json = reader.ReadToEnd();
+        //        }
+        //        return JsonConvert.DeserializeObject<UserSettings>(json);
+        //    }
+        //    else
+        //    {
+        //        string sourceFile = path + userDefaultSettingsFileName;
+        //        string destinationFile = path + userEmail + ".json";
+        //        File.Copy(sourceFile, destinationFile);
+        //        if (File.Exists(path + userEmail + ".json"))
+        //        {
 
-                    string json;
-                    using (var reader = new StreamReader(sourceFile))
-                    {
-                        json = reader.ReadToEnd();
-                    }
-                    return JsonConvert.DeserializeObject<UserSettings>(json);
-                }
-                else { throw new ApplicationSettingsError(); }
-            }
-        }
+        //            string json;
+        //            using (var reader = new StreamReader(sourceFile))
+        //            {
+        //                json = reader.ReadToEnd();
+        //            }
+        //            return JsonConvert.DeserializeObject<UserSettings>(json);
+        //        }
+        //        else { throw new ApplicationSettingsError(); }
+        //    }
+        //}
 
     }
 }

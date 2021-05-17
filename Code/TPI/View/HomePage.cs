@@ -19,7 +19,11 @@ namespace View
         public PaymentManager payment;
         public frm_HomePage()
         {
-
+            int idAccount = 1;
+            string numberAccount = "CA-456456";
+            decimal amount = 10000;
+            
+            this.activeAccount = new Account(idAccount, numberAccount, amount, activeUser);
             InitializeComponent();
         }
 
