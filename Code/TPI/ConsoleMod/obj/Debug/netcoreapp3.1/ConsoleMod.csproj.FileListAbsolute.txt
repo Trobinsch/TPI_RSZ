@@ -1,0 +1,11 @@
+C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\ConsoleMod\bin\Debug\netcoreapp3.1\ConsoleMod.exe
+C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\ConsoleMod\bin\Debug\netcoreapp3.1\ConsoleMod.deps.json
+C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\ConsoleMod\bin\Debug\netcoreapp3.1\ConsoleMod.runtimeconfig.json
+C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\ConsoleMod\bin\Debug\netcoreapp3.1\ConsoleMod.runtimeconfig.dev.json
+C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\ConsoleMod\bin\Debug\netcoreapp3.1\ConsoleMod.dll
+C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\ConsoleMod\bin\Debug\netcoreapp3.1\ConsoleMod.pdb
+C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\ConsoleMod\obj\Debug\netcoreapp3.1\ConsoleMod.csprojAssemblyReference.cache
+C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\ConsoleMod\obj\Debug\netcoreapp3.1\ConsoleMod.AssemblyInfoInputs.cache
+C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\ConsoleMod\obj\Debug\netcoreapp3.1\ConsoleMod.AssemblyInfo.cs
+C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\ConsoleMod\obj\Debug\netcoreapp3.1\ConsoleMod.dll
+C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\ConsoleMod\obj\Debug\netcoreapp3.1\ConsoleMod.pdb

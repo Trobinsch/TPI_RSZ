@@ -17,7 +17,6 @@ namespace View
     {
         PaymentManager activePayment;
         User activeUser ;
-        
         Account activeAccount;
         int idAccount;
 
@@ -73,6 +72,10 @@ namespace View
             {
                 MessageBox.Show("Le montant doit être moins élevé que votre solde", "Données incompatibles", MessageBoxButtons.OK);
             }
+            else if (txt_accountRecipient.Text != AccountRecipient)
+            {
+                MessageBox.Show("Compte inexistant", "Données incompatibles", MessageBoxButtons.OK);
+            }
             else
             {
                 try
@@ -87,6 +90,7 @@ namespace View
                 }
                 if (saveSuccess == true)
                 {
+                    MessageBox.Show("Votre versement a été validé et enregistré ", "Enregistrement");
                     this.DialogResult = DialogResult.OK;
                     this.Close();
                 }

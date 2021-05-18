@@ -17,9 +17,10 @@ namespace View
         public Login()
         {
             InitializeComponent();
+            int idUser = 1;
             string Username = "paul";
             string Password = "1234";
-            this.activeUser = new User(Username,Password);
+            this.activeUser = new User(idUser,Username, Password);
         }
     }
 }

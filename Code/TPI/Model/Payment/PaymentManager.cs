@@ -51,14 +51,35 @@ namespace Model
                 }
                 else
                 {
-                    decimal amountFinalOwner = Convert.ToDecimal(activeAccount.Amount) - amount;
+                    decimal amountFinalOwner = activeAccount.Amount - amount;
                     string queryUpdate = "UPDATE accounts SET Amount = " + amountFinalOwner + " WHERE ID ="+ activeAccount.IdAccount.ToString();
                     bool queryResultUpdate = dbConnector.Update(queryUpdate);
                     if (queryResultUpdate == true)
                     {
-                        decimal amountFinalRecipient = Convert.ToDecimal(activeAccount.Amount) - amount;
-                        string queryUpdate = "UPDATE accounts SET Amount = " + amountFinalRecipient + " WHERE ID =" + this.idAccountRecipient;
-                        return true;
+                        string querySelectRecipient = "SELECT Amount from accounts WHERE AccountNumber = " + "'" + accountRecipient + "'";
+                        List<List<object>> queryResultSelecRecipient = dbConnector.Select(querySelectRecipient);
+                        if (queryResultSelecRecipient.Count == 1)
+                        {
+                            this.accountRecipient = accountRecipient;
+                            decimal amountFinalRecipient = Convert.ToDecimal(queryResultSelecRecipient[0][0]) + amount;
+                            string queryUpdateRecipient = "UPDATE accounts SET Amount = " + amountFinalRecipient + " WHERE ID =" + this.idAccountRecipient;
+                            bool queryResultUpdateRecipient = dbConnector.Update(queryUpdateRecipient);
+                            if (queryResultUpdateRecipient == true)
+                            {
+                                return true;
+                            }
+                            else
+                            {
+                                return false;
+                            }
+
+
+                        }
+                        else
+                        {
+                            return false;
+                        }
+                            
 
                     }
                     else

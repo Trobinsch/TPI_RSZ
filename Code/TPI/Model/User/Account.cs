@@ -36,5 +36,28 @@ namespace Model
         {
             get { return activeUser; }
         }
+
+        public bool logAccount(int idAccount, string accountNUmber, decimal amount)
+        {
+            ApplicationSettings settings = JsonDataSaverReader.ReadAppSettings();
+            DbConnector connector = new DbConnector(settings.ConnectionString);
+            string accountQuery = "SELECT ID, AccountNumber, Amount FROM accounts WHERE FkID = " + ActiveUser.IdUser ;
+
+            List<List<object>> queryResult = connector.Select(accountQuery);
+
+            if (queryResult.Count == 1)
+            {
+
+
+                this.idAccount = Convert.ToInt32(queryResult[0][0]);
+                this.accountNumber = queryResult[0][1].ToString();
+                this.amount = Convert.ToDecimal(queryResult[0][2]);
+                return true;
+
+
+            }
+            else { return false; }
+
+        }
     }
 }

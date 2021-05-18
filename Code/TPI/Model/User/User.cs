@@ -16,7 +16,7 @@ namespace Model
         #endregion attributs
 
         #region constructor
-        public User(string userName, string password)
+        public User(int idUser, string userName, string password)
         {
             this.idUser = idUser;
             this.userName = userName;

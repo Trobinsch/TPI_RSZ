@@ -28,13 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.btn_payment = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // btn_payment
+            // 
+            this.btn_payment.Location = new System.Drawing.Point(198, 391);
+            this.btn_payment.Name = "btn_payment";
+            this.btn_payment.Size = new System.Drawing.Size(125, 23);
+            this.btn_payment.TabIndex = 0;
+            this.btn_payment.Text = "Faire un versement";
+            this.btn_payment.UseVisualStyleBackColor = true;
+            this.btn_payment.Click += new System.EventHandler(this.btn_payment_Click);
             // 
             // frm_HomePage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(355, 426);
+            this.Controls.Add(this.btn_payment);
             this.Name = "frm_HomePage";
             this.Text = "HomePage";
             this.Load += new System.EventHandler(this.frm_HomePage_Load);
@@ -43,5 +55,7 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btn_payment;
     }
 }
