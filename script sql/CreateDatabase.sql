@@ -14,7 +14,7 @@ CREATE TABLE `Accounts` (
 	`ID` INT UNSIGNED NOT NULL AUTO_INCREMENT,
 	`FkID` INT UNSIGNED NOT NULL,
 	`AccountNumber` VARCHAR(9) NOT NULL,
-	`Amount` DECIMAL(10) NOT NULL,
+	`Amount` DECIMAL(10,2) NOT NULL,
 	PRIMARY KEY (`ID`),
 	UNIQUE INDEX `AccountNumber` (`AccountNumber`),
 	FOREIGN KEY (`FkID`) REFERENCES `E-Banking`.`Users`(`ID`)
@@ -24,7 +24,7 @@ CREATE TABLE `Payments` (
 	`ID` INT UNSIGNED NOT NULL AUTO_INCREMENT,
 	`FkIDAccountOwner` INT UNSIGNED NOT NULL,
 	`FkIDAccountRecipient` int UNSIGNED NOT NULL,
-	`Amount` DECIMAL(10) NOT NULL,
+	`Amount` DECIMAL(10,2) NOT NULL,
 	`DatePay` DATETIME NOT NULL,
 	`InformationTransmitted` VARCHAR(100) NOT NULL,
 	`PersonalInformation` VARCHAR(350) NOT NULL,

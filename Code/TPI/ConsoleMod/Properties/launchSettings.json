@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ConsoleMod": {
+      "commandName": "Project",
+      "commandLineArgs": "VA-694207 CA-455757 2"
+    }
+  }
+}

@@ -42,7 +42,7 @@ namespace View
             try
             {
                 this.activeAccount = new Account(idAccount, numberAccount, amount, activeUser);
-                loginAccountSuccess = this.activeAccount.logAccount(idAccount, numberAccount, amount);
+                loginAccountSuccess = this.activeAccount.loadAccount(idAccount, numberAccount, amount);
             }
             catch (DbError)
             {
@@ -60,7 +60,7 @@ namespace View
 
         private void btn_payment_Click(object sender, EventArgs e)
         {
-            frm_Versement frm = new frm_Versement(payment, activeAccount);
+            frm_Versement frm = new frm_Versement(payment, activeAccount, activeUser);
 
             DialogResult result = frm.ShowDialog();
             if (result == DialogResult.OK)

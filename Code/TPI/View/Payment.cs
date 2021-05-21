@@ -19,17 +19,19 @@ namespace View
         User activeUser ;
         Account activeAccount;
         int idAccount;
+       
 
         private UserSettings settingsUser = new UserSettings();
         private int idAccountRecipient;
         private int id;
-        public frm_Versement(PaymentManager activePayment, Account activeAccount)
+        public frm_Versement(PaymentManager activePayment, Account activeAccount, User activeUser)
         {
             this.activeUser = activeUser;
             
             //settingsUser = JsonDataSaverReader.ReadUserSettings(activeUser.UserName);
             this.activePayment = activePayment;
             this.activeAccount = activeAccount;
+            this.activeUser = activeUser;
             this.idAccount = idAccount;
             
             InitializeComponent();
@@ -55,51 +57,74 @@ namespace View
 
         private void btn_save_Click(object sender, EventArgs e)
         {
+            bool findCustomerSuccess = false;
             bool saveSuccess = false;
             bool flagDbError = false;
-            string AccountRecipient = txt_accountRecipient.Text;
-            decimal amount = Int32.Parse(txt_amount.Text);
+            string numberAccount = "";
+            decimal amount = 0;
+            int idAccount = 0;
+            string accountRecipient = txt_accountRecipient.Text;
+            
             string informationTransmitted = txt_informationTransmitted.Text;
             string personnalInformation = txt_personnalInformation.Text;
             DateTime dateTemps = DTP_datePayment.Value;
+
+            if (!string.IsNullOrEmpty(txt_amount.Text))
+            {
+                amount = Int32.Parse(txt_amount.Text);
+            }
             
 
             if ((string.IsNullOrEmpty(txt_accountRecipient.Text)) || (string.IsNullOrEmpty(txt_amount.Text)) )
             {
                 MessageBox.Show("les champs sont vides", "Erreur dans le formulaire", MessageBoxButtons.OK);
             }
-            else if ((Int32.Parse(txt_amount.Text) > activeAccount.Amount))
-            {
-                MessageBox.Show("Le montant doit être moins élevé que votre solde", "Données incompatibles", MessageBoxButtons.OK);
-            }
-            else if (txt_accountRecipient.Text != AccountRecipient)
-            {
-                MessageBox.Show("Compte inexistant", "Données incompatibles", MessageBoxButtons.OK);
-            }
             else
             {
                 try
                 {
-                    activePayment = new PaymentManager(id, idAccount, AccountRecipient, dateTemps, amount, informationTransmitted, personnalInformation, idAccountRecipient);
-                    saveSuccess = activePayment.addPayment(activeAccount, idAccountRecipient, dateTemps, amount, informationTransmitted, personnalInformation);
+                    activeAccount = new Account(idAccount, numberAccount, amount, activeUser);
+                    findCustomerSuccess = activeAccount.loadAccount(idAccount, numberAccount, amount);
                 }
                 catch (DbError)
                 {
-                    MessageBox.Show("Du à un problème avec notre serveur, vos données sont actuellement limitées voir indisponibles", "Problème de connexion");
+
                     flagDbError = true;
                 }
-                if (saveSuccess == true)
+                if(findCustomerSuccess == true)
                 {
-                    MessageBox.Show("Votre versement a été validé et enregistré ", "Enregistrement");
-                    this.DialogResult = DialogResult.OK;
-                    this.Close();
-                }
-                if (saveSuccess == false && flagDbError == false)
-                {
-                    MessageBox.Show("Vous ne pouvez pas sauvegarder cette importation", "Problème d'importation", MessageBoxButtons.OK);
-                }
+                    if ((Int32.Parse(txt_amount.Text) > activeAccount.Amount))
+                    {
+                        MessageBox.Show("Le montant doit être moins élevé que votre solde, votre solde actuel : " + activeAccount.Amount, "Données incompatibles", MessageBoxButtons.OK);
+                    }
+                    else
+                    {
+                        try
+                        {
+                            activePayment = new PaymentManager(id, idAccount, accountRecipient, dateTemps, amount, informationTransmitted, personnalInformation, idAccountRecipient);
+                            saveSuccess = activePayment.addPayment(activeAccount, idAccountRecipient, dateTemps, amount, informationTransmitted, personnalInformation);
+                        }
+                        catch (DbError)
+                        {
+                            MessageBox.Show("Du à un problème avec notre serveur, vos données sont actuellement limitées voir indisponibles", "Problème de connexion");
+                            flagDbError = true;
+                        }
+                        if (saveSuccess == true)
+                        {
+                            MessageBox.Show("Votre versement a été validé et enregistré ", "Enregistrement");
+                            this.DialogResult = DialogResult.OK;
+                            this.Close();
+                        }
+                        if (saveSuccess == false && flagDbError == false)
+                        {
+                            MessageBox.Show("Vous ne pouvez pas sauvegarder cette importation", "Problème d'importation", MessageBoxButtons.OK);
+                        }
 
+                    }
+                }
+                
             }
+            
         }
     }
 }
