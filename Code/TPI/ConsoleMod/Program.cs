@@ -89,7 +89,7 @@ namespace ConsoleMod
                 }
                 else
                 {
-                    if (Convert.ToDecimal(args[2]) > customerAccount.Amount)
+                    if (Convert.ToDecimal(args[2]) > customerAccount.Amount || Convert.ToDecimal(args[2]) < 0)
                     {
                         Console.WriteLine("Aborted, invalid amount");
                     }

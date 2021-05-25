@@ -88,14 +88,21 @@ namespace View
                 }
                 catch (DbError)
                 {
-
                     flagDbError = true;
                 }
                 if(findCustomerSuccess == true)
                 {
-                    if ((Int32.Parse(txt_amount.Text) > activeAccount.Amount))
+                    if (txt_accountRecipient.Text == activeAccount.AccountNumber)
+                    {
+                        MessageBox.Show("Vous ne pouvez pas écrire votre numéro de compte", "Erreur dans le formulaire", MessageBoxButtons.OK);
+                    }
+                    else if ((Int32.Parse(txt_amount.Text) > activeAccount.Amount))
                     {
                         MessageBox.Show("Le montant doit être moins élevé que votre solde, votre solde actuel : " + activeAccount.Amount, "Données incompatibles", MessageBoxButtons.OK);
+
+                    }else if(Int32.Parse(txt_amount.Text) < 0)
+                    {
+                        MessageBox.Show("Le montant doit être positif", "Erreur dans le formulaire", MessageBoxButtons.OK);
                     }
                     else
                     {
@@ -117,7 +124,7 @@ namespace View
                         }
                         if (saveSuccess == false && flagDbError == false)
                         {
-                            MessageBox.Show("Vous ne pouvez pas sauvegarder cette importation", "Problème d'importation", MessageBoxButtons.OK);
+                            MessageBox.Show("Destinataire Introuvable", "Problème d'importation", MessageBoxButtons.OK);
                         }
 
                     }

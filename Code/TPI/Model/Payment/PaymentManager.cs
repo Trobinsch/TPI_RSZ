@@ -7,30 +7,63 @@ namespace Model
     public class PaymentManager
     {
         private int idPayment;
-        private int activeAccount;
+        private int activeAccountId;
         private DateTime datePayment;
         private string accountRecipient;
         private decimal amount;
-        private string informationSent;
+        private string informationTransmitted;
         private string personnalInformation;
         private List<Payment> allPayments;
         private int idAccountRecipient;
         private User activeUser;
+        private Account activeAccount;
+        
 
-        public PaymentManager(int idPayment, int activeAccount, string accountRecipient, DateTime datePayment, decimal amount, string informationSent, string personnalInformation, int idAccountRecipient)
+        public PaymentManager(int idPayment, int activeAccountId, string accountRecipient, DateTime datePayment, decimal amount, string informationTransmitted, string personnalInformation, int idAccountRecipient)
         {
             this.idPayment = idPayment;
-            this.activeAccount = activeAccount;
+            this.activeAccountId = activeAccountId;
             this.datePayment = datePayment;
             this.accountRecipient = accountRecipient;
             this.amount = amount;
-            this.informationSent = informationSent;
+            this.informationTransmitted = informationTransmitted;
             this.personnalInformation = personnalInformation;
             this.idAccountRecipient = idAccountRecipient;
             
 
 
+            
 
+        }
+        public bool displayPayment(Account activeAccount)
+        {
+            allPayments = new List<Payment>();
+
+            ApplicationSettings settings = JsonDataSaverReader.ReadAppSettings();
+            DbConnector dbConnector = new DbConnector(settings.ConnectionString);
+
+            string query = "SELECT * FROM payments WHERE FkIDAccountOwner = " + activeAccount.IdAccount;
+
+            List<List<object>> queryResult = dbConnector.Select(query);
+            if (queryResult.Count >= 1)
+            {
+                foreach (List<object> row in queryResult)
+                {
+                    int idPayment = Convert.ToInt32(row[0]);
+                    int activeAccountId = Convert.ToInt32(row[1]);
+                    string accountRecipient = row[2].ToString();
+                    decimal amount = Convert.ToDecimal(row[3]);
+                    DateTime datePayment = (DateTime)row[4];
+                    string informationTransmitted = row[5].ToString();
+                    string personnalInformation = row[6].ToString();
+                    allPayments.Add(new Payment(idPayment, activeAccountId, datePayment, accountRecipient, amount, informationTransmitted, personnalInformation));
+                }
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
         public bool addPayment(Account activeAccount, int idAccountRecipient, DateTime datePayment, decimal amount, string informationSent, string personnalInformation )
@@ -97,7 +130,11 @@ namespace Model
             }
             else { return false; } 
         }
-        
+        public List<Payment> AllPayments
+        {
+            get { return allPayments; }
+        }
+
     }
 
 }
