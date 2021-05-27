@@ -69,16 +69,17 @@ namespace View
             string personnalInformation = txt_personnalInformation.Text;
             DateTime dateTemps = DTP_datePayment.Value;
 
+            
             if (!string.IsNullOrEmpty(txt_amount.Text))
             {
-                amount = Int32.Parse(txt_amount.Text);
+                amount = Convert.ToDecimal(txt_amount.Text);
             }
             
 
             if ((string.IsNullOrEmpty(txt_accountRecipient.Text)) || (string.IsNullOrEmpty(txt_amount.Text)) )
             {
                 MessageBox.Show("les champs sont vides", "Erreur dans le formulaire", MessageBoxButtons.OK);
-            }
+            } 
             else
             {
                 try
@@ -96,11 +97,11 @@ namespace View
                     {
                         MessageBox.Show("Vous ne pouvez pas écrire votre numéro de compte", "Erreur dans le formulaire", MessageBoxButtons.OK);
                     }
-                    else if ((Int32.Parse(txt_amount.Text) > activeAccount.Amount))
+                    else if ((Convert.ToDecimal(txt_amount.Text) > activeAccount.Amount))
                     {
                         MessageBox.Show("Le montant doit être moins élevé que votre solde, votre solde actuel : " + activeAccount.Amount, "Données incompatibles", MessageBoxButtons.OK);
 
-                    }else if(Int32.Parse(txt_amount.Text) < 0)
+                    }else if(Convert.ToDecimal(txt_amount.Text) < 0)
                     {
                         MessageBox.Show("Le montant doit être positif", "Erreur dans le formulaire", MessageBoxButtons.OK);
                     }
@@ -132,6 +133,15 @@ namespace View
                 
             }
             
+        }
+        
+
+        private void txt_amount_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != ',') && (e.KeyChar != '.'))
+            {
+                e.Handled = true;
+            }
         }
     }
 }

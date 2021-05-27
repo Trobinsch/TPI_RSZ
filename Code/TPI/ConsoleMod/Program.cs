@@ -46,6 +46,7 @@ namespace ConsoleMod
 
             
             DateTime now = DateTime.Now;
+            
 
 
             seller = new User(idSellerUser, sellerName, sellerPassword);

@@ -90,6 +90,7 @@
             this.txt_amount.Name = "txt_amount";
             this.txt_amount.Size = new System.Drawing.Size(100, 20);
             this.txt_amount.TabIndex = 5;
+            this.txt_amount.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_amount_KeyPress);
             // 
             // txt_informationTransmitted
             // 

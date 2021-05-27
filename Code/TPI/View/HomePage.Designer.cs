@@ -31,10 +31,11 @@
             this.btn_payment = new System.Windows.Forms.Button();
             this.btn_leave = new System.Windows.Forms.Button();
             this.btn_sort = new System.Windows.Forms.Button();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.DTP_lastDate = new System.Windows.Forms.DateTimePicker();
+            this.DTP_firstDate = new System.Windows.Forms.DateTimePicker();
             this.LSV_payment = new System.Windows.Forms.ListView();
             this.CLM_Recipient = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.CLM_Sender = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.CLM_amount = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.CLM_date = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.CLM_InformationTransmitted = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -75,25 +76,27 @@
             this.btn_sort.TabIndex = 2;
             this.btn_sort.Text = "Filtrer";
             this.btn_sort.UseVisualStyleBackColor = true;
+            this.btn_sort.Click += new System.EventHandler(this.btn_sort_Click);
             // 
-            // dateTimePicker1
+            // DTP_lastDate
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(374, 41);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 3;
+            this.DTP_lastDate.Location = new System.Drawing.Point(374, 41);
+            this.DTP_lastDate.Name = "DTP_lastDate";
+            this.DTP_lastDate.Size = new System.Drawing.Size(200, 20);
+            this.DTP_lastDate.TabIndex = 3;
             // 
-            // dateTimePicker2
+            // DTP_firstDate
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(168, 41);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker2.TabIndex = 4;
+            this.DTP_firstDate.Location = new System.Drawing.Point(168, 41);
+            this.DTP_firstDate.Name = "DTP_firstDate";
+            this.DTP_firstDate.Size = new System.Drawing.Size(200, 20);
+            this.DTP_firstDate.TabIndex = 4;
             // 
             // LSV_payment
             // 
             this.LSV_payment.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.CLM_Recipient,
+            this.CLM_Sender,
             this.CLM_amount,
             this.CLM_date,
             this.CLM_InformationTransmitted,
@@ -101,7 +104,7 @@
             this.LSV_payment.HideSelection = false;
             this.LSV_payment.Location = new System.Drawing.Point(25, 107);
             this.LSV_payment.Name = "LSV_payment";
-            this.LSV_payment.Size = new System.Drawing.Size(522, 270);
+            this.LSV_payment.Size = new System.Drawing.Size(558, 270);
             this.LSV_payment.TabIndex = 5;
             this.LSV_payment.UseCompatibleStateImageBehavior = false;
             this.LSV_payment.View = System.Windows.Forms.View.Details;
@@ -110,6 +113,11 @@
             // 
             this.CLM_Recipient.Text = "Destinataire";
             this.CLM_Recipient.Width = 92;
+            // 
+            // CLM_Sender
+            // 
+            this.CLM_Sender.Text = "Envoyeur";
+            this.CLM_Sender.Width = 92;
             // 
             // CLM_amount
             // 
@@ -198,8 +206,8 @@
             this.Controls.Add(this.lbl_lastDate);
             this.Controls.Add(this.lbl_listPayment);
             this.Controls.Add(this.LSV_payment);
-            this.Controls.Add(this.dateTimePicker2);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.DTP_firstDate);
+            this.Controls.Add(this.DTP_lastDate);
             this.Controls.Add(this.btn_sort);
             this.Controls.Add(this.btn_leave);
             this.Controls.Add(this.btn_payment);
@@ -216,8 +224,8 @@
         private System.Windows.Forms.Button btn_payment;
         private System.Windows.Forms.Button btn_leave;
         private System.Windows.Forms.Button btn_sort;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker DTP_lastDate;
+        private System.Windows.Forms.DateTimePicker DTP_firstDate;
         private System.Windows.Forms.ListView LSV_payment;
         private System.Windows.Forms.ColumnHeader CLM_Recipient;
         private System.Windows.Forms.ColumnHeader CLM_amount;
@@ -230,5 +238,6 @@
         private System.Windows.Forms.Label lbl_amountOwnerDisplay;
         private System.Windows.Forms.Label lbl_amountOwner;
         private System.Windows.Forms.Button btn_listRefresh;
+        private System.Windows.Forms.ColumnHeader CLM_Sender;
     }
 }

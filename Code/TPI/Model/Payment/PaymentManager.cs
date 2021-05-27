@@ -37,12 +37,14 @@ namespace Model
         }
         public bool displayPayment(Account activeAccount)
         {
+            string currentMonth = DateTime.Now.ToString("MM");
+           
             allPayments = new List<Payment>();
 
             ApplicationSettings settings = JsonDataSaverReader.ReadAppSettings();
             DbConnector dbConnector = new DbConnector(settings.ConnectionString);
 
-            string query = "SELECT * FROM payments WHERE FkIDAccountOwner = " + activeAccount.IdAccount;
+            string query = "SELECT * FROM payments WHERE DatePay LIKE '%-"+ currentMonth + "-%' AND (FkIDAccountOwner = " + activeAccount.IdAccount + " OR FkIDAccountRecipient =" + activeAccount.IdAccount +")";
 
             List<List<object>> queryResult = dbConnector.Select(query);
             if (queryResult.Count >= 1)
@@ -133,6 +135,38 @@ namespace Model
         public List<Payment> AllPayments
         {
             get { return allPayments; }
+        }
+        public bool displayPaymentSort(Account activeAccount, DateTime firstDate, DateTime lastDate)
+        {
+            
+
+            allPayments = new List<Payment>();
+
+            ApplicationSettings settings = JsonDataSaverReader.ReadAppSettings();
+            DbConnector dbConnector = new DbConnector(settings.ConnectionString);
+
+            string query = "SELECT * FROM payments WHERE (FkIDAccountOwner = " + activeAccount.IdAccount + " OR FkIDAccountRecipient =" + activeAccount.IdAccount + ") AND DatePay BETWEEN '" + firstDate.ToString("yyyy-MM-dd") + "' AND '"+ lastDate.ToString("yyyy-MM-dd") +"'";
+
+            List<List<object>> queryResult = dbConnector.Select(query);
+            if (queryResult.Count >= 1)
+            {
+                foreach (List<object> row in queryResult)
+                {
+                    int idPayment = Convert.ToInt32(row[0]);
+                    int activeAccountId = Convert.ToInt32(row[1]);
+                    string accountRecipient = row[2].ToString();
+                    decimal amount = Convert.ToDecimal(row[3]);
+                    DateTime datePayment = (DateTime)row[4];
+                    string informationTransmitted = row[5].ToString();
+                    string personnalInformation = row[6].ToString();
+                    allPayments.Add(new Payment(idPayment, activeAccountId, datePayment, accountRecipient, amount, informationTransmitted, personnalInformation));
+                }
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
     }
