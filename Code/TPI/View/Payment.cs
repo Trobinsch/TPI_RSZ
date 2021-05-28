@@ -21,14 +21,14 @@ namespace View
         int idAccount;
        
 
-        private UserSettings settingsUser = new UserSettings();
+        
         private int idAccountRecipient;
         private int id;
         public frm_Versement(PaymentManager activePayment, Account activeAccount, User activeUser)
         {
             this.activeUser = activeUser;
             
-            //settingsUser = JsonDataSaverReader.ReadUserSettings(activeUser.UserName);
+          
             this.activePayment = activePayment;
             this.activeAccount = activeAccount;
             this.activeUser = activeUser;
@@ -54,7 +54,11 @@ namespace View
         {
             this.Close();
         }
-
+        /// <summary>
+        /// This function save the data from the formular and close it
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btn_save_Click(object sender, EventArgs e)
         {
             bool findCustomerSuccess = false;
@@ -135,7 +139,11 @@ namespace View
             
         }
         
-
+        /// <summary>
+        /// This function restrict the client to write
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void txt_amount_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != ',') && (e.KeyChar != '.'))

@@ -14,12 +14,12 @@ namespace View
 {
     public partial class frm_HomePage : Form
     {
-        public User activeUser;
-        public Account activeAccount;
-        public PaymentManager payment;
+        private User activeUser;
+        private Account activeAccount;
+        private PaymentManager payment;
         private PaymentManager allPayments;
-        public Account allAccountRecipient;
-        public Account allAccountSender;
+        private Account allAccountRecipient;
+        private Account allAccountSender;
         private DateTime datePayment;
         private int idAccountRecipient;
         public frm_HomePage()
@@ -50,8 +50,6 @@ namespace View
             
             string informationTransmitted = "";
             string personnalInformation = "";
-
-            
 
             try
             {
@@ -151,40 +149,40 @@ namespace View
             string informationTransmitted = "";
             string personnalInformation = "";
             this.LSV_payment.Clear();
-            
-
-            ColumnHeader columnHeader1 = new ColumnHeader();
-            columnHeader1.Text = "Destinataire";
-            columnHeader1.Width = 92;
-
-            ColumnHeader columnHeader2 = new ColumnHeader();
-            columnHeader2.Text = "Envoyeur";
-            columnHeader2.Width = 92;
-
-            ColumnHeader columnHeader3 = new ColumnHeader();
-            columnHeader3.Text = "Montant";
-            columnHeader3.Width = 73;
-
-            ColumnHeader columnHeader4 = new ColumnHeader();
-            columnHeader4.Text = "Date";
-            columnHeader4.Width = 80;
-
-            ColumnHeader columnHeader5 = new ColumnHeader();
-            columnHeader5.Text = "Information Transmise";
-            columnHeader5.Width = 115;
-
-            ColumnHeader columnHeader6 = new ColumnHeader();
-            columnHeader6.Text = "Information Personnel";
-            columnHeader6.Width = 127;
 
 
+            ColumnHeader clm_recipient = new ColumnHeader();
+            clm_recipient.Text = "Destinataire";
+            clm_recipient.Width = 92;
 
-            this.LSV_payment.Columns.Add(columnHeader1);
-            this.LSV_payment.Columns.Add(columnHeader2);
-            this.LSV_payment.Columns.Add(columnHeader3);
-            this.LSV_payment.Columns.Add(columnHeader4);
-            this.LSV_payment.Columns.Add(columnHeader5);
-            this.LSV_payment.Columns.Add(columnHeader6);
+            ColumnHeader clm_sender = new ColumnHeader();
+            clm_sender.Text = "Envoyeur";
+            clm_sender.Width = 92;
+
+            ColumnHeader clm_amount = new ColumnHeader();
+            clm_amount.Text = "Montant";
+            clm_amount.Width = 73;
+
+            ColumnHeader clm_datePay = new ColumnHeader();
+            clm_datePay.Text = "Date";
+            clm_datePay.Width = 80;
+
+            ColumnHeader clm_informationTransmitted = new ColumnHeader();
+            clm_informationTransmitted.Text = "Information Transmise";
+            clm_informationTransmitted.Width = 115;
+
+            ColumnHeader clm_personnalInformation = new ColumnHeader();
+            clm_personnalInformation.Text = "Information Personnel";
+            clm_personnalInformation.Width = 127;
+
+
+
+            this.LSV_payment.Columns.Add(clm_recipient);
+            this.LSV_payment.Columns.Add(clm_sender);
+            this.LSV_payment.Columns.Add(clm_amount);
+            this.LSV_payment.Columns.Add(clm_datePay);
+            this.LSV_payment.Columns.Add(clm_informationTransmitted);
+            this.LSV_payment.Columns.Add(clm_personnalInformation);
 
 
 
@@ -269,38 +267,38 @@ namespace View
             this.LSV_payment.Clear();
 
 
-            ColumnHeader columnHeader1 = new ColumnHeader();
-            columnHeader1.Text = "Destinataire";
-            columnHeader1.Width = 92;
+            ColumnHeader clm_recipient = new ColumnHeader();
+            clm_recipient.Text = "Destinataire";
+            clm_recipient.Width = 92;
 
-            ColumnHeader columnHeader2 = new ColumnHeader();
-            columnHeader2.Text = "Envoyeur";
-            columnHeader2.Width = 92;
+            ColumnHeader clm_sender = new ColumnHeader();
+            clm_sender.Text = "Envoyeur";
+            clm_sender.Width = 92;
 
-            ColumnHeader columnHeader3 = new ColumnHeader();
-            columnHeader3.Text = "Montant";
-            columnHeader3.Width = 73;
+            ColumnHeader clm_amount = new ColumnHeader();
+            clm_amount.Text = "Montant";
+            clm_amount.Width = 73;
 
-            ColumnHeader columnHeader4 = new ColumnHeader();
-            columnHeader4.Text = "Date";
-            columnHeader4.Width = 80;
+            ColumnHeader clm_datePay = new ColumnHeader();
+            clm_datePay.Text = "Date";
+            clm_datePay.Width = 80;
 
-            ColumnHeader columnHeader5 = new ColumnHeader();
-            columnHeader5.Text = "Information Transmise";
-            columnHeader5.Width = 115;
+            ColumnHeader clm_informationTransmitted = new ColumnHeader();
+            clm_informationTransmitted.Text = "Information Transmise";
+            clm_informationTransmitted.Width = 115;
 
-            ColumnHeader columnHeader6 = new ColumnHeader();
-            columnHeader6.Text = "Information Personnel";
-            columnHeader6.Width = 127;
+            ColumnHeader clm_personnalInformation = new ColumnHeader();
+            clm_personnalInformation.Text = "Information Personnel";
+            clm_personnalInformation.Width = 127;
 
 
 
-            this.LSV_payment.Columns.Add(columnHeader1);
-            this.LSV_payment.Columns.Add(columnHeader2);
-            this.LSV_payment.Columns.Add(columnHeader3);
-            this.LSV_payment.Columns.Add(columnHeader4);
-            this.LSV_payment.Columns.Add(columnHeader5);
-            this.LSV_payment.Columns.Add(columnHeader6);
+            this.LSV_payment.Columns.Add(clm_recipient);
+            this.LSV_payment.Columns.Add(clm_sender);
+            this.LSV_payment.Columns.Add(clm_amount);
+            this.LSV_payment.Columns.Add(clm_datePay);
+            this.LSV_payment.Columns.Add(clm_informationTransmitted);
+            this.LSV_payment.Columns.Add(clm_personnalInformation);
 
 
             if(DTP_firstDate.Value > DTP_lastDate.Value)
@@ -309,6 +307,7 @@ namespace View
             }
             else
             {
+                
                 try
                 {
                     this.allPayments = new PaymentManager(id, idAccount, accountRecipient, datePayment, amount, informationTransmitted, personnalInformation, idAccountRecipient);

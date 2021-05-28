@@ -138,6 +138,8 @@ namespace Model
         }
         public bool displayPaymentSort(Account activeAccount, DateTime firstDate, DateTime lastDate)
         {
+            firstDate = firstDate.Date;
+            lastDate = lastDate.Date.AddDays(1).AddSeconds(-1);
             
 
             allPayments = new List<Payment>();
@@ -145,7 +147,7 @@ namespace Model
             ApplicationSettings settings = JsonDataSaverReader.ReadAppSettings();
             DbConnector dbConnector = new DbConnector(settings.ConnectionString);
 
-            string query = "SELECT * FROM payments WHERE (FkIDAccountOwner = " + activeAccount.IdAccount + " OR FkIDAccountRecipient =" + activeAccount.IdAccount + ") AND DatePay BETWEEN '" + firstDate.ToString("yyyy-MM-dd") + "' AND '"+ lastDate.ToString("yyyy-MM-dd") +"'";
+            string query = "SELECT * FROM payments WHERE (FkIDAccountOwner = " + activeAccount.IdAccount + " OR FkIDAccountRecipient =" + activeAccount.IdAccount + ") AND DatePay BETWEEN '" + firstDate.ToString("yyyy-MM-dd-HH-mm-ss") + "' AND '"+ lastDate.ToString("yyyy-MM-dd-HH-mm-ss") +"'";
 
             List<List<object>> queryResult = dbConnector.Select(query);
             if (queryResult.Count >= 1)

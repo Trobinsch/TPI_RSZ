@@ -54,63 +54,71 @@ namespace ConsoleMod
             sellerAccount = new Account(idSeller, accountSeller, amountSeller, seller);
             customerAccount = new Account(idCustomer, accountCustomer, amountCustomer, customer);
 
-
-
-            Console.WriteLine("request-payment " + args[0]+ " " + args[1] + " " + args[2]);
-
-            try
+            if(args.Length != 3)
             {
-                sellerAccount = new Account(idSeller, args[0], amountSeller, seller);
-                findSellerSuccess = sellerAccount.findAccount(idSeller, args[0], amountSeller, id);
-            }
-            catch (DbError)
-            {
-
-                flagDbError = true;
-            }
-            if ((findSellerSuccess == false) || (!args[0].Contains("VA-")))
-            {
-                Console.WriteLine("Aborted. invalid vendor account number");
+                Console.WriteLine("Remplisser les trois données necéssaires");
             }
             else
             {
+                Console.WriteLine("request-payment " + args[0] + " " + args[1] + " " + args[2]);
+
+
                 try
                 {
-                    customerAccount = new Account(idCustomer, args[1], amountCustomer, customer);
-                    findCustomerSuccess = customerAccount.findAccount(idCustomer, args[1], amountCustomer, id);
+                    sellerAccount = new Account(idSeller, args[0], amountSeller, seller);
+                    findSellerSuccess = sellerAccount.findAccount(idSeller, args[0], amountSeller, id);
                 }
                 catch (DbError)
                 {
 
                     flagDbError = true;
                 }
-                if (findCustomerSuccess == false)
+                if ((findSellerSuccess == false) || (!args[0].Contains("VA-")))
                 {
-                    Console.WriteLine("Aborted. invalid customer account number");
+                    Console.WriteLine("Aborted. invalid vendor account number");
                 }
                 else
                 {
-                    if (Convert.ToDecimal(args[2]) > customerAccount.Amount || Convert.ToDecimal(args[2]) < 0)
+                    try
                     {
-                        Console.WriteLine("Aborted, invalid amount");
+                        customerAccount = new Account(idCustomer, args[1], amountCustomer, customer);
+                        findCustomerSuccess = customerAccount.findAccount(idCustomer, args[1], amountCustomer, id);
+                    }
+                    catch (DbError)
+                    {
+
+                        flagDbError = true;
+                    }
+                    if (findCustomerSuccess == false || args[0] == args[1])
+                    {
+                        Console.WriteLine("Aborted. invalid customer account number");
                     }
                     else
                     {
-                        try
+                        if (Convert.ToDecimal(args[2]) > customerAccount.Amount || Convert.ToDecimal(args[2]) < 0)
                         {
-                            activePayment = new PaymentManager(idPayment, id, args[0], now, Convert.ToDecimal(args[2]), informationTransmitted, personnalInformation, idSeller);
-                            saveSuccess = activePayment.addPayment(customerAccount, idSeller, now, Convert.ToDecimal(args[2]), informationTransmitted, personnalInformation);
+                            Console.WriteLine("Aborted, invalid amount");
                         }
-                        catch (DbError)
+                        else
                         {
-                            Console.WriteLine("Du à un problème avec notre serveur, vos données sont actuellement limitées voir indisponibles", "Problème de connexion");
-                            flagDbError = true;
+                            try
+                            {
+                                activePayment = new PaymentManager(idPayment, id, args[0], now, Convert.ToDecimal(args[2]), informationTransmitted, personnalInformation, idSeller);
+                                saveSuccess = activePayment.addPayment(customerAccount, idSeller, now, Convert.ToDecimal(args[2]), informationTransmitted, personnalInformation);
+                            }
+                            catch (DbError)
+                            {
+                                Console.WriteLine("Du à un problème avec notre serveur, vos données sont actuellement limitées voir indisponibles", "Problème de connexion");
+                                flagDbError = true;
+                            }
+                            Console.WriteLine("Success, payment done");
                         }
-                        Console.WriteLine("Success, payment done");
                     }
-                }
 
+                }
             }
+
+            
 
             
         }
