@@ -22,18 +22,20 @@ namespace View
         private Account allAccountSender;
         private DateTime datePayment;
         private int idAccountRecipient;
-        public frm_HomePage()
+        public frm_HomePage(User activeUser)
         {
 
-            int idUser = 1;
-            string Username = "paul";
-            string Password = "1234";
-            this.activeUser = new User(idUser ,Username, Password);
+            this.activeUser = activeUser;
 
 
             InitializeComponent();
         }
-
+        /// <summary>
+        /// This function adds all the payments of the active account in the list
+        /// it also connect the account link to the user connected
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void frm_HomePage_Load(object sender, EventArgs e)
         {
             bool loadAccountSuccess = false;
@@ -50,6 +52,39 @@ namespace View
             
             string informationTransmitted = "";
             string personnalInformation = "";
+
+            ColumnHeader clm_recipient = new ColumnHeader();
+            clm_recipient.Text = "Destinataire";
+            clm_recipient.Width = 92;
+
+            ColumnHeader clm_sender = new ColumnHeader();
+            clm_sender.Text = "Envoyeur";
+            clm_sender.Width = 92;
+
+            ColumnHeader clm_amount = new ColumnHeader();
+            clm_amount.Text = "Montant";
+            clm_amount.Width = 73;
+
+            ColumnHeader clm_datePay = new ColumnHeader();
+            clm_datePay.Text = "Date";
+            clm_datePay.Width = 115;
+
+            ColumnHeader clm_informationTransmitted = new ColumnHeader();
+            clm_informationTransmitted.Text = "Information Transmise";
+            clm_informationTransmitted.Width = 115;
+
+            ColumnHeader clm_personnalInformation = new ColumnHeader();
+            clm_personnalInformation.Text = "Information Personnel";
+            clm_personnalInformation.Width = 127;
+
+
+
+            this.LSV_payment.Columns.Add(clm_recipient);
+            this.LSV_payment.Columns.Add(clm_sender);
+            this.LSV_payment.Columns.Add(clm_amount);
+            this.LSV_payment.Columns.Add(clm_datePay);
+            this.LSV_payment.Columns.Add(clm_informationTransmitted);
+            this.LSV_payment.Columns.Add(clm_personnalInformation);
 
             try
             {
@@ -101,7 +136,10 @@ namespace View
                     }
                     if ((foundUserByIdSuccessRecipient == true) && ( foundUserByIdSuccessSender == true))
                     {
-
+                        if (activeAccount.AccountNumber != allAccountSender.AccountNumber)
+                        {
+                            payment.PersonnalInformation = "";
+                        }
                         ListViewItem listPayment = new ListViewItem(allAccountRecipient.AccountNumber, 0);
                         listPayment.SubItems.Add(allAccountSender.AccountNumber);
                         listPayment.SubItems.Add(payment.Amount.ToString());
@@ -115,7 +153,11 @@ namespace View
             }
             lbl_amountOwner.Text = activeAccount.Amount.ToString();
         }
-
+        /// <summary>
+        /// This function send the customer to the payment formular
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btn_payment_Click(object sender, EventArgs e)
         {
             frm_Versement frm = new frm_Versement(payment, activeAccount, activeUser);
@@ -126,12 +168,21 @@ namespace View
                 payment = frm.ActivePayment;
             }
         }
-
+        /// <summary>
+        /// This function closes the window
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btn_leave_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
+        /// <summary>
+        /// This function updates the list of payments and the account's amount
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btn_listRefresh_Click(object sender, EventArgs e)
         {
             bool foundPaymentSuccess = false;
@@ -165,7 +216,7 @@ namespace View
 
             ColumnHeader clm_datePay = new ColumnHeader();
             clm_datePay.Text = "Date";
-            clm_datePay.Width = 80;
+            clm_datePay.Width = 115;
 
             ColumnHeader clm_informationTransmitted = new ColumnHeader();
             clm_informationTransmitted.Text = "Information Transmise";
@@ -217,6 +268,10 @@ namespace View
                     }
                     if ((foundUserByIdSuccessRecipient == true) && (foundUserByIdSuccessSender == true))
                     {
+                        if (activeAccount.AccountNumber != allAccountSender.AccountNumber)
+                        {
+                            payment.PersonnalInformation = "";
+                        }
 
                         ListViewItem listPayment = new ListViewItem(allAccountRecipient.AccountNumber, 0);
                         listPayment.SubItems.Add(allAccountSender.AccountNumber);
@@ -245,7 +300,11 @@ namespace View
             }
             
         }
-
+        /// <summary>
+        /// This function sort all the payments of the account by the dates choose
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btn_sort_Click(object sender, EventArgs e)
         {
             bool foundPaymentSuccess = false;
@@ -281,7 +340,7 @@ namespace View
 
             ColumnHeader clm_datePay = new ColumnHeader();
             clm_datePay.Text = "Date";
-            clm_datePay.Width = 80;
+            clm_datePay.Width = 115;
 
             ColumnHeader clm_informationTransmitted = new ColumnHeader();
             clm_informationTransmitted.Text = "Information Transmise";

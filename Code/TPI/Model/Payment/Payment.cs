@@ -54,6 +54,8 @@ namespace Model
         public string PersonnalInformation
         {
             get { return personnalInformation; }
+
+            set { personnalInformation = value; }
         }
 
     }

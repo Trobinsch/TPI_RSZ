@@ -95,8 +95,9 @@
             // txt_informationTransmitted
             // 
             this.txt_informationTransmitted.Location = new System.Drawing.Point(34, 191);
+            this.txt_informationTransmitted.Multiline = true;
             this.txt_informationTransmitted.Name = "txt_informationTransmitted";
-            this.txt_informationTransmitted.Size = new System.Drawing.Size(421, 20);
+            this.txt_informationTransmitted.Size = new System.Drawing.Size(421, 35);
             this.txt_informationTransmitted.TabIndex = 6;
             // 
             // txt_personnalInformation
@@ -109,6 +110,7 @@
             // 
             // btn_save
             // 
+            this.btn_save.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_save.Location = new System.Drawing.Point(445, 452);
             this.btn_save.Name = "btn_save";
             this.btn_save.Size = new System.Drawing.Size(75, 23);
@@ -119,6 +121,7 @@
             // 
             // btn_cancel
             // 
+            this.btn_cancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_cancel.Location = new System.Drawing.Point(364, 452);
             this.btn_cancel.Name = "btn_cancel";
             this.btn_cancel.Size = new System.Drawing.Size(75, 23);
@@ -139,6 +142,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(526, 487);
             this.Controls.Add(this.DTP_datePayment);
             this.Controls.Add(this.btn_cancel);
@@ -151,8 +155,10 @@
             this.Controls.Add(this.lbl_informationSent);
             this.Controls.Add(this.lbl_amount);
             this.Controls.Add(this.lbl_accountRecipient);
+            this.MinimumSize = new System.Drawing.Size(542, 526);
             this.Name = "frm_Versement";
             this.Text = "Page de versement";
+            this.Load += new System.EventHandler(this.frm_Versement_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

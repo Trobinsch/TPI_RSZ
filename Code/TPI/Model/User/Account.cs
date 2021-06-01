@@ -38,7 +38,13 @@ namespace Model
         {
             get { return activeUser; }
         }
-
+        /// <summary>
+        /// This function load the account from the user
+        /// </summary>
+        /// <param name="idAccount"></param>
+        /// <param name="accountNumber"></param>
+        /// <param name="amount"></param>
+        /// <returns></returns>
         public bool loadAccount(int idAccount, string accountNumber, decimal amount)
         {
             ApplicationSettings settings = JsonDataSaverReader.ReadAppSettings();
@@ -61,6 +67,14 @@ namespace Model
             else { return false; }
 
         }
+        /// <summary>
+        /// This function finds the account from the choosen number
+        /// </summary>
+        /// <param name="idAccount"></param>
+        /// <param name="accountNumber"></param>
+        /// <param name="amount"></param>
+        /// <param name="idUser"></param>
+        /// <returns></returns>
         public bool findAccount(int idAccount, string accountNumber, decimal amount, int idUser)
         {
             ApplicationSettings settings = JsonDataSaverReader.ReadAppSettings();
@@ -83,6 +97,13 @@ namespace Model
             }
             else { return false; }
         }
+        /// <summary>
+        /// This function finds the account from the id number
+        /// </summary>
+        /// <param name="idAccount"></param>
+        /// <param name="accountNumber"></param>
+        /// <param name="amount"></param>
+        /// <returns></returns>
         public bool findAccountById(int idAccount, string accountNumber, decimal amount)
         {
             ApplicationSettings settings = JsonDataSaverReader.ReadAppSettings();

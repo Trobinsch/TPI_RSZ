@@ -35,6 +35,6 @@ C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\View\obj\Debug\View.csproj.CopyC
 C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\View\obj\Debug\View.exe
 C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\View\obj\Debug\View.pdb
 C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\View\obj\Debug\View.frm_HomePage.resources
-C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\View\obj\Debug\View.Login.resources
 C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\View\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\View\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\View\obj\Debug\View.frm_login.resources

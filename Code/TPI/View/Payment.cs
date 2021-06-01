@@ -49,13 +49,17 @@ namespace View
         }
 
 
-
+        /// <summary>
+        /// This function closes the formular and cancel it.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btn_cancel_Click(object sender, EventArgs e)
         {
             this.Close();
         }
         /// <summary>
-        /// This function save the data from the formular and close it
+        /// This function saves the data from the formular and closes it
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -140,7 +144,7 @@ namespace View
         }
         
         /// <summary>
-        /// This function restrict the client to write
+        /// This function restricts the client to write
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -150,6 +154,18 @@ namespace View
             {
                 e.Handled = true;
             }
+        }
+
+        /// <summary>
+        /// This function hides the DateTimePicker
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void frm_Versement_Load(object sender, EventArgs e)
+        {
+            DTP_datePayment.Visible = false;
+            txt_informationTransmitted.MaxLength = 100;
+            txt_personnalInformation.MaxLength = 350;
         }
     }
 }

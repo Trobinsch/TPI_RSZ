@@ -35,6 +35,11 @@ namespace Model
             
 
         }
+        /// <summary>
+        /// This Method sets all the value needed by the object and get all the payments associate to the active account from the current month.
+        /// </summary>
+        /// <param name="activeAccount">This is the active account from the connected user</param>
+        /// <returns></returns>
         public bool displayPayment(Account activeAccount)
         {
             string currentMonth = DateTime.Now.ToString("MM");
@@ -67,7 +72,16 @@ namespace Model
                 return false;
             }
         }
-
+        /// <summary>
+        /// This method add the current payment in the database and update the amount of each accounts.
+        /// </summary>
+        /// <param name="activeAccount">This is active account</param>
+        /// <param name="idAccountRecipient">This is the id of the Recipient's account</param>
+        /// <param name="datePayment">This is date of the payment</param>
+        /// <param name="amount">This is the amount of the payment</param>
+        /// <param name="informationSent">This is the information transmitted by the customer to the other one </param>
+        /// <param name="personnalInformation">This is the personnal information that is only see by the sender</param>
+        /// <returns></returns>
         public bool addPayment(Account activeAccount, int idAccountRecipient, DateTime datePayment, decimal amount, string informationSent, string personnalInformation )
         {
             ApplicationSettings settings = JsonDataSaverReader.ReadAppSettings();
@@ -136,6 +150,13 @@ namespace Model
         {
             get { return allPayments; }
         }
+        /// <summary>
+        /// This Method sets all the value needed by the object and get all the payments associate to the active account from the selected date for filter.
+        /// </summary>
+        /// <param name="activeAccount"></param>
+        /// <param name="firstDate"></param>
+        /// <param name="lastDate"></param>
+        /// <returns></returns>
         public bool displayPaymentSort(Account activeAccount, DateTime firstDate, DateTime lastDate)
         {
             firstDate = firstDate.Date;
