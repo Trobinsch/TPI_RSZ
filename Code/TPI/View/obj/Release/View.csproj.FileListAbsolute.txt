@@ -37,3 +37,4 @@ C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\View\obj\Release\View.csproj.Gen
 C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\View\obj\Release\View.csproj.CopyComplete
 C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\View\obj\Release\View.exe
 C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\View\obj\Release\View.pdb
+C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\View\obj\Release\View.csproj.CoreCompileInputs.cache

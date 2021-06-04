@@ -10,7 +10,6 @@ C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\ConsoleMod\obj\Debug\netcoreapp3
 C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\ConsoleMod\obj\Debug\netcoreapp3.1\ConsoleMod.dll
 C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\ConsoleMod\obj\Debug\netcoreapp3.1\ConsoleMod.pdb
 C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\ConsoleMod\bin\Debug\netcoreapp3.1\Data\ApplicationParameter.json
-C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\ConsoleMod\bin\Debug\netcoreapp3.1\Data\DefaultUserSettings.json
 C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\ConsoleMod\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
 C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\ConsoleMod\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
 C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\ConsoleMod\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
