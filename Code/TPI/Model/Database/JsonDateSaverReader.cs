@@ -16,7 +16,7 @@ namespace Model
     {
         const string path = ".\\Data\\";
         const string appSettingsFileName = "ApplicationParameter.json";
-        const string userDefaultSettingsFileName = "DefaultUserSettings.json";
+        
 
         
 

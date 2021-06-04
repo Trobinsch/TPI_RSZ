@@ -12,14 +12,14 @@ namespace Model
         private string accountRecipient;
         private decimal amount;
         private string informationTransmitted;
-        private string personnalInformation;
+        private string personalInformation;
         private List<Payment> allPayments;
         private int idAccountRecipient;
         private User activeUser;
         private Account activeAccount;
         
 
-        public PaymentManager(int idPayment, int activeAccountId, string accountRecipient, DateTime datePayment, decimal amount, string informationTransmitted, string personnalInformation, int idAccountRecipient)
+        public PaymentManager(int idPayment, int activeAccountId, string accountRecipient, DateTime datePayment, decimal amount, string informationTransmitted, string personalInformation, int idAccountRecipient)
         {
             this.idPayment = idPayment;
             this.activeAccountId = activeAccountId;
@@ -27,7 +27,7 @@ namespace Model
             this.accountRecipient = accountRecipient;
             this.amount = amount;
             this.informationTransmitted = informationTransmitted;
-            this.personnalInformation = personnalInformation;
+            this.personalInformation = personalInformation;
             this.idAccountRecipient = idAccountRecipient;
             
 
@@ -62,8 +62,8 @@ namespace Model
                     decimal amount = Convert.ToDecimal(row[3]);
                     DateTime datePayment = (DateTime)row[4];
                     string informationTransmitted = row[5].ToString();
-                    string personnalInformation = row[6].ToString();
-                    allPayments.Add(new Payment(idPayment, activeAccountId, datePayment, accountRecipient, amount, informationTransmitted, personnalInformation));
+                    string personalInformation = row[6].ToString();
+                    allPayments.Add(new Payment(idPayment, activeAccountId, datePayment, accountRecipient, amount, informationTransmitted, personalInformation));
                 }
                 return true;
             }
@@ -80,9 +80,9 @@ namespace Model
         /// <param name="datePayment">This is date of the payment</param>
         /// <param name="amount">This is the amount of the payment</param>
         /// <param name="informationSent">This is the information transmitted by the customer to the other one </param>
-        /// <param name="personnalInformation">This is the personnal information that is only see by the sender</param>
+        /// <param name="personalInformation">This is the personal information that is only see by the sender</param>
         /// <returns></returns>
-        public bool addPayment(Account activeAccount, int idAccountRecipient, DateTime datePayment, decimal amount, string informationSent, string personnalInformation )
+        public bool addPayment(Account activeAccount, int idAccountRecipient, DateTime datePayment, decimal amount, string informationSent, string personalInformation)
         {
             ApplicationSettings settings = JsonDataSaverReader.ReadAppSettings();
             DbConnector dbConnector = new DbConnector(settings.ConnectionString);
@@ -93,7 +93,7 @@ namespace Model
             {
               
                 this.idAccountRecipient = Convert.ToInt32(queryResultSelect[0][0]);
-                string query = "INSERT INTO payments(`FkIDAccountOwner`,`FkIDAccountRecipient`,`Amount`,`DatePay`,`InformationTransmitted`,`PersonalInformation`) VALUES ('" + activeAccount.IdAccount.ToString() + "', '" + this.idAccountRecipient + "','" + amount + "','" + datePayment.ToString("yyyy-MM-dd-HH-mm-ss") + "','" + informationSent + "','" + personnalInformation + "');";
+                string query = "INSERT INTO payments(`FkIDAccountOwner`,`FkIDAccountRecipient`,`Amount`,`DatePay`,`InformationTransmitted`,`PersonalInformation`) VALUES ('" + activeAccount.IdAccount.ToString() + "', '" + this.idAccountRecipient + "','" + amount + "','" + datePayment.ToString("yyyy-MM-dd-HH-mm-ss") + "','" + informationSent + "','" + personalInformation + "');";
                 bool queryResult = dbConnector.Insert(query);
                 if (queryResult == false)
                 {
@@ -181,8 +181,8 @@ namespace Model
                     decimal amount = Convert.ToDecimal(row[3]);
                     DateTime datePayment = (DateTime)row[4];
                     string informationTransmitted = row[5].ToString();
-                    string personnalInformation = row[6].ToString();
-                    allPayments.Add(new Payment(idPayment, activeAccountId, datePayment, accountRecipient, amount, informationTransmitted, personnalInformation));
+                    string personalInformation = row[6].ToString();
+                    allPayments.Add(new Payment(idPayment, activeAccountId, datePayment, accountRecipient, amount, informationTransmitted, personalInformation));
                 }
                 return true;
             }

@@ -51,7 +51,7 @@ namespace View
             decimal amount = 0;
             
             string informationTransmitted = "";
-            string personnalInformation = "";
+            string personalInformation = "";
 
             ColumnHeader clm_recipient = new ColumnHeader();
             clm_recipient.Text = "Destinataire";
@@ -73,9 +73,9 @@ namespace View
             clm_informationTransmitted.Text = "Information Transmise";
             clm_informationTransmitted.Width = 115;
 
-            ColumnHeader clm_personnalInformation = new ColumnHeader();
-            clm_personnalInformation.Text = "Information Personnel";
-            clm_personnalInformation.Width = 127;
+            ColumnHeader clm_personalInformation = new ColumnHeader();
+            clm_personalInformation.Text = "Information Personnel";
+            clm_personalInformation.Width = 127;
 
 
 
@@ -84,7 +84,7 @@ namespace View
             this.LSV_payment.Columns.Add(clm_amount);
             this.LSV_payment.Columns.Add(clm_datePay);
             this.LSV_payment.Columns.Add(clm_informationTransmitted);
-            this.LSV_payment.Columns.Add(clm_personnalInformation);
+            this.LSV_payment.Columns.Add(clm_personalInformation);
 
             try
             {
@@ -108,7 +108,7 @@ namespace View
 
             try
             {
-                this.allPayments = new PaymentManager(id, idAccount, accountRecipient, datePayment, amount, informationTransmitted, personnalInformation, idAccountRecipient);
+                this.allPayments = new PaymentManager(id, idAccount, accountRecipient, datePayment, amount, informationTransmitted, personalInformation, idAccountRecipient);
                 foundPaymentSuccess = this.allPayments.displayPayment(activeAccount);
 
             }
@@ -138,14 +138,14 @@ namespace View
                     {
                         if (activeAccount.AccountNumber != allAccountSender.AccountNumber)
                         {
-                            payment.PersonnalInformation = "";
+                            payment.PersonalInformation = "";
                         }
                         ListViewItem listPayment = new ListViewItem(allAccountRecipient.AccountNumber, 0);
                         listPayment.SubItems.Add(allAccountSender.AccountNumber);
                         listPayment.SubItems.Add(payment.Amount.ToString());
                         listPayment.SubItems.Add(payment.DatePayment.ToString("yyyy-MM-dd HH:mm:ss"));
                         listPayment.SubItems.Add(payment.InformationTransmitted);
-                        listPayment.SubItems.Add(payment.PersonnalInformation);
+                        listPayment.SubItems.Add(payment.PersonalInformation);
                         var list = LSV_payment.Items.Add(listPayment);
                     }
                 }
@@ -198,7 +198,7 @@ namespace View
             decimal amount = 0;
 
             string informationTransmitted = "";
-            string personnalInformation = "";
+            string personalInformation = "";
             this.LSV_payment.Clear();
 
 
@@ -222,9 +222,9 @@ namespace View
             clm_informationTransmitted.Text = "Information Transmise";
             clm_informationTransmitted.Width = 115;
 
-            ColumnHeader clm_personnalInformation = new ColumnHeader();
-            clm_personnalInformation.Text = "Information Personnel";
-            clm_personnalInformation.Width = 127;
+            ColumnHeader clm_personalInformation = new ColumnHeader();
+            clm_personalInformation.Text = "Information Personnel";
+            clm_personalInformation.Width = 127;
 
 
 
@@ -233,14 +233,14 @@ namespace View
             this.LSV_payment.Columns.Add(clm_amount);
             this.LSV_payment.Columns.Add(clm_datePay);
             this.LSV_payment.Columns.Add(clm_informationTransmitted);
-            this.LSV_payment.Columns.Add(clm_personnalInformation);
+            this.LSV_payment.Columns.Add(clm_personalInformation);
 
 
 
 
             try
             {
-                this.allPayments = new PaymentManager(id, idAccount, accountRecipient, datePayment, amount, informationTransmitted, personnalInformation, idAccountRecipient);
+                this.allPayments = new PaymentManager(id, idAccount, accountRecipient, datePayment, amount, informationTransmitted, personalInformation, idAccountRecipient);
                 foundPaymentSuccess = this.allPayments.displayPayment(activeAccount);
 
             }
@@ -270,7 +270,7 @@ namespace View
                     {
                         if (activeAccount.AccountNumber != allAccountSender.AccountNumber)
                         {
-                            payment.PersonnalInformation = "";
+                            payment.PersonalInformation = "";
                         }
 
                         ListViewItem listPayment = new ListViewItem(allAccountRecipient.AccountNumber, 0);
@@ -278,7 +278,7 @@ namespace View
                         listPayment.SubItems.Add(payment.Amount.ToString());
                         listPayment.SubItems.Add(payment.DatePayment.ToString("yyyy-MM-dd HH:mm:ss"));
                         listPayment.SubItems.Add(payment.InformationTransmitted);
-                        listPayment.SubItems.Add(payment.PersonnalInformation);
+                        listPayment.SubItems.Add(payment.PersonalInformation);
                         var list = LSV_payment.Items.Add(listPayment);
                     }
                 }
@@ -322,54 +322,55 @@ namespace View
             DateTime lastDate = DTP_lastDate.Value;
 
             string informationTransmitted = "";
-            string personnalInformation = "";
-            this.LSV_payment.Clear();
-
-
-            ColumnHeader clm_recipient = new ColumnHeader();
-            clm_recipient.Text = "Destinataire";
-            clm_recipient.Width = 92;
-
-            ColumnHeader clm_sender = new ColumnHeader();
-            clm_sender.Text = "Envoyeur";
-            clm_sender.Width = 92;
-
-            ColumnHeader clm_amount = new ColumnHeader();
-            clm_amount.Text = "Montant";
-            clm_amount.Width = 73;
-
-            ColumnHeader clm_datePay = new ColumnHeader();
-            clm_datePay.Text = "Date";
-            clm_datePay.Width = 115;
-
-            ColumnHeader clm_informationTransmitted = new ColumnHeader();
-            clm_informationTransmitted.Text = "Information Transmise";
-            clm_informationTransmitted.Width = 115;
-
-            ColumnHeader clm_personnalInformation = new ColumnHeader();
-            clm_personnalInformation.Text = "Information Personnel";
-            clm_personnalInformation.Width = 127;
-
-
-
-            this.LSV_payment.Columns.Add(clm_recipient);
-            this.LSV_payment.Columns.Add(clm_sender);
-            this.LSV_payment.Columns.Add(clm_amount);
-            this.LSV_payment.Columns.Add(clm_datePay);
-            this.LSV_payment.Columns.Add(clm_informationTransmitted);
-            this.LSV_payment.Columns.Add(clm_personnalInformation);
+            string personalInformation = "";
+            
 
 
             if(DTP_firstDate.Value > DTP_lastDate.Value)
             {
-                MessageBox.Show("La valeur du premier doit être inférieur au deuxième", "Problème de connexion");
+                MessageBox.Show("La valeur du premier doit être inférieur au deuxième", "Problème de valeur");
             }
             else
             {
-                
+                this.LSV_payment.Clear();
+
+
+                ColumnHeader clm_recipient = new ColumnHeader();
+                clm_recipient.Text = "Destinataire";
+                clm_recipient.Width = 92;
+
+                ColumnHeader clm_sender = new ColumnHeader();
+                clm_sender.Text = "Envoyeur";
+                clm_sender.Width = 92;
+
+                ColumnHeader clm_amount = new ColumnHeader();
+                clm_amount.Text = "Montant";
+                clm_amount.Width = 73;
+
+                ColumnHeader clm_datePay = new ColumnHeader();
+                clm_datePay.Text = "Date";
+                clm_datePay.Width = 115;
+
+                ColumnHeader clm_informationTransmitted = new ColumnHeader();
+                clm_informationTransmitted.Text = "Information Transmise";
+                clm_informationTransmitted.Width = 115;
+
+                ColumnHeader clm_personalInformation = new ColumnHeader();
+                clm_personalInformation.Text = "Information Personnel";
+                clm_personalInformation.Width = 127;
+
+
+
+                this.LSV_payment.Columns.Add(clm_recipient);
+                this.LSV_payment.Columns.Add(clm_sender);
+                this.LSV_payment.Columns.Add(clm_amount);
+                this.LSV_payment.Columns.Add(clm_datePay);
+                this.LSV_payment.Columns.Add(clm_informationTransmitted);
+                this.LSV_payment.Columns.Add(clm_personalInformation);
+
                 try
                 {
-                    this.allPayments = new PaymentManager(id, idAccount, accountRecipient, datePayment, amount, informationTransmitted, personnalInformation, idAccountRecipient);
+                    this.allPayments = new PaymentManager(id, idAccount, accountRecipient, datePayment, amount, informationTransmitted, personalInformation, idAccountRecipient);
                     foundPaymentSuccess = this.allPayments.displayPaymentSort(activeAccount, firstDate, lastDate);
 
                 }
@@ -403,7 +404,7 @@ namespace View
                             listPayment.SubItems.Add(payment.Amount.ToString());
                             listPayment.SubItems.Add(payment.DatePayment.ToString("yyyy-MM-dd HH:mm:ss"));
                             listPayment.SubItems.Add(payment.InformationTransmitted);
-                            listPayment.SubItems.Add(payment.PersonnalInformation);
+                            listPayment.SubItems.Add(payment.PersonalInformation);
                             var list = LSV_payment.Items.Add(listPayment);
                         }
                     }

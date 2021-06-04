@@ -1,5 +1,4 @@
 C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\Model\bin\Debug\netstandard2.0\Data\ApplicationParameter.json
-C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\Model\bin\Debug\netstandard2.0\Data\DefaultUserSettings.json
 C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\Model\bin\Debug\netstandard2.0\Model.deps.json
 C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\Model\bin\Debug\netstandard2.0\Model.dll
 C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\Model\bin\Debug\netstandard2.0\Model.pdb

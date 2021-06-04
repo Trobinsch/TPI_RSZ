@@ -74,7 +74,7 @@ namespace View
             string accountRecipient = txt_accountRecipient.Text;
             
             string informationTransmitted = txt_informationTransmitted.Text;
-            string personnalInformation = txt_personnalInformation.Text;
+            string personalInformation = txt_personalInformation.Text;
             DateTime dateTemps = DTP_datePayment.Value;
 
             
@@ -117,8 +117,8 @@ namespace View
                     {
                         try
                         {
-                            activePayment = new PaymentManager(id, idAccount, accountRecipient, dateTemps, amount, informationTransmitted, personnalInformation, idAccountRecipient);
-                            saveSuccess = activePayment.addPayment(activeAccount, idAccountRecipient, dateTemps, amount, informationTransmitted, personnalInformation);
+                            activePayment = new PaymentManager(id, idAccount, accountRecipient, dateTemps, amount, informationTransmitted, personalInformation, idAccountRecipient);
+                            saveSuccess = activePayment.addPayment(activeAccount, idAccountRecipient, dateTemps, amount, informationTransmitted, personalInformation);
                         }
                         catch (DbError)
                         {
@@ -165,7 +165,7 @@ namespace View
         {
             DTP_datePayment.Visible = false;
             txt_informationTransmitted.MaxLength = 100;
-            txt_personnalInformation.MaxLength = 350;
+            txt_personalInformation.MaxLength = 350;
         }
     }
 }

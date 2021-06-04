@@ -3,7 +3,6 @@ C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\View\obj\Debug\View.Properties.R
 C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\View\obj\Debug\View.frm_Versement.resources
 C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\View\obj\Debug\View.csproj.GenerateResource.cache
 C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\View\bin\Debug\Data\ApplicationParameter.json
-C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\View\bin\Debug\Data\DefaultUserSettings.json
 C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\View\bin\Debug\View.exe.config
 C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\View\bin\Debug\View.exe
 C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\View\bin\Debug\View.pdb

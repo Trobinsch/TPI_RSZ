@@ -1,0 +1,9 @@
+C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\Model\bin\Release\netstandard2.0\Data\ApplicationParameter.json
+C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\Model\bin\Release\netstandard2.0\Model.deps.json
+C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\Model\bin\Release\netstandard2.0\Model.dll
+C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\Model\bin\Release\netstandard2.0\Model.pdb
+C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\Model\obj\Release\netstandard2.0\Model.csprojAssemblyReference.cache
+C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\Model\obj\Release\netstandard2.0\Model.AssemblyInfoInputs.cache
+C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\Model\obj\Release\netstandard2.0\Model.AssemblyInfo.cs
+C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\Model\obj\Release\netstandard2.0\Model.dll
+C:\Users\Robin.Schmutz\Desktop\TPI_RSZ\Code\TPI\Model\obj\Release\netstandard2.0\Model.pdb

@@ -14,9 +14,9 @@ namespace Model
         private string accountRecipient;
         private decimal amount;
         private string informationTransmitted;
-        private string personnalInformation;
+        private string personalInformation;
 
-        public Payment(int idPayment, int activeAccount, DateTime datePayment, string accountRecipient, decimal amount, string informationTransmitted, string personnalInformation)
+        public Payment(int idPayment, int activeAccount, DateTime datePayment, string accountRecipient, decimal amount, string informationTransmitted, string personalInformation)
         {
             this.idPayment = idPayment;
             this.activeAccount = activeAccount;
@@ -24,7 +24,7 @@ namespace Model
             this.accountRecipient = accountRecipient;
             this.amount = amount;
             this.informationTransmitted = informationTransmitted;
-            this.personnalInformation = personnalInformation;
+            this.personalInformation = personalInformation;
         }
 
         public int IdPayment
@@ -51,11 +51,11 @@ namespace Model
         {
             get { return informationTransmitted; }
         }
-        public string PersonnalInformation
+        public string PersonalInformation
         {
-            get { return personnalInformation; }
+            get { return personalInformation; }
 
-            set { personnalInformation = value; }
+            set { personalInformation = value; }
         }
 
     }

@@ -35,7 +35,7 @@
             this.txt_accountRecipient = new System.Windows.Forms.TextBox();
             this.txt_amount = new System.Windows.Forms.TextBox();
             this.txt_informationTransmitted = new System.Windows.Forms.TextBox();
-            this.txt_personnalInformation = new System.Windows.Forms.TextBox();
+            this.txt_personalInformation = new System.Windows.Forms.TextBox();
             this.btn_save = new System.Windows.Forms.Button();
             this.btn_cancel = new System.Windows.Forms.Button();
             this.DTP_datePayment = new System.Windows.Forms.DateTimePicker();
@@ -100,13 +100,13 @@
             this.txt_informationTransmitted.Size = new System.Drawing.Size(421, 35);
             this.txt_informationTransmitted.TabIndex = 6;
             // 
-            // txt_personnalInformation
+            // txt_personalInformation
             // 
-            this.txt_personnalInformation.Location = new System.Drawing.Point(34, 257);
-            this.txt_personnalInformation.Multiline = true;
-            this.txt_personnalInformation.Name = "txt_personnalInformation";
-            this.txt_personnalInformation.Size = new System.Drawing.Size(421, 155);
-            this.txt_personnalInformation.TabIndex = 7;
+            this.txt_personalInformation.Location = new System.Drawing.Point(34, 257);
+            this.txt_personalInformation.Multiline = true;
+            this.txt_personalInformation.Name = "txt_personalInformation";
+            this.txt_personalInformation.Size = new System.Drawing.Size(421, 155);
+            this.txt_personalInformation.TabIndex = 7;
             // 
             // btn_save
             // 
@@ -147,7 +147,7 @@
             this.Controls.Add(this.DTP_datePayment);
             this.Controls.Add(this.btn_cancel);
             this.Controls.Add(this.btn_save);
-            this.Controls.Add(this.txt_personnalInformation);
+            this.Controls.Add(this.txt_personalInformation);
             this.Controls.Add(this.txt_informationTransmitted);
             this.Controls.Add(this.txt_amount);
             this.Controls.Add(this.txt_accountRecipient);
@@ -173,7 +173,7 @@
         private System.Windows.Forms.TextBox txt_accountRecipient;
         private System.Windows.Forms.TextBox txt_amount;
         private System.Windows.Forms.TextBox txt_informationTransmitted;
-        private System.Windows.Forms.TextBox txt_personnalInformation;
+        private System.Windows.Forms.TextBox txt_personalInformation;
         private System.Windows.Forms.Button btn_save;
         private System.Windows.Forms.Button btn_cancel;
         private System.Windows.Forms.DateTimePicker DTP_datePayment;

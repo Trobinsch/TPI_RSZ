@@ -2,10 +2,10 @@
 <export version='7.53 Pro'>
   <project id='1056'>
     <pkey>TPIRSZ</pkey>
-    <endDate>Fri Jun 04 00:00:00 UTC 2021</endDate>
+    <endDate>2021-06-04 00:00:00.0</endDate>
     <todoDate>2021-05-03 06:23:23.0</todoDate>
     <startDate>2021-05-03 00:00:00.0</startDate>
-    <lastUpdated>Fri May 07 09:12:31 UTC 2021</lastUpdated>
+    <lastUpdated>2021-05-07 09:12:31.0</lastUpdated>
     <dateCreated>2021-05-03 06:23:23.0</dateCreated>
     <planningPokerGameType>1</planningPokerGameType>
     <name><![CDATA[TPI_RSZ]]></name>
@@ -93,9 +93,9 @@
             </preferences>
             <teams>
               <team uid='25a1fc8c867c51e6d2355542add1c5c3' />
-              <team uid='98c8a95a34530e806c4aacf480987745' />
               <team uid='1a0300c97de3f6ff586a3ef2b78eb30b' />
               <team uid='c113b13df8047db19a1d0a38ccb999a8' />
+              <team uid='98c8a95a34530e806c4aacf480987745' />
             </teams>
             <moods />
           </user>
@@ -105,9 +105,9 @@
             <enabled>true</enabled>
             <username>RobinSchmutz</username>
             <password>dbaa565811474ab8fd97e6b0e1faf7c1b13b461c6ba1455f50be77d80f30529c</password>
-            <lastLogin>2021-05-07 09:12:19.0</lastLogin>
+            <lastLogin>2021-06-04 06:43:26.0</lastLogin>
             <dateCreated>2020-12-04 17:54:28.0</dateCreated>
-            <lastUpdated>2021-05-06 13:55:16.0</lastUpdated>
+            <lastUpdated>2021-05-07 09:58:28.0</lastUpdated>
             <accountLocked>false</accountLocked>
             <accountExpired>false</accountExpired>
             <passwordExpired>false</passwordExpired>
@@ -126,7 +126,7 @@
               <lastProjectOpened>TPIRSZ</lastProjectOpened>
               <emailsSettingsData>{"onStory":[""],"autoFollow":[""],"onUrgentTask":[""]}</emailsSettingsData>
               <displayWelcomeTour>true</displayWelcomeTour>
-              <lastReadActivities>Mon Apr 26 08:54:27 UTC 2021</lastReadActivities>
+              <lastReadActivities>2021-04-26 08:54:28.0</lastReadActivities>
               <displayFullProjectTour>true</displayFullProjectTour>
               <widgets>
                 <widget>
@@ -158,8 +158,8 @@
             </preferences>
             <teams>
               <team uid='25a1fc8c867c51e6d2355542add1c5c3' />
-              <team uid='98c8a95a34530e806c4aacf480987745' />
               <team uid='c113b13df8047db19a1d0a38ccb999a8' />
+              <team uid='98c8a95a34530e806c4aacf480987745' />
             </teams>
             <moods />
           </user>
@@ -171,9 +171,9 @@
             <enabled>true</enabled>
             <username>RobinSchmutz</username>
             <password>dbaa565811474ab8fd97e6b0e1faf7c1b13b461c6ba1455f50be77d80f30529c</password>
-            <lastLogin>2021-05-07 09:12:19.0</lastLogin>
+            <lastLogin>2021-06-04 06:43:26.0</lastLogin>
             <dateCreated>2020-12-04 17:54:28.0</dateCreated>
-            <lastUpdated>2021-05-06 13:55:16.0</lastUpdated>
+            <lastUpdated>2021-05-07 09:58:28.0</lastUpdated>
             <accountLocked>false</accountLocked>
             <accountExpired>false</accountExpired>
             <passwordExpired>false</passwordExpired>
@@ -192,7 +192,7 @@
               <lastProjectOpened>TPIRSZ</lastProjectOpened>
               <emailsSettingsData>{"onStory":[""],"autoFollow":[""],"onUrgentTask":[""]}</emailsSettingsData>
               <displayWelcomeTour>true</displayWelcomeTour>
-              <lastReadActivities>Mon Apr 26 08:54:27 UTC 2021</lastReadActivities>
+              <lastReadActivities>2021-04-26 08:54:28.0</lastReadActivities>
               <displayFullProjectTour>true</displayFullProjectTour>
               <widgets>
                 <widget>
@@ -224,8 +224,8 @@
             </preferences>
             <teams>
               <team uid='25a1fc8c867c51e6d2355542add1c5c3' />
-              <team uid='98c8a95a34530e806c4aacf480987745' />
               <team uid='c113b13df8047db19a1d0a38ccb999a8' />
+              <team uid='98c8a95a34530e806c4aacf480987745' />
             </teams>
             <moods />
           </user>
@@ -282,9 +282,9 @@
         </preferences>
         <teams>
           <team uid='25a1fc8c867c51e6d2355542add1c5c3' />
-          <team uid='98c8a95a34530e806c4aacf480987745' />
           <team uid='1a0300c97de3f6ff586a3ef2b78eb30b' />
           <team uid='c113b13df8047db19a1d0a38ccb999a8' />
+          <team uid='98c8a95a34530e806c4aacf480987745' />
         </teams>
         <moods />
       </user>
@@ -294,9 +294,9 @@
         <enabled>true</enabled>
         <username>RobinSchmutz</username>
         <password>dbaa565811474ab8fd97e6b0e1faf7c1b13b461c6ba1455f50be77d80f30529c</password>
-        <lastLogin>2021-05-07 09:12:19.0</lastLogin>
+        <lastLogin>2021-06-04 06:43:26.0</lastLogin>
         <dateCreated>2020-12-04 17:54:28.0</dateCreated>
-        <lastUpdated>2021-05-06 13:55:16.0</lastUpdated>
+        <lastUpdated>2021-05-07 09:58:28.0</lastUpdated>
         <accountLocked>false</accountLocked>
         <accountExpired>false</accountExpired>
         <passwordExpired>false</passwordExpired>
@@ -315,7 +315,7 @@
           <lastProjectOpened>TPIRSZ</lastProjectOpened>
           <emailsSettingsData>{"onStory":[""],"autoFollow":[""],"onUrgentTask":[""]}</emailsSettingsData>
           <displayWelcomeTour>true</displayWelcomeTour>
-          <lastReadActivities>Mon Apr 26 08:54:27 UTC 2021</lastReadActivities>
+          <lastReadActivities>2021-04-26 08:54:28.0</lastReadActivities>
           <displayFullProjectTour>true</displayFullProjectTour>
           <widgets>
             <widget>
@@ -347,8 +347,8 @@
         </preferences>
         <teams>
           <team uid='25a1fc8c867c51e6d2355542add1c5c3' />
-          <team uid='98c8a95a34530e806c4aacf480987745' />
           <team uid='c113b13df8047db19a1d0a38ccb999a8' />
+          <team uid='98c8a95a34530e806c4aacf480987745' />
         </teams>
         <moods />
       </user>
@@ -426,7 +426,7 @@
         <doneDate />
         <startDate>2021-05-03 00:00:00.0</startDate>
         <orderNumber>1</orderNumber>
-        <lastUpdated>2021-05-07 09:13:19.0</lastUpdated>
+        <lastUpdated>2021-05-31 06:12:47.0</lastUpdated>
         <dateCreated>2021-05-06 09:53:51.0</dateCreated>
         <inProgressDate>2021-05-06 09:53:51.0</inProgressDate>
         <firstSprintIndex>1</firstSprintIndex>
@@ -436,15 +436,15 @@
         <description><![CDATA[]]></description>
         <sprints>
           <sprint id='1121'>
-            <state>2</state>
+            <state>3</state>
             <endDate>2021-05-09 00:00:00.0</endDate>
-            <velocity>0.0</velocity>
+            <velocity>4.0</velocity>
             <capacity>4.0</capacity>
             <todoDate>2021-05-06 09:54:05.0</todoDate>
-            <doneDate />
+            <doneDate>2021-05-10 12:04:25.0</doneDate>
             <startDate>2021-05-03 00:00:00.0</startDate>
             <orderNumber>1</orderNumber>
-            <lastUpdated>Fri May 07 09:19:50 UTC 2021</lastUpdated>
+            <lastUpdated>2021-05-10 12:04:25.0</lastUpdated>
             <dateCreated>2021-05-06 09:54:05.0</dateCreated>
             <dailyWorkTime>8.0</dailyWorkTime>
             <inProgressDate>2021-05-07 09:13:19.0</inProgressDate>
@@ -459,14 +459,14 @@
               <story uid='7'>
                 <type>0</type>
                 <rank>1</rank>
-                <state>5</state>
+                <state>7</state>
                 <value>0</value>
                 <effort>2.00</effort>
-                <doneDate />
+                <doneDate>2021-05-10 12:04:25.0</doneDate>
                 <plannedDate>2021-05-06 14:03:15.0</plannedDate>
                 <acceptedDate>2021-05-06 14:01:59.0</acceptedDate>
                 <todoDate>2021-05-06 10:01:11.0</todoDate>
-                <lastUpdated>Fri May 07 09:16:13 UTC 2021</lastUpdated>
+                <lastUpdated>2021-05-10 12:04:25.0</lastUpdated>
                 <dateCreated>2021-05-06 10:01:11.0</dateCreated>
                 <affectVersion />
                 <frozenDate />
@@ -587,6 +587,19 @@
                     <parentRef>2592</parentRef>
                     <parentType>story</parentType>
                   </activity>
+                  <activity>
+                    <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <dateCreated>2021-05-10 12:04:25.0</dateCreated>
+                    <lastUpdated>2021-05-10 12:04:25.0</lastUpdated>
+                    <code>updateState</code>
+                    <label><![CDATA[Database]]></label>
+                    <field><![CDATA[state]]></field>
+                    <beforeValue><![CDATA[5]]></beforeValue>
+                    <afterValue><![CDATA[7]]></afterValue>
+                    <afterLabel><![CDATA[]]></afterLabel>
+                    <parentRef>2592</parentRef>
+                    <parentType>story</parentType>
+                  </activity>
                 </activities>
                 <acceptanceTests />
                 <actors />
@@ -602,7 +615,7 @@
                     <blocked>false</blocked>
                     <spent />
                     <initial />
-                    <doneDate>Fri May 07 09:16:07 UTC 2021</doneDate>
+                    <doneDate>2021-05-07 09:16:08.0</doneDate>
                     <estimation>0.0</estimation>
                     <todoDate>2021-05-07 09:14:55.0</todoDate>
                     <inProgressDate>2021-05-07 09:15:54.0</inProgressDate>
@@ -665,7 +678,7 @@
                     <blocked>false</blocked>
                     <spent />
                     <initial />
-                    <doneDate>Fri May 07 09:16:09 UTC 2021</doneDate>
+                    <doneDate>2021-05-07 09:16:10.0</doneDate>
                     <estimation>0.0</estimation>
                     <todoDate>2021-05-07 09:14:45.0</todoDate>
                     <inProgressDate>2021-05-07 09:15:53.0</inProgressDate>
@@ -728,7 +741,7 @@
                     <blocked>false</blocked>
                     <spent />
                     <initial />
-                    <doneDate>Fri May 07 09:16:11 UTC 2021</doneDate>
+                    <doneDate>2021-05-07 09:16:12.0</doneDate>
                     <estimation>0.0</estimation>
                     <todoDate>2021-05-07 09:15:30.0</todoDate>
                     <inProgressDate>2021-05-07 09:15:55.0</inProgressDate>
@@ -791,7 +804,7 @@
                     <blocked>false</blocked>
                     <spent />
                     <initial />
-                    <doneDate>Fri May 07 09:16:13 UTC 2021</doneDate>
+                    <doneDate>2021-05-07 09:16:14.0</doneDate>
                     <estimation>0.0</estimation>
                     <todoDate>2021-05-07 09:15:46.0</todoDate>
                     <inProgressDate>2021-05-07 09:15:57.0</inProgressDate>
@@ -853,14 +866,14 @@
               <story uid='8'>
                 <type>0</type>
                 <rank>2</rank>
-                <state>5</state>
+                <state>7</state>
                 <value>0</value>
                 <effort>1.00</effort>
-                <doneDate />
+                <doneDate>2021-05-10 12:04:25.0</doneDate>
                 <plannedDate>2021-05-06 14:03:18.0</plannedDate>
                 <acceptedDate>2021-05-06 14:02:01.0</acceptedDate>
                 <todoDate>2021-05-06 10:10:22.0</todoDate>
-                <lastUpdated>Fri May 07 09:18:55 UTC 2021</lastUpdated>
+                <lastUpdated>2021-05-10 12:04:25.0</lastUpdated>
                 <dateCreated>2021-05-06 10:10:22.0</dateCreated>
                 <affectVersion />
                 <frozenDate />
@@ -968,6 +981,19 @@
                     <parentRef>2593</parentRef>
                     <parentType>story</parentType>
                   </activity>
+                  <activity>
+                    <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <dateCreated>2021-05-10 12:04:25.0</dateCreated>
+                    <lastUpdated>2021-05-10 12:04:25.0</lastUpdated>
+                    <code>updateState</code>
+                    <label><![CDATA[Diagramme UML]]></label>
+                    <field><![CDATA[state]]></field>
+                    <beforeValue><![CDATA[5]]></beforeValue>
+                    <afterValue><![CDATA[7]]></afterValue>
+                    <afterLabel><![CDATA[]]></afterLabel>
+                    <parentRef>2593</parentRef>
+                    <parentType>story</parentType>
+                  </activity>
                 </activities>
                 <acceptanceTests />
                 <actors />
@@ -983,7 +1009,7 @@
                     <blocked>false</blocked>
                     <spent />
                     <initial />
-                    <doneDate>Fri May 07 09:18:51 UTC 2021</doneDate>
+                    <doneDate>2021-05-07 09:18:51.0</doneDate>
                     <estimation>0.0</estimation>
                     <todoDate>2021-05-07 09:18:07.0</todoDate>
                     <inProgressDate>2021-05-07 09:18:47.0</inProgressDate>
@@ -1046,7 +1072,7 @@
                     <blocked>false</blocked>
                     <spent />
                     <initial />
-                    <doneDate>Fri May 07 09:18:53 UTC 2021</doneDate>
+                    <doneDate>2021-05-07 09:18:53.0</doneDate>
                     <estimation>0.0</estimation>
                     <todoDate>2021-05-07 09:16:30.0</todoDate>
                     <inProgressDate>2021-05-07 09:18:49.0</inProgressDate>
@@ -1109,7 +1135,7 @@
                     <blocked>false</blocked>
                     <spent />
                     <initial />
-                    <doneDate>Fri May 07 09:18:55 UTC 2021</doneDate>
+                    <doneDate>2021-05-07 09:18:55.0</doneDate>
                     <estimation>0.0</estimation>
                     <todoDate>2021-05-07 09:18:33.0</todoDate>
                     <inProgressDate>2021-05-07 09:18:48.0</inProgressDate>
@@ -1171,14 +1197,14 @@
               <story uid='9'>
                 <type>0</type>
                 <rank>3</rank>
-                <state>5</state>
+                <state>7</state>
                 <value>0</value>
                 <effort>1.00</effort>
-                <doneDate />
+                <doneDate>2021-05-10 12:04:25.0</doneDate>
                 <plannedDate>2021-05-07 09:13:07.0</plannedDate>
                 <acceptedDate>2021-05-07 09:12:55.0</acceptedDate>
                 <todoDate>2021-05-07 09:12:31.0</todoDate>
-                <lastUpdated>Fri May 07 09:19:50 UTC 2021</lastUpdated>
+                <lastUpdated>2021-05-10 12:04:25.0</lastUpdated>
                 <dateCreated>2021-05-07 09:12:31.0</dateCreated>
                 <affectVersion />
                 <frozenDate />
@@ -1299,6 +1325,19 @@
                     <parentRef>2605</parentRef>
                     <parentType>story</parentType>
                   </activity>
+                  <activity>
+                    <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <dateCreated>2021-05-10 12:04:25.0</dateCreated>
+                    <lastUpdated>2021-05-10 12:04:25.0</lastUpdated>
+                    <code>updateState</code>
+                    <label><![CDATA[Maquette]]></label>
+                    <field><![CDATA[state]]></field>
+                    <beforeValue><![CDATA[5]]></beforeValue>
+                    <afterValue><![CDATA[7]]></afterValue>
+                    <afterLabel><![CDATA[]]></afterLabel>
+                    <parentRef>2605</parentRef>
+                    <parentType>story</parentType>
+                  </activity>
                 </activities>
                 <acceptanceTests />
                 <actors />
@@ -1314,7 +1353,7 @@
                     <blocked>false</blocked>
                     <spent />
                     <initial />
-                    <doneDate>Fri May 07 09:19:46 UTC 2021</doneDate>
+                    <doneDate>2021-05-07 09:19:46.0</doneDate>
                     <estimation>0.0</estimation>
                     <todoDate>2021-05-07 09:19:14.0</todoDate>
                     <inProgressDate>2021-05-07 09:19:37.0</inProgressDate>
@@ -1377,7 +1416,7 @@
                     <blocked>false</blocked>
                     <spent />
                     <initial />
-                    <doneDate>Fri May 07 09:19:48 UTC 2021</doneDate>
+                    <doneDate>2021-05-07 09:19:48.0</doneDate>
                     <estimation>0.0</estimation>
                     <todoDate>2021-05-07 09:19:24.0</todoDate>
                     <inProgressDate>2021-05-07 09:19:39.0</inProgressDate>
@@ -1440,7 +1479,7 @@
                     <blocked>false</blocked>
                     <spent />
                     <initial />
-                    <doneDate>Fri May 07 09:19:50 UTC 2021</doneDate>
+                    <doneDate>2021-05-07 09:19:50.0</doneDate>
                     <estimation>0.0</estimation>
                     <todoDate>2021-05-07 09:19:36.0</todoDate>
                     <inProgressDate>2021-05-07 09:19:40.0</inProgressDate>
@@ -1508,24 +1547,42 @@
                 <datePrise>2021-05-07 09:13:19.0</datePrise>
                 <data><![CDATA[<cliche><stories>3</stories><inprogressStories>3</inprogressStories><inreviewStories>0</inreviewStories><doneStories>0</doneStories><pointsStories>4.00</pointsStories><totalPointsStories>0</totalPointsStories><tasks>10</tasks><waitTasks>0</waitTasks><inprogressTasks>0</inprogressTasks><doneTasks>10</doneTasks><sprintTasks>0</sprintTasks><recurrentTasks>0</recurrentTasks><urgentTasks>0</urgentTasks><storyTasks>10</storyTasks><remainingHours>0.0</remainingHours><spentHours>0.0</spentHours></cliche>]]></data>
               </cliche>
+              <cliche id='12976'>
+                <id>12976</id>
+                <type>2</type>
+                <datePrise>2021-05-08 09:13:19.0</datePrise>
+                <data><![CDATA[<cliche><stories>3</stories><inprogressStories>3</inprogressStories><inreviewStories>0</inreviewStories><doneStories>0</doneStories><pointsStories>4.00</pointsStories><totalPointsStories>0</totalPointsStories><tasks>10</tasks><waitTasks>0</waitTasks><inprogressTasks>0</inprogressTasks><doneTasks>10</doneTasks><sprintTasks>0</sprintTasks><recurrentTasks>0</recurrentTasks><urgentTasks>0</urgentTasks><storyTasks>10</storyTasks><remainingHours>0.0</remainingHours><spentHours>0.0</spentHours></cliche>]]></data>
+              </cliche>
+              <cliche id='12977'>
+                <id>12977</id>
+                <type>2</type>
+                <datePrise>2021-05-09 09:13:19.0</datePrise>
+                <data><![CDATA[<cliche><stories>3</stories><inprogressStories>3</inprogressStories><inreviewStories>0</inreviewStories><doneStories>0</doneStories><pointsStories>4.00</pointsStories><totalPointsStories>0</totalPointsStories><tasks>10</tasks><waitTasks>0</waitTasks><inprogressTasks>0</inprogressTasks><doneTasks>10</doneTasks><sprintTasks>0</sprintTasks><recurrentTasks>0</recurrentTasks><urgentTasks>0</urgentTasks><storyTasks>10</storyTasks><remainingHours>0.0</remainingHours><spentHours>0.0</spentHours></cliche>]]></data>
+              </cliche>
+              <cliche id='12978'>
+                <id>12978</id>
+                <type>2</type>
+                <datePrise>2021-05-10 11:38:03.0</datePrise>
+                <data><![CDATA[<cliche><stories>3</stories><inprogressStories>0</inprogressStories><inreviewStories>0</inreviewStories><doneStories>3</doneStories><pointsStories>4.00</pointsStories><totalPointsStories>4.00</totalPointsStories><tasks>10</tasks><waitTasks>0</waitTasks><inprogressTasks>0</inprogressTasks><doneTasks>10</doneTasks><sprintTasks>0</sprintTasks><recurrentTasks>0</recurrentTasks><urgentTasks>0</urgentTasks><storyTasks>10</storyTasks><remainingHours>0.0</remainingHours><spentHours>0.0</spentHours></cliche>]]></data>
+              </cliche>
             </cliches>
             <availabilities />
           </sprint>
           <sprint id='1122'>
-            <state>1</state>
+            <state>3</state>
             <endDate>2021-05-23 00:00:00.0</endDate>
-            <velocity>0.0</velocity>
+            <velocity>16.0</velocity>
             <capacity>16.0</capacity>
             <todoDate>2021-05-06 09:54:13.0</todoDate>
-            <doneDate />
+            <doneDate>2021-05-25 07:55:52.0</doneDate>
             <startDate>2021-05-10 00:00:00.0</startDate>
             <orderNumber>2</orderNumber>
-            <lastUpdated>2021-05-06 14:04:13.0</lastUpdated>
+            <lastUpdated>2021-05-25 07:55:52.0</lastUpdated>
             <dateCreated>2021-05-06 09:54:13.0</dateCreated>
             <dailyWorkTime>8.0</dailyWorkTime>
-            <inProgressDate />
+            <inProgressDate>2021-05-10 12:05:17.0</inProgressDate>
             <deliveredVersion />
-            <initialRemainingTime />
+            <initialRemainingTime>0.0</initialRemainingTime>
             <goal><![CDATA[]]></goal>
             <description><![CDATA[]]></description>
             <retrospective><![CDATA[]]></retrospective>
@@ -1535,20 +1592,20 @@
               <story uid='1'>
                 <type>0</type>
                 <rank>1</rank>
-                <state>4</state>
+                <state>7</state>
                 <value>0</value>
                 <effort>8.00</effort>
-                <doneDate />
+                <doneDate>2021-05-25 07:55:52.0</doneDate>
                 <plannedDate>2021-05-06 14:04:13.0</plannedDate>
                 <acceptedDate>2021-05-06 14:01:46.0</acceptedDate>
                 <todoDate>2021-05-03 08:08:02.0</todoDate>
-                <lastUpdated>2021-05-06 14:04:13.0</lastUpdated>
+                <lastUpdated>2021-05-25 07:55:52.0</lastUpdated>
                 <dateCreated>2021-05-03 08:08:02.0</dateCreated>
                 <affectVersion />
                 <frozenDate />
                 <suggestedDate>2021-05-03 08:08:02.0</suggestedDate>
                 <estimatedDate>2021-05-06 14:02:14.0</estimatedDate>
-                <inProgressDate />
+                <inProgressDate>2021-05-10 12:05:12.0</inProgressDate>
                 <inReviewDate />
                 <tags><![CDATA[]]></tags>
                 <name><![CDATA[Saisie d'un versement]]></name>
@@ -1663,10 +1720,36 @@
                     <parentRef>2467</parentRef>
                     <parentType>story</parentType>
                   </activity>
+                  <activity>
+                    <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <dateCreated>2021-05-10 12:05:12.0</dateCreated>
+                    <lastUpdated>2021-05-10 12:05:12.0</lastUpdated>
+                    <code>updateState</code>
+                    <label><![CDATA[Saisie d'un versement]]></label>
+                    <field><![CDATA[state]]></field>
+                    <beforeValue><![CDATA[4]]></beforeValue>
+                    <afterValue><![CDATA[5]]></afterValue>
+                    <afterLabel><![CDATA[]]></afterLabel>
+                    <parentRef>2467</parentRef>
+                    <parentType>story</parentType>
+                  </activity>
+                  <activity>
+                    <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <dateCreated>2021-05-25 07:55:52.0</dateCreated>
+                    <lastUpdated>2021-05-25 07:55:52.0</lastUpdated>
+                    <code>updateState</code>
+                    <label><![CDATA[Saisie d'un versement]]></label>
+                    <field><![CDATA[state]]></field>
+                    <beforeValue><![CDATA[5]]></beforeValue>
+                    <afterValue><![CDATA[7]]></afterValue>
+                    <afterLabel><![CDATA[]]></afterLabel>
+                    <parentRef>2467</parentRef>
+                    <parentType>story</parentType>
+                  </activity>
                 </activities>
                 <acceptanceTests>
                   <acceptanceTest uid='1'>
-                    <state>1</state>
+                    <state>10</state>
                     <rank>1</rank>
                     <creator uid='b2d23f9f74804ffeca83bff680cc483d' />
                     <name><![CDATA[liaison à la page principale]]></name>
@@ -1703,10 +1786,23 @@ Le client arrive sur le formulaire de versement]]></description>
                         <parentRef>6912</parentRef>
                         <parentType>acceptanceTest</parentType>
                       </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-25 07:55:52.0</dateCreated>
+                        <lastUpdated>2021-05-25 07:55:52.0</lastUpdated>
+                        <code>acceptanceTestSuccess</code>
+                        <label><![CDATA[liaison à la page principale]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>6912</parentRef>
+                        <parentType>acceptanceTest</parentType>
+                      </activity>
                     </activities>
                   </acceptanceTest>
                   <acceptanceTest uid='2'>
-                    <state>1</state>
+                    <state>10</state>
                     <rank>2</rank>
                     <creator uid='b2d23f9f74804ffeca83bff680cc483d' />
                     <name><![CDATA[formulaire accepté]]></name>
@@ -1773,17 +1869,30 @@ Le versement est accepté et envoyé]]></description>
                         <parentRef>6931</parentRef>
                         <parentType>acceptanceTest</parentType>
                       </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-25 07:55:52.0</dateCreated>
+                        <lastUpdated>2021-05-25 07:55:52.0</lastUpdated>
+                        <code>acceptanceTestSuccess</code>
+                        <label><![CDATA[formulaire accepté]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>6931</parentRef>
+                        <parentType>acceptanceTest</parentType>
+                      </activity>
                     </activities>
                   </acceptanceTest>
                   <acceptanceTest uid='3'>
-                    <state>1</state>
+                    <state>10</state>
                     <rank>3</rank>
                     <creator uid='b2d23f9f74804ffeca83bff680cc483d' />
                     <name><![CDATA[Solde insuffisant]]></name>
                     <description><![CDATA[_*Given*_ 
 Le client est dans le formulaire de versement
 _*When*_ 
-Le client écrit un montant dans le versement qui est au dessus de son solde
+Le client écrit un montant dans le versement qui est au-dessus de son solde
 _*Then*_ 
 Le versement n'est pas accepté et l'application renvoie un message d'erreur qui indique que le solde est insuffisant]]></description>
                     <activities>
@@ -1813,10 +1922,36 @@ Le versement n'est pas accepté et l'application renvoie un message d'erreur qui
                         <parentRef>6932</parentRef>
                         <parentType>acceptanceTest</parentType>
                       </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-07 10:06:18.0</dateCreated>
+                        <lastUpdated>2021-05-07 10:06:18.0</lastUpdated>
+                        <code>acceptanceTestUpdate</code>
+                        <label><![CDATA[Solde insuffisant]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>6932</parentRef>
+                        <parentType>acceptanceTest</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-25 07:55:52.0</dateCreated>
+                        <lastUpdated>2021-05-25 07:55:52.0</lastUpdated>
+                        <code>acceptanceTestSuccess</code>
+                        <label><![CDATA[Solde insuffisant]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>6932</parentRef>
+                        <parentType>acceptanceTest</parentType>
+                      </activity>
                     </activities>
                   </acceptanceTest>
                   <acceptanceTest uid='4'>
-                    <state>1</state>
+                    <state>10</state>
                     <rank>4</rank>
                     <creator uid='b2d23f9f74804ffeca83bff680cc483d' />
                     <name><![CDATA[Compte inexistant]]></name>
@@ -1853,10 +1988,23 @@ Le versement est refusé et l'application renvoie un message d'erreur qui indiqu
                         <parentRef>6939</parentRef>
                         <parentType>acceptanceTest</parentType>
                       </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-25 07:55:52.0</dateCreated>
+                        <lastUpdated>2021-05-25 07:55:52.0</lastUpdated>
+                        <code>acceptanceTestSuccess</code>
+                        <label><![CDATA[Compte inexistant]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>6939</parentRef>
+                        <parentType>acceptanceTest</parentType>
+                      </activity>
                     </activities>
                   </acceptanceTest>
                   <acceptanceTest uid='7'>
-                    <state>1</state>
+                    <state>10</state>
                     <rank>5</rank>
                     <creator uid='b2d23f9f74804ffeca83bff680cc483d' />
                     <name><![CDATA[Annulation du versement]]></name>
@@ -1880,10 +2028,23 @@ Le versement est annulé et le client est ramené sur la page principale]]></des
                         <parentRef>6944</parentRef>
                         <parentType>acceptanceTest</parentType>
                       </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-25 07:55:52.0</dateCreated>
+                        <lastUpdated>2021-05-25 07:55:52.0</lastUpdated>
+                        <code>acceptanceTestSuccess</code>
+                        <label><![CDATA[Annulation du versement]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>6944</parentRef>
+                        <parentType>acceptanceTest</parentType>
+                      </activity>
                     </activities>
                   </acceptanceTest>
                   <acceptanceTest uid='20'>
-                    <state>1</state>
+                    <state>10</state>
                     <rank>6</rank>
                     <creator uid='b2d23f9f74804ffeca83bff680cc483d' />
                     <name><![CDATA[Formulaire accepté avec les champs facultatifs]]></name>
@@ -1913,6 +2074,19 @@ Le versement est accepté et envoyé]]></description>
                         <parentRef>7110</parentRef>
                         <parentType>acceptanceTest</parentType>
                       </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-25 07:55:52.0</dateCreated>
+                        <lastUpdated>2021-05-25 07:55:52.0</lastUpdated>
+                        <code>acceptanceTestSuccess</code>
+                        <label><![CDATA[Formulaire accepté avec les champs facultatifs]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7110</parentRef>
+                        <parentType>acceptanceTest</parentType>
+                      </activity>
                     </activities>
                   </acceptanceTest>
                 </acceptanceTests>
@@ -1920,27 +2094,434 @@ Le versement est accepté et envoyé]]></description>
                 <followers>
                   <user uid='b2d23f9f74804ffeca83bff680cc483d' />
                 </followers>
-                <tasks />
+                <tasks>
+                  <task uid='11'>
+                    <type />
+                    <rank>1</rank>
+                    <color>#ffcc01</color>
+                    <state>2</state>
+                    <blocked>false</blocked>
+                    <spent />
+                    <initial>40.0</initial>
+                    <doneDate>2021-05-10 13:45:21.0</doneDate>
+                    <estimation>0.0</estimation>
+                    <todoDate>2021-05-10 12:07:11.0</todoDate>
+                    <inProgressDate>2021-05-10 12:07:26.0</inProgressDate>
+                    <creator uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <sprint id='1122' />
+                    <responsible uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <tags><![CDATA[]]></tags>
+                    <name><![CDATA[Création formulaire Versement]]></name>
+                    <notes><![CDATA[]]></notes>
+                    <description><![CDATA[]]></description>
+                    <attachments />
+                    <comments />
+                    <activities>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-10 12:07:11.0</dateCreated>
+                        <lastUpdated>2021-05-10 12:07:11.0</lastUpdated>
+                        <code>taskSave</code>
+                        <label><![CDATA[Création formulaire]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>6926</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-10 12:07:26.0</dateCreated>
+                        <lastUpdated>2021-05-10 12:07:26.0</lastUpdated>
+                        <code>taskInprogress</code>
+                        <label><![CDATA[Création formulaire]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>6926</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-10 13:45:21.0</dateCreated>
+                        <lastUpdated>2021-05-10 13:45:21.0</lastUpdated>
+                        <code>taskFinish</code>
+                        <label><![CDATA[Création formulaire Versement]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>6926</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                    </activities>
+                  </task>
+                  <task uid='13'>
+                    <type />
+                    <rank>2</rank>
+                    <color>#ffcc01</color>
+                    <state>2</state>
+                    <blocked>false</blocked>
+                    <spent />
+                    <initial>30.0</initial>
+                    <doneDate>2021-05-10 13:45:55.0</doneDate>
+                    <estimation>0.0</estimation>
+                    <todoDate>2021-05-10 13:44:33.0</todoDate>
+                    <inProgressDate>2021-05-10 13:45:45.0</inProgressDate>
+                    <creator uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <sprint id='1122' />
+                    <responsible uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <tags><![CDATA[]]></tags>
+                    <name><![CDATA[Diagramme de séquence versement]]></name>
+                    <notes><![CDATA[]]></notes>
+                    <description><![CDATA[]]></description>
+                    <attachments />
+                    <comments />
+                    <activities>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-10 13:44:33.0</dateCreated>
+                        <lastUpdated>2021-05-10 13:44:33.0</lastUpdated>
+                        <code>taskSave</code>
+                        <label><![CDATA[Diagramme de séquence versement]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>6956</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-10 13:45:16.0</dateCreated>
+                        <lastUpdated>2021-05-10 13:45:16.0</lastUpdated>
+                        <code>taskInprogress</code>
+                        <label><![CDATA[Diagramme de séquence versement]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>6956</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-10 13:45:17.0</dateCreated>
+                        <lastUpdated>2021-05-10 13:45:17.0</lastUpdated>
+                        <code>taskFinish</code>
+                        <label><![CDATA[Diagramme de séquence versement]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>6956</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-10 13:45:29.0</dateCreated>
+                        <lastUpdated>2021-05-10 13:45:29.0</lastUpdated>
+                        <code>taskWait</code>
+                        <label><![CDATA[Diagramme de séquence versement]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>6956</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-10 13:45:45.0</dateCreated>
+                        <lastUpdated>2021-05-10 13:45:45.0</lastUpdated>
+                        <code>taskInprogress</code>
+                        <label><![CDATA[Diagramme de séquence versement]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>6956</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-10 13:45:55.0</dateCreated>
+                        <lastUpdated>2021-05-10 13:45:55.0</lastUpdated>
+                        <code>taskFinish</code>
+                        <label><![CDATA[Diagramme de séquence versement]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>6956</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                    </activities>
+                  </task>
+                  <task uid='15'>
+                    <type />
+                    <rank>3</rank>
+                    <color>#ffcc01</color>
+                    <state>2</state>
+                    <blocked>false</blocked>
+                    <spent />
+                    <initial>50.0</initial>
+                    <doneDate>2021-05-11 13:46:33.0</doneDate>
+                    <estimation>0.0</estimation>
+                    <todoDate>2021-05-11 13:45:54.0</todoDate>
+                    <inProgressDate>2021-05-11 13:46:27.0</inProgressDate>
+                    <creator uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <sprint id='1122' />
+                    <responsible uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <tags><![CDATA[]]></tags>
+                    <name><![CDATA[Classe User]]></name>
+                    <notes><![CDATA[]]></notes>
+                    <description><![CDATA[]]></description>
+                    <attachments />
+                    <comments />
+                    <activities>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-11 13:45:55.0</dateCreated>
+                        <lastUpdated>2021-05-11 13:45:55.0</lastUpdated>
+                        <code>taskSave</code>
+                        <label><![CDATA[Classe User]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7096</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-11 13:46:27.0</dateCreated>
+                        <lastUpdated>2021-05-11 13:46:27.0</lastUpdated>
+                        <code>taskInprogress</code>
+                        <label><![CDATA[Classe User]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7096</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-11 13:46:33.0</dateCreated>
+                        <lastUpdated>2021-05-11 13:46:33.0</lastUpdated>
+                        <code>taskFinish</code>
+                        <label><![CDATA[Classe User]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7096</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                    </activities>
+                  </task>
+                  <task uid='12'>
+                    <type />
+                    <rank>4</rank>
+                    <color>#ffcc01</color>
+                    <state>2</state>
+                    <blocked>false</blocked>
+                    <spent />
+                    <initial>240.0</initial>
+                    <doneDate>2021-05-18 13:48:35.0</doneDate>
+                    <estimation>0.0</estimation>
+                    <todoDate>2021-05-10 13:38:38.0</todoDate>
+                    <inProgressDate>2021-05-10 13:46:36.0</inProgressDate>
+                    <creator uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <sprint id='1122' />
+                    <responsible uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <tags><![CDATA[]]></tags>
+                    <name><![CDATA[Fonction de versement]]></name>
+                    <notes><![CDATA[]]></notes>
+                    <description><![CDATA[Fonction de versement]]></description>
+                    <attachments />
+                    <comments />
+                    <activities>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-10 13:38:38.0</dateCreated>
+                        <lastUpdated>2021-05-10 13:38:38.0</lastUpdated>
+                        <code>taskSave</code>
+                        <label><![CDATA[Création classe Payment]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>6949</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-10 13:45:24.0</dateCreated>
+                        <lastUpdated>2021-05-10 13:45:24.0</lastUpdated>
+                        <code>taskInprogress</code>
+                        <label><![CDATA[Création classe Payment]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>6949</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-10 13:45:59.0</dateCreated>
+                        <lastUpdated>2021-05-10 13:45:59.0</lastUpdated>
+                        <code>taskWait</code>
+                        <label><![CDATA[Création classe Payment]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>6949</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-10 13:46:36.0</dateCreated>
+                        <lastUpdated>2021-05-10 13:46:36.0</lastUpdated>
+                        <code>taskInprogress</code>
+                        <label><![CDATA[Création classe Payment]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>6949</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-18 10:00:28.0</dateCreated>
+                        <lastUpdated>2021-05-18 10:00:28.0</lastUpdated>
+                        <code>taskFinish</code>
+                        <label><![CDATA[Fonction de versement]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>6949</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-18 13:48:28.0</dateCreated>
+                        <lastUpdated>2021-05-18 13:48:28.0</lastUpdated>
+                        <code>taskInprogress</code>
+                        <label><![CDATA[Fonction de versement]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>6949</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-18 13:48:35.0</dateCreated>
+                        <lastUpdated>2021-05-18 13:48:35.0</lastUpdated>
+                        <code>taskFinish</code>
+                        <label><![CDATA[Fonction de versement]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>6949</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                    </activities>
+                  </task>
+                  <task uid='14'>
+                    <type />
+                    <rank>5</rank>
+                    <color>#ffcc01</color>
+                    <state>2</state>
+                    <blocked>false</blocked>
+                    <spent />
+                    <initial>15.0</initial>
+                    <doneDate>2021-05-10 13:49:52.0</doneDate>
+                    <estimation>0.0</estimation>
+                    <todoDate>2021-05-10 13:48:12.0</todoDate>
+                    <inProgressDate>2021-05-10 13:49:49.0</inProgressDate>
+                    <creator uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <sprint id='1122' />
+                    <responsible uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <tags><![CDATA[]]></tags>
+                    <name><![CDATA[Création Class DbConnector]]></name>
+                    <notes><![CDATA[]]></notes>
+                    <description><![CDATA[Cette classe va permettre de faire la liaison du code à la base de données]]></description>
+                    <attachments />
+                    <comments />
+                    <activities>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-10 13:48:12.0</dateCreated>
+                        <lastUpdated>2021-05-10 13:48:12.0</lastUpdated>
+                        <code>taskSave</code>
+                        <label><![CDATA[Création Class DbConnector]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>6958</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-10 13:49:49.0</dateCreated>
+                        <lastUpdated>2021-05-10 13:49:49.0</lastUpdated>
+                        <code>taskInprogress</code>
+                        <label><![CDATA[Création Class DbConnector]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>6958</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-10 13:49:52.0</dateCreated>
+                        <lastUpdated>2021-05-10 13:49:52.0</lastUpdated>
+                        <code>taskFinish</code>
+                        <label><![CDATA[Création Class DbConnector]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>6958</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                    </activities>
+                  </task>
+                </tasks>
                 <attachments />
                 <voters />
               </story>
               <story uid='3'>
                 <type>0</type>
                 <rank>2</rank>
-                <state>4</state>
+                <state>7</state>
                 <value>0</value>
                 <effort>8.00</effort>
-                <doneDate />
+                <doneDate>2021-05-25 07:55:52.0</doneDate>
                 <plannedDate>2021-05-06 14:04:13.0</plannedDate>
                 <acceptedDate>2021-05-06 14:01:49.0</acceptedDate>
                 <todoDate>2021-05-03 08:10:06.0</todoDate>
-                <lastUpdated>2021-05-06 14:04:13.0</lastUpdated>
+                <lastUpdated>2021-05-25 07:55:52.0</lastUpdated>
                 <dateCreated>2021-05-03 08:10:06.0</dateCreated>
                 <affectVersion />
                 <frozenDate />
                 <suggestedDate>2021-05-03 08:10:06.0</suggestedDate>
                 <estimatedDate>2021-05-06 14:02:19.0</estimatedDate>
-                <inProgressDate />
+                <inProgressDate>2021-05-10 12:05:16.0</inProgressDate>
                 <inReviewDate />
                 <tags><![CDATA[]]></tags>
                 <name><![CDATA[Module console]]></name>
@@ -2055,17 +2636,43 @@ Le versement est accepté et envoyé]]></description>
                     <parentRef>2469</parentRef>
                     <parentType>story</parentType>
                   </activity>
+                  <activity>
+                    <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <dateCreated>2021-05-10 12:05:16.0</dateCreated>
+                    <lastUpdated>2021-05-10 12:05:16.0</lastUpdated>
+                    <code>updateState</code>
+                    <label><![CDATA[Module console]]></label>
+                    <field><![CDATA[state]]></field>
+                    <beforeValue><![CDATA[4]]></beforeValue>
+                    <afterValue><![CDATA[5]]></afterValue>
+                    <afterLabel><![CDATA[]]></afterLabel>
+                    <parentRef>2469</parentRef>
+                    <parentType>story</parentType>
+                  </activity>
+                  <activity>
+                    <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <dateCreated>2021-05-25 07:55:52.0</dateCreated>
+                    <lastUpdated>2021-05-25 07:55:52.0</lastUpdated>
+                    <code>updateState</code>
+                    <label><![CDATA[Module console]]></label>
+                    <field><![CDATA[state]]></field>
+                    <beforeValue><![CDATA[5]]></beforeValue>
+                    <afterValue><![CDATA[7]]></afterValue>
+                    <afterLabel><![CDATA[]]></afterLabel>
+                    <parentRef>2469</parentRef>
+                    <parentType>story</parentType>
+                  </activity>
                 </activities>
                 <acceptanceTests>
                   <acceptanceTest uid='8'>
-                    <state>1</state>
+                    <state>10</state>
                     <rank>1</rank>
                     <creator uid='b2d23f9f74804ffeca83bff680cc483d' />
                     <name><![CDATA[Requête accepté]]></name>
                     <description><![CDATA[_*Given*_
 Le vendeur est dans la console 
 _*When*_ 
-Le vendeur écrit son numéro de compte ainsi que celui du client et le montant à payer
+Le vendeur écrit un numéro de compte de vendeur ainsi que celui du client et le montant à payer
 _*Then*_ 
 La transaction est accepté et les changements ont été fait dans la base de données et la console renvoi un message qui dit que le payement a été accepté]]></description>
                     <activities>
@@ -2108,17 +2715,43 @@ La transaction est accepté et les changements ont été fait dans la base de do
                         <parentRef>6951</parentRef>
                         <parentType>acceptanceTest</parentType>
                       </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-25 07:54:01.0</dateCreated>
+                        <lastUpdated>2021-05-25 07:54:01.0</lastUpdated>
+                        <code>acceptanceTestUpdate</code>
+                        <label><![CDATA[Requête accepté]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>6951</parentRef>
+                        <parentType>acceptanceTest</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-25 07:55:52.0</dateCreated>
+                        <lastUpdated>2021-05-25 07:55:52.0</lastUpdated>
+                        <code>acceptanceTestSuccess</code>
+                        <label><![CDATA[Requête accepté]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>6951</parentRef>
+                        <parentType>acceptanceTest</parentType>
+                      </activity>
                     </activities>
                   </acceptanceTest>
                   <acceptanceTest uid='9'>
-                    <state>1</state>
+                    <state>10</state>
                     <rank>2</rank>
                     <creator uid='b2d23f9f74804ffeca83bff680cc483d' />
                     <name><![CDATA[Client introuvable]]></name>
                     <description><![CDATA[_*Given*_
 Le vendeur est dans la console 
 _*When*_ 
-Le vendeur écrit les toutes les données mais le client qui n'existe pas ou est mal écrit
+Le vendeur écrit les toutes les données mais le client n'existe pas ou est mal écrit
 _*Then*_ 
 La transaction n'est pas accepté et la console renvoi un message qui dit que le client n'existe pas]]></description>
                     <activities>
@@ -2174,10 +2807,36 @@ La transaction n'est pas accepté et la console renvoi un message qui dit que le
                         <parentRef>6952</parentRef>
                         <parentType>acceptanceTest</parentType>
                       </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-21 09:51:33.0</dateCreated>
+                        <lastUpdated>2021-05-21 09:51:33.0</lastUpdated>
+                        <code>acceptanceTestUpdate</code>
+                        <label><![CDATA[Client introuvable]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>6952</parentRef>
+                        <parentType>acceptanceTest</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-25 07:55:52.0</dateCreated>
+                        <lastUpdated>2021-05-25 07:55:52.0</lastUpdated>
+                        <code>acceptanceTestSuccess</code>
+                        <label><![CDATA[Client introuvable]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>6952</parentRef>
+                        <parentType>acceptanceTest</parentType>
+                      </activity>
                     </activities>
                   </acceptanceTest>
                   <acceptanceTest uid='17'>
-                    <state>1</state>
+                    <state>10</state>
                     <rank>3</rank>
                     <creator uid='b2d23f9f74804ffeca83bff680cc483d' />
                     <name><![CDATA[solde insuffisant]]></name>
@@ -2201,6 +2860,112 @@ La transaction n'est pas accepté et la console renvoi un message qui dit que le
                         <parentRef>7101</parentRef>
                         <parentType>acceptanceTest</parentType>
                       </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-25 07:55:52.0</dateCreated>
+                        <lastUpdated>2021-05-25 07:55:52.0</lastUpdated>
+                        <code>acceptanceTestSuccess</code>
+                        <label><![CDATA[solde insuffisant]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7101</parentRef>
+                        <parentType>acceptanceTest</parentType>
+                      </activity>
+                    </activities>
+                  </acceptanceTest>
+                  <acceptanceTest uid='21'>
+                    <state>10</state>
+                    <rank>4</rank>
+                    <creator uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <name><![CDATA[Gestion des opérations entre instances (vendeur envoi en premier)]]></name>
+                    <description><![CDATA[_*Given*_ 
+Le vendeur utilise la console et le client utilise le formulaire
+_*When*_ 
+Le vendeur envoi sa requête avant le client se qui change le montant du client
+_*Then*_ 
+Le montant sera adapté pour le client donc si le montant de sa requête est devenu trop faible pour son solde alors elle ne sera pas accepté]]></description>
+                    <activities>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-21 09:58:22.0</dateCreated>
+                        <lastUpdated>2021-05-21 09:58:22.0</lastUpdated>
+                        <code>acceptanceTestSave</code>
+                        <label><![CDATA[Gestion des opérations entre instances]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7575</parentRef>
+                        <parentType>acceptanceTest</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-21 09:59:47.0</dateCreated>
+                        <lastUpdated>2021-05-21 09:59:47.0</lastUpdated>
+                        <code>acceptanceTestUpdate</code>
+                        <label><![CDATA[Gestion des opérations entre instances (vendeur envoi en premier)]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7575</parentRef>
+                        <parentType>acceptanceTest</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-25 07:55:52.0</dateCreated>
+                        <lastUpdated>2021-05-25 07:55:52.0</lastUpdated>
+                        <code>acceptanceTestSuccess</code>
+                        <label><![CDATA[Gestion des opérations entre instances (vendeur envoi en premier)]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7575</parentRef>
+                        <parentType>acceptanceTest</parentType>
+                      </activity>
+                    </activities>
+                  </acceptanceTest>
+                  <acceptanceTest uid='22'>
+                    <state>10</state>
+                    <rank>5</rank>
+                    <creator uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <name><![CDATA[Gestion des opérations entre instances (client envoi en premier)]]></name>
+                    <description><![CDATA[_*Given*_ 
+Le vendeur utilise la console et le client utilise le formulaire
+_*When*_ 
+Le client envoi sa requête avant le vendeur se qui change le montant du vendeur 
+_*Then*_ 
+Le montant sera adapté pour le vendeur donc si le montant de sa requête est devenu trop faible pour le solde alors elle ne sera pas accepté]]></description>
+                    <activities>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-21 09:59:42.0</dateCreated>
+                        <lastUpdated>2021-05-21 09:59:42.0</lastUpdated>
+                        <code>acceptanceTestSave</code>
+                        <label><![CDATA[Gestion des opérations entre instances (client envoi en premier)]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7576</parentRef>
+                        <parentType>acceptanceTest</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-25 07:55:52.0</dateCreated>
+                        <lastUpdated>2021-05-25 07:55:52.0</lastUpdated>
+                        <code>acceptanceTestSuccess</code>
+                        <label><![CDATA[Gestion des opérations entre instances (client envoi en premier)]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7576</parentRef>
+                        <parentType>acceptanceTest</parentType>
+                      </activity>
                     </activities>
                   </acceptanceTest>
                 </acceptanceTests>
@@ -2208,30 +2973,447 @@ La transaction n'est pas accepté et la console renvoi un message qui dit que le
                 <followers>
                   <user uid='b2d23f9f74804ffeca83bff680cc483d' />
                 </followers>
-                <tasks />
+                <tasks>
+                  <task uid='17'>
+                    <type />
+                    <rank>1</rank>
+                    <color>#ffcc01</color>
+                    <state>2</state>
+                    <blocked>false</blocked>
+                    <spent />
+                    <initial>60.0</initial>
+                    <doneDate>2021-05-21 07:23:29.0</doneDate>
+                    <estimation>0.0</estimation>
+                    <todoDate>2021-05-11 13:48:11.0</todoDate>
+                    <inProgressDate>2021-05-20 12:17:04.0</inProgressDate>
+                    <creator uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <sprint id='1122' />
+                    <responsible uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <tags><![CDATA[]]></tags>
+                    <name><![CDATA[Erreur des requêtes]]></name>
+                    <notes><![CDATA[]]></notes>
+                    <description><![CDATA[]]></description>
+                    <attachments />
+                    <comments />
+                    <activities>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-11 13:48:11.0</dateCreated>
+                        <lastUpdated>2021-05-11 13:48:11.0</lastUpdated>
+                        <code>taskSave</code>
+                        <label><![CDATA[Erreur des requêtes]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7098</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-20 12:17:04.0</dateCreated>
+                        <lastUpdated>2021-05-20 12:17:04.0</lastUpdated>
+                        <code>taskInprogress</code>
+                        <label><![CDATA[Erreur des requêtes]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7098</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-21 07:23:20.0</dateCreated>
+                        <lastUpdated>2021-05-21 07:23:20.0</lastUpdated>
+                        <code>taskFinish</code>
+                        <label><![CDATA[Erreur des requêtes]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7098</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-21 07:23:21.0</dateCreated>
+                        <lastUpdated>2021-05-21 07:23:21.0</lastUpdated>
+                        <code>taskInprogress</code>
+                        <label><![CDATA[Erreur des requêtes]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7098</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-21 07:23:29.0</dateCreated>
+                        <lastUpdated>2021-05-21 07:23:29.0</lastUpdated>
+                        <code>taskFinish</code>
+                        <label><![CDATA[Erreur des requêtes]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7098</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                    </activities>
+                  </task>
+                  <task uid='18'>
+                    <type />
+                    <rank>2</rank>
+                    <color>#ffcc01</color>
+                    <state>2</state>
+                    <blocked>false</blocked>
+                    <spent />
+                    <initial>160.0</initial>
+                    <doneDate>2021-05-21 09:51:14.0</doneDate>
+                    <estimation>0.0</estimation>
+                    <todoDate>2021-05-11 13:48:33.0</todoDate>
+                    <inProgressDate>2021-05-21 07:23:39.0</inProgressDate>
+                    <creator uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <sprint id='1122' />
+                    <responsible uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <tags><![CDATA[]]></tags>
+                    <name><![CDATA[Lancement de plusieurs instances]]></name>
+                    <notes><![CDATA[]]></notes>
+                    <description><![CDATA[]]></description>
+                    <attachments />
+                    <comments />
+                    <activities>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-11 13:48:33.0</dateCreated>
+                        <lastUpdated>2021-05-11 13:48:33.0</lastUpdated>
+                        <code>taskSave</code>
+                        <label><![CDATA[Lancement de plusieurs instances]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7099</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-21 07:23:39.0</dateCreated>
+                        <lastUpdated>2021-05-21 07:23:39.0</lastUpdated>
+                        <code>taskInprogress</code>
+                        <label><![CDATA[Lancement de plusieurs instances]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7099</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-21 09:51:14.0</dateCreated>
+                        <lastUpdated>2021-05-21 09:51:14.0</lastUpdated>
+                        <code>taskFinish</code>
+                        <label><![CDATA[Lancement de plusieurs instances]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7099</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                    </activities>
+                  </task>
+                  <task uid='16'>
+                    <type />
+                    <rank>3</rank>
+                    <color>#ffcc01</color>
+                    <state>2</state>
+                    <blocked>false</blocked>
+                    <spent />
+                    <initial>360.0</initial>
+                    <doneDate>2021-05-21 07:23:37.0</doneDate>
+                    <estimation>0.0</estimation>
+                    <todoDate>2021-05-11 13:46:51.0</todoDate>
+                    <inProgressDate>2021-05-18 10:00:59.0</inProgressDate>
+                    <creator uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <sprint id='1122' />
+                    <responsible uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <tags><![CDATA[]]></tags>
+                    <name><![CDATA[Versement depuis la console]]></name>
+                    <notes><![CDATA[]]></notes>
+                    <description><![CDATA[]]></description>
+                    <attachments />
+                    <comments />
+                    <activities>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-11 13:46:51.0</dateCreated>
+                        <lastUpdated>2021-05-11 13:46:51.0</lastUpdated>
+                        <code>taskSave</code>
+                        <label><![CDATA[Versement depuis console]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7097</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-11 13:47:00.0</dateCreated>
+                        <lastUpdated>2021-05-11 13:47:00.0</lastUpdated>
+                        <code>taskInprogress</code>
+                        <label><![CDATA[Versement depuis console]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7097</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-11 13:47:01.0</dateCreated>
+                        <lastUpdated>2021-05-11 13:47:01.0</lastUpdated>
+                        <code>taskWait</code>
+                        <label><![CDATA[Versement depuis console]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7097</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-18 10:00:59.0</dateCreated>
+                        <lastUpdated>2021-05-18 10:00:59.0</lastUpdated>
+                        <code>taskInprogress</code>
+                        <label><![CDATA[Versement depuis console]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7097</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-20 12:16:29.0</dateCreated>
+                        <lastUpdated>2021-05-20 12:16:29.0</lastUpdated>
+                        <code>taskFinish</code>
+                        <label><![CDATA[Versement depuis la console]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7097</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-20 12:16:31.0</dateCreated>
+                        <lastUpdated>2021-05-20 12:16:31.0</lastUpdated>
+                        <code>taskInprogress</code>
+                        <label><![CDATA[Versement depuis la console]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7097</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-20 12:17:01.0</dateCreated>
+                        <lastUpdated>2021-05-20 12:17:01.0</lastUpdated>
+                        <code>taskFinish</code>
+                        <label><![CDATA[Versement depuis la console]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7097</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-21 07:23:31.0</dateCreated>
+                        <lastUpdated>2021-05-21 07:23:31.0</lastUpdated>
+                        <code>taskInprogress</code>
+                        <label><![CDATA[Versement depuis la console]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7097</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-21 07:23:32.0</dateCreated>
+                        <lastUpdated>2021-05-21 07:23:32.0</lastUpdated>
+                        <code>taskFinish</code>
+                        <label><![CDATA[Versement depuis la console]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7097</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-21 07:23:34.0</dateCreated>
+                        <lastUpdated>2021-05-21 07:23:34.0</lastUpdated>
+                        <code>taskInprogress</code>
+                        <label><![CDATA[Versement depuis la console]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7097</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-21 07:23:37.0</dateCreated>
+                        <lastUpdated>2021-05-21 07:23:37.0</lastUpdated>
+                        <code>taskFinish</code>
+                        <label><![CDATA[Versement depuis la console]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7097</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                    </activities>
+                  </task>
+                </tasks>
                 <attachments />
                 <voters />
               </story>
             </stories>
             <tasks />
-            <cliches />
+            <cliches>
+              <cliche id='13031'>
+                <id>13031</id>
+                <type>2</type>
+                <datePrise>2021-05-10 12:05:17.0</datePrise>
+                <data><![CDATA[<cliche><stories>2</stories><inprogressStories>2</inprogressStories><inreviewStories>0</inreviewStories><doneStories>0</doneStories><pointsStories>16.00</pointsStories><totalPointsStories>0</totalPointsStories><tasks>4</tasks><waitTasks>0</waitTasks><inprogressTasks>1</inprogressTasks><doneTasks>3</doneTasks><sprintTasks>0</sprintTasks><recurrentTasks>0</recurrentTasks><urgentTasks>0</urgentTasks><storyTasks>4</storyTasks><remainingHours>240.0</remainingHours><spentHours>0.0</spentHours></cliche>]]></data>
+              </cliche>
+              <cliche id='13120'>
+                <id>13120</id>
+                <type>2</type>
+                <datePrise>2021-05-11 12:12:49.0</datePrise>
+                <data><![CDATA[<cliche><stories>2</stories><inprogressStories>2</inprogressStories><inreviewStories>0</inreviewStories><doneStories>0</doneStories><pointsStories>16.00</pointsStories><totalPointsStories>0</totalPointsStories><tasks>8</tasks><waitTasks>3</waitTasks><inprogressTasks>1</inprogressTasks><doneTasks>4</doneTasks><sprintTasks>0</sprintTasks><recurrentTasks>0</recurrentTasks><urgentTasks>0</urgentTasks><storyTasks>8</storyTasks><remainingHours>760.0</remainingHours><spentHours>0.0</spentHours></cliche>]]></data>
+              </cliche>
+              <cliche id='13368'>
+                <id>13368</id>
+                <type>2</type>
+                <datePrise>2021-05-12 12:12:49.0</datePrise>
+                <data><![CDATA[<cliche><stories>2</stories><inprogressStories>2</inprogressStories><inreviewStories>0</inreviewStories><doneStories>0</doneStories><pointsStories>16.00</pointsStories><totalPointsStories>0</totalPointsStories><tasks>8</tasks><waitTasks>3</waitTasks><inprogressTasks>1</inprogressTasks><doneTasks>4</doneTasks><sprintTasks>0</sprintTasks><recurrentTasks>0</recurrentTasks><urgentTasks>0</urgentTasks><storyTasks>8</storyTasks><remainingHours>760.0</remainingHours><spentHours>0.0</spentHours></cliche>]]></data>
+              </cliche>
+              <cliche id='13369'>
+                <id>13369</id>
+                <type>2</type>
+                <datePrise>2021-05-13 12:12:49.0</datePrise>
+                <data><![CDATA[<cliche><stories>2</stories><inprogressStories>2</inprogressStories><inreviewStories>0</inreviewStories><doneStories>0</doneStories><pointsStories>16.00</pointsStories><totalPointsStories>0</totalPointsStories><tasks>8</tasks><waitTasks>3</waitTasks><inprogressTasks>1</inprogressTasks><doneTasks>4</doneTasks><sprintTasks>0</sprintTasks><recurrentTasks>0</recurrentTasks><urgentTasks>0</urgentTasks><storyTasks>8</storyTasks><remainingHours>760.0</remainingHours><spentHours>0.0</spentHours></cliche>]]></data>
+              </cliche>
+              <cliche id='13370'>
+                <id>13370</id>
+                <type>2</type>
+                <datePrise>2021-05-14 12:12:49.0</datePrise>
+                <data><![CDATA[<cliche><stories>2</stories><inprogressStories>2</inprogressStories><inreviewStories>0</inreviewStories><doneStories>0</doneStories><pointsStories>16.00</pointsStories><totalPointsStories>0</totalPointsStories><tasks>8</tasks><waitTasks>3</waitTasks><inprogressTasks>1</inprogressTasks><doneTasks>4</doneTasks><sprintTasks>0</sprintTasks><recurrentTasks>0</recurrentTasks><urgentTasks>0</urgentTasks><storyTasks>8</storyTasks><remainingHours>760.0</remainingHours><spentHours>0.0</spentHours></cliche>]]></data>
+              </cliche>
+              <cliche id='13371'>
+                <id>13371</id>
+                <type>2</type>
+                <datePrise>2021-05-15 12:12:49.0</datePrise>
+                <data><![CDATA[<cliche><stories>2</stories><inprogressStories>2</inprogressStories><inreviewStories>0</inreviewStories><doneStories>0</doneStories><pointsStories>16.00</pointsStories><totalPointsStories>0</totalPointsStories><tasks>8</tasks><waitTasks>3</waitTasks><inprogressTasks>1</inprogressTasks><doneTasks>4</doneTasks><sprintTasks>0</sprintTasks><recurrentTasks>0</recurrentTasks><urgentTasks>0</urgentTasks><storyTasks>8</storyTasks><remainingHours>760.0</remainingHours><spentHours>0.0</spentHours></cliche>]]></data>
+              </cliche>
+              <cliche id='13372'>
+                <id>13372</id>
+                <type>2</type>
+                <datePrise>2021-05-16 12:12:49.0</datePrise>
+                <data><![CDATA[<cliche><stories>2</stories><inprogressStories>2</inprogressStories><inreviewStories>0</inreviewStories><doneStories>0</doneStories><pointsStories>16.00</pointsStories><totalPointsStories>0</totalPointsStories><tasks>8</tasks><waitTasks>3</waitTasks><inprogressTasks>1</inprogressTasks><doneTasks>4</doneTasks><sprintTasks>0</sprintTasks><recurrentTasks>0</recurrentTasks><urgentTasks>0</urgentTasks><storyTasks>8</storyTasks><remainingHours>760.0</remainingHours><spentHours>0.0</spentHours></cliche>]]></data>
+              </cliche>
+              <cliche id='13373'>
+                <id>13373</id>
+                <type>2</type>
+                <datePrise>2021-05-17 12:12:49.0</datePrise>
+                <data><![CDATA[<cliche><stories>2</stories><inprogressStories>2</inprogressStories><inreviewStories>0</inreviewStories><doneStories>0</doneStories><pointsStories>16.00</pointsStories><totalPointsStories>0</totalPointsStories><tasks>8</tasks><waitTasks>3</waitTasks><inprogressTasks>1</inprogressTasks><doneTasks>4</doneTasks><sprintTasks>0</sprintTasks><recurrentTasks>0</recurrentTasks><urgentTasks>0</urgentTasks><storyTasks>8</storyTasks><remainingHours>760.0</remainingHours><spentHours>0.0</spentHours></cliche>]]></data>
+              </cliche>
+              <cliche id='13374'>
+                <id>13374</id>
+                <type>2</type>
+                <datePrise>2021-05-18 10:00:25.0</datePrise>
+                <data><![CDATA[<cliche><stories>2</stories><inprogressStories>2</inprogressStories><inreviewStories>0</inreviewStories><doneStories>0</doneStories><pointsStories>16.00</pointsStories><totalPointsStories>0</totalPointsStories><tasks>8</tasks><waitTasks>2</waitTasks><inprogressTasks>1</inprogressTasks><doneTasks>5</doneTasks><sprintTasks>0</sprintTasks><recurrentTasks>0</recurrentTasks><urgentTasks>0</urgentTasks><storyTasks>8</storyTasks><remainingHours>580.0</remainingHours><spentHours>0.0</spentHours></cliche>]]></data>
+              </cliche>
+              <cliche id='13506'>
+                <id>13506</id>
+                <type>2</type>
+                <datePrise>2021-05-19 10:00:25.0</datePrise>
+                <data><![CDATA[<cliche><stories>2</stories><inprogressStories>2</inprogressStories><inreviewStories>0</inreviewStories><doneStories>0</doneStories><pointsStories>16.00</pointsStories><totalPointsStories>0</totalPointsStories><tasks>8</tasks><waitTasks>2</waitTasks><inprogressTasks>1</inprogressTasks><doneTasks>5</doneTasks><sprintTasks>0</sprintTasks><recurrentTasks>0</recurrentTasks><urgentTasks>0</urgentTasks><storyTasks>8</storyTasks><remainingHours>580.0</remainingHours><spentHours>0.0</spentHours></cliche>]]></data>
+              </cliche>
+              <cliche id='13507'>
+                <id>13507</id>
+                <type>2</type>
+                <datePrise>2021-05-20 12:15:58.0</datePrise>
+                <data><![CDATA[<cliche><stories>2</stories><inprogressStories>2</inprogressStories><inreviewStories>0</inreviewStories><doneStories>0</doneStories><pointsStories>16.00</pointsStories><totalPointsStories>0</totalPointsStories><tasks>8</tasks><waitTasks>1</waitTasks><inprogressTasks>1</inprogressTasks><doneTasks>6</doneTasks><sprintTasks>0</sprintTasks><recurrentTasks>0</recurrentTasks><urgentTasks>0</urgentTasks><storyTasks>8</storyTasks><remainingHours>220.0</remainingHours><spentHours>0.0</spentHours></cliche>]]></data>
+              </cliche>
+              <cliche id='13516'>
+                <id>13516</id>
+                <type>2</type>
+                <datePrise>2021-05-21 07:23:20.0</datePrise>
+                <data><![CDATA[<cliche><stories>2</stories><inprogressStories>2</inprogressStories><inreviewStories>0</inreviewStories><doneStories>0</doneStories><pointsStories>16.00</pointsStories><totalPointsStories>0</totalPointsStories><tasks>8</tasks><waitTasks>0</waitTasks><inprogressTasks>0</inprogressTasks><doneTasks>8</doneTasks><sprintTasks>0</sprintTasks><recurrentTasks>0</recurrentTasks><urgentTasks>0</urgentTasks><storyTasks>8</storyTasks><remainingHours>0.0</remainingHours><spentHours>0.0</spentHours></cliche>]]></data>
+              </cliche>
+              <cliche id='13653'>
+                <id>13653</id>
+                <type>2</type>
+                <datePrise>2021-05-22 07:23:20.0</datePrise>
+                <data><![CDATA[<cliche><stories>2</stories><inprogressStories>2</inprogressStories><inreviewStories>0</inreviewStories><doneStories>0</doneStories><pointsStories>16.00</pointsStories><totalPointsStories>0</totalPointsStories><tasks>8</tasks><waitTasks>0</waitTasks><inprogressTasks>0</inprogressTasks><doneTasks>8</doneTasks><sprintTasks>0</sprintTasks><recurrentTasks>0</recurrentTasks><urgentTasks>0</urgentTasks><storyTasks>8</storyTasks><remainingHours>0.0</remainingHours><spentHours>0.0</spentHours></cliche>]]></data>
+              </cliche>
+              <cliche id='13654'>
+                <id>13654</id>
+                <type>2</type>
+                <datePrise>2021-05-23 07:23:20.0</datePrise>
+                <data><![CDATA[<cliche><stories>2</stories><inprogressStories>2</inprogressStories><inreviewStories>0</inreviewStories><doneStories>0</doneStories><pointsStories>16.00</pointsStories><totalPointsStories>0</totalPointsStories><tasks>8</tasks><waitTasks>0</waitTasks><inprogressTasks>0</inprogressTasks><doneTasks>8</doneTasks><sprintTasks>0</sprintTasks><recurrentTasks>0</recurrentTasks><urgentTasks>0</urgentTasks><storyTasks>8</storyTasks><remainingHours>0.0</remainingHours><spentHours>0.0</spentHours></cliche>]]></data>
+              </cliche>
+              <cliche id='13655'>
+                <id>13655</id>
+                <type>2</type>
+                <datePrise>2021-05-24 07:23:20.0</datePrise>
+                <data><![CDATA[<cliche><stories>2</stories><inprogressStories>2</inprogressStories><inreviewStories>0</inreviewStories><doneStories>0</doneStories><pointsStories>16.00</pointsStories><totalPointsStories>0</totalPointsStories><tasks>8</tasks><waitTasks>0</waitTasks><inprogressTasks>0</inprogressTasks><doneTasks>8</doneTasks><sprintTasks>0</sprintTasks><recurrentTasks>0</recurrentTasks><urgentTasks>0</urgentTasks><storyTasks>8</storyTasks><remainingHours>0.0</remainingHours><spentHours>0.0</spentHours></cliche>]]></data>
+              </cliche>
+              <cliche id='13656'>
+                <id>13656</id>
+                <type>2</type>
+                <datePrise>2021-05-25 07:55:19.0</datePrise>
+                <data><![CDATA[<cliche><stories>2</stories><inprogressStories>0</inprogressStories><inreviewStories>0</inreviewStories><doneStories>2</doneStories><pointsStories>16.00</pointsStories><totalPointsStories>16.00</totalPointsStories><tasks>8</tasks><waitTasks>0</waitTasks><inprogressTasks>0</inprogressTasks><doneTasks>8</doneTasks><sprintTasks>0</sprintTasks><recurrentTasks>0</recurrentTasks><urgentTasks>0</urgentTasks><storyTasks>8</storyTasks><remainingHours>0.0</remainingHours><spentHours>0.0</spentHours></cliche>]]></data>
+              </cliche>
+            </cliches>
             <availabilities />
           </sprint>
           <sprint id='1123'>
-            <state>1</state>
+            <state>3</state>
             <endDate>2021-05-30 00:00:00.0</endDate>
-            <velocity>0.0</velocity>
+            <velocity>8.0</velocity>
             <capacity>8.0</capacity>
             <todoDate>2021-05-06 09:54:20.0</todoDate>
-            <doneDate />
+            <doneDate>2021-05-31 06:12:20.0</doneDate>
             <startDate>2021-05-24 00:00:00.0</startDate>
             <orderNumber>3</orderNumber>
-            <lastUpdated>2021-05-06 14:04:34.0</lastUpdated>
+            <lastUpdated>2021-05-31 06:12:20.0</lastUpdated>
             <dateCreated>2021-05-06 09:54:20.0</dateCreated>
             <dailyWorkTime>8.0</dailyWorkTime>
-            <inProgressDate />
+            <inProgressDate>2021-05-25 07:55:59.0</inProgressDate>
             <deliveredVersion />
-            <initialRemainingTime />
+            <initialRemainingTime>0.0</initialRemainingTime>
             <goal><![CDATA[]]></goal>
             <description><![CDATA[]]></description>
             <retrospective><![CDATA[]]></retrospective>
@@ -2241,20 +3423,20 @@ La transaction n'est pas accepté et la console renvoi un message qui dit que le
               <story uid='2'>
                 <type>0</type>
                 <rank>1</rank>
-                <state>4</state>
+                <state>7</state>
                 <value>0</value>
                 <effort>3.00</effort>
-                <doneDate />
+                <doneDate>2021-05-31 06:12:20.0</doneDate>
                 <plannedDate>2021-05-06 14:04:34.0</plannedDate>
                 <acceptedDate>2021-05-06 14:01:51.0</acceptedDate>
                 <todoDate>2021-05-03 08:09:49.0</todoDate>
-                <lastUpdated>2021-05-06 14:04:34.0</lastUpdated>
+                <lastUpdated>2021-05-31 06:12:20.0</lastUpdated>
                 <dateCreated>2021-05-03 08:09:49.0</dateCreated>
                 <affectVersion />
                 <frozenDate />
                 <suggestedDate>2021-05-03 08:09:49.0</suggestedDate>
                 <estimatedDate>2021-05-06 14:02:27.0</estimatedDate>
-                <inProgressDate />
+                <inProgressDate>2021-05-25 07:55:58.0</inProgressDate>
                 <inReviewDate />
                 <tags><![CDATA[]]></tags>
                 <name><![CDATA[Lister les opérations actuel du mois courant]]></name>
@@ -2369,10 +3551,36 @@ La transaction n'est pas accepté et la console renvoi un message qui dit que le
                     <parentRef>2468</parentRef>
                     <parentType>story</parentType>
                   </activity>
+                  <activity>
+                    <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <dateCreated>2021-05-25 07:55:58.0</dateCreated>
+                    <lastUpdated>2021-05-25 07:55:58.0</lastUpdated>
+                    <code>updateState</code>
+                    <label><![CDATA[Lister les opérations actuel du mois courant]]></label>
+                    <field><![CDATA[state]]></field>
+                    <beforeValue><![CDATA[4]]></beforeValue>
+                    <afterValue><![CDATA[5]]></afterValue>
+                    <afterLabel><![CDATA[]]></afterLabel>
+                    <parentRef>2468</parentRef>
+                    <parentType>story</parentType>
+                  </activity>
+                  <activity>
+                    <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <dateCreated>2021-05-31 06:12:20.0</dateCreated>
+                    <lastUpdated>2021-05-31 06:12:20.0</lastUpdated>
+                    <code>updateState</code>
+                    <label><![CDATA[Lister les opérations actuel du mois courant]]></label>
+                    <field><![CDATA[state]]></field>
+                    <beforeValue><![CDATA[5]]></beforeValue>
+                    <afterValue><![CDATA[7]]></afterValue>
+                    <afterLabel><![CDATA[]]></afterLabel>
+                    <parentRef>2468</parentRef>
+                    <parentType>story</parentType>
+                  </activity>
                 </activities>
                 <acceptanceTests>
                   <acceptanceTest uid='5'>
-                    <state>1</state>
+                    <state>10</state>
                     <rank>1</rank>
                     <creator uid='b2d23f9f74804ffeca83bff680cc483d' />
                     <name><![CDATA[Visualisation des opérations]]></name>
@@ -2381,7 +3589,7 @@ Le client veut voir sa liste des opérations
 _*When*_ 
 Le client va sur la page principale
 _*Then*_ 
-Le client voit la liste des opérations qu'il a fait dans ce mois]]></description>
+Le client voit la liste des opérations qu'il a fait dans ce mois avec leurs données affichées (Destinataire, Montant, Date, Information transmise et l'information personnel)]]></description>
                     <activities>
                       <activity>
                         <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
@@ -2422,17 +3630,56 @@ Le client voit la liste des opérations qu'il a fait dans ce mois]]></descriptio
                         <parentRef>6941</parentRef>
                         <parentType>acceptanceTest</parentType>
                       </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-25 12:03:30.0</dateCreated>
+                        <lastUpdated>2021-05-25 12:03:30.0</lastUpdated>
+                        <code>acceptanceTestUpdate</code>
+                        <label><![CDATA[Visualisation des opérations]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>6941</parentRef>
+                        <parentType>acceptanceTest</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-31 06:11:55.0</dateCreated>
+                        <lastUpdated>2021-05-31 06:11:55.0</lastUpdated>
+                        <code>acceptanceTestUpdate</code>
+                        <label><![CDATA[Visualisation des opérations]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>6941</parentRef>
+                        <parentType>acceptanceTest</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-31 06:11:58.0</dateCreated>
+                        <lastUpdated>2021-05-31 06:11:58.0</lastUpdated>
+                        <code>acceptanceTestSuccess</code>
+                        <label><![CDATA[Visualisation des opérations]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>6941</parentRef>
+                        <parentType>acceptanceTest</parentType>
+                      </activity>
                     </activities>
                   </acceptanceTest>
                   <acceptanceTest uid='6'>
-                    <state>1</state>
+                    <state>10</state>
                     <rank>2</rank>
                     <creator uid='b2d23f9f74804ffeca83bff680cc483d' />
                     <name><![CDATA[mise à jour de la liste]]></name>
                     <description><![CDATA[_*Given*_ 
-Le client est dans le formulaire de versement
+Le client est dans la page principale et le vendeur fait une transaction avec ce client dans la console
 _*When*_ 
-Le client fait un versement qui est accepté se qui le ramène dans la page principale
+Le client clique sur le bouton "rafraichir la page"
 _*Then*_ 
 Le client voit sa liste des opérations qui a été mise à jour avec le nouveau versement]]></description>
                     <activities>
@@ -2449,6 +3696,58 @@ Le client voit sa liste des opérations qui a été mise à jour avec le nouveau
                         <parentRef>6943</parentRef>
                         <parentType>acceptanceTest</parentType>
                       </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-25 08:39:51.0</dateCreated>
+                        <lastUpdated>2021-05-25 08:39:51.0</lastUpdated>
+                        <code>acceptanceTestUpdate</code>
+                        <label><![CDATA[mise à jour de la liste]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>6943</parentRef>
+                        <parentType>acceptanceTest</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-25 12:01:24.0</dateCreated>
+                        <lastUpdated>2021-05-25 12:01:24.0</lastUpdated>
+                        <code>acceptanceTestUpdate</code>
+                        <label><![CDATA[mise à jour de la liste]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>6943</parentRef>
+                        <parentType>acceptanceTest</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-25 12:58:12.0</dateCreated>
+                        <lastUpdated>2021-05-25 12:58:12.0</lastUpdated>
+                        <code>acceptanceTestUpdate</code>
+                        <label><![CDATA[mise à jour de la liste]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>6943</parentRef>
+                        <parentType>acceptanceTest</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-31 06:12:00.0</dateCreated>
+                        <lastUpdated>2021-05-31 06:12:00.0</lastUpdated>
+                        <code>acceptanceTestSuccess</code>
+                        <label><![CDATA[mise à jour de la liste]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>6943</parentRef>
+                        <parentType>acceptanceTest</parentType>
+                      </activity>
                     </activities>
                   </acceptanceTest>
                 </acceptanceTests>
@@ -2456,27 +3755,243 @@ Le client voit sa liste des opérations qui a été mise à jour avec le nouveau
                 <followers>
                   <user uid='b2d23f9f74804ffeca83bff680cc483d' />
                 </followers>
-                <tasks />
+                <tasks>
+                  <task uid='22'>
+                    <type />
+                    <rank>1</rank>
+                    <color>#ffcc01</color>
+                    <state>2</state>
+                    <blocked>false</blocked>
+                    <spent />
+                    <initial>15.0</initial>
+                    <doneDate>2021-05-25 08:41:21.0</doneDate>
+                    <estimation>0.0</estimation>
+                    <todoDate>2021-05-25 08:01:24.0</todoDate>
+                    <inProgressDate>2021-05-25 08:41:17.0</inProgressDate>
+                    <creator uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <sprint id='1123' />
+                    <responsible uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <tags><![CDATA[]]></tags>
+                    <name><![CDATA[Home page view]]></name>
+                    <notes><![CDATA[]]></notes>
+                    <description><![CDATA[]]></description>
+                    <attachments />
+                    <comments />
+                    <activities>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-25 08:01:24.0</dateCreated>
+                        <lastUpdated>2021-05-25 08:01:24.0</lastUpdated>
+                        <code>taskSave</code>
+                        <label><![CDATA[Home page view]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7691</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-25 08:41:17.0</dateCreated>
+                        <lastUpdated>2021-05-25 08:41:17.0</lastUpdated>
+                        <code>taskInprogress</code>
+                        <label><![CDATA[Home page view]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7691</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-25 08:41:21.0</dateCreated>
+                        <lastUpdated>2021-05-25 08:41:21.0</lastUpdated>
+                        <code>taskFinish</code>
+                        <label><![CDATA[Home page view]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7691</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                    </activities>
+                  </task>
+                  <task uid='20'>
+                    <type />
+                    <rank>2</rank>
+                    <color>#ffcc01</color>
+                    <state>2</state>
+                    <blocked>false</blocked>
+                    <spent />
+                    <initial />
+                    <doneDate>2021-05-25 12:01:00.0</doneDate>
+                    <estimation>0.0</estimation>
+                    <todoDate>2021-05-25 07:58:00.0</todoDate>
+                    <inProgressDate>2021-05-25 10:12:44.0</inProgressDate>
+                    <creator uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <sprint id='1123' />
+                    <responsible uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <tags><![CDATA[]]></tags>
+                    <name><![CDATA[rafraichissement de la liste]]></name>
+                    <notes><![CDATA[]]></notes>
+                    <description><![CDATA[]]></description>
+                    <attachments />
+                    <comments />
+                    <activities>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-25 07:58:00.0</dateCreated>
+                        <lastUpdated>2021-05-25 07:58:00.0</lastUpdated>
+                        <code>taskSave</code>
+                        <label><![CDATA[Bouton refresh de la liste]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7685</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-25 10:12:44.0</dateCreated>
+                        <lastUpdated>2021-05-25 10:12:44.0</lastUpdated>
+                        <code>taskInprogress</code>
+                        <label><![CDATA[Bouton refresh de la liste]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7685</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-25 12:01:00.0</dateCreated>
+                        <lastUpdated>2021-05-25 12:01:00.0</lastUpdated>
+                        <code>taskFinish</code>
+                        <label><![CDATA[rafraichissement de la liste]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7685</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                    </activities>
+                  </task>
+                  <task uid='19'>
+                    <type />
+                    <rank>3</rank>
+                    <color>#ffcc01</color>
+                    <state>2</state>
+                    <blocked>false</blocked>
+                    <spent />
+                    <initial />
+                    <doneDate>2021-05-28 06:05:04.0</doneDate>
+                    <estimation>0.0</estimation>
+                    <todoDate>2021-05-25 07:57:19.0</todoDate>
+                    <inProgressDate>2021-05-25 08:41:24.0</inProgressDate>
+                    <creator uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <sprint id='1123' />
+                    <responsible uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <tags><![CDATA[]]></tags>
+                    <name><![CDATA[Affichage des versement du compte]]></name>
+                    <notes><![CDATA[]]></notes>
+                    <description><![CDATA[]]></description>
+                    <attachments />
+                    <comments />
+                    <activities>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-25 07:57:19.0</dateCreated>
+                        <lastUpdated>2021-05-25 07:57:19.0</lastUpdated>
+                        <code>taskSave</code>
+                        <label><![CDATA[Affichage des versement du compte]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7683</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-25 08:41:24.0</dateCreated>
+                        <lastUpdated>2021-05-25 08:41:24.0</lastUpdated>
+                        <code>taskInprogress</code>
+                        <label><![CDATA[Affichage des versement du compte]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7683</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-25 10:12:41.0</dateCreated>
+                        <lastUpdated>2021-05-25 10:12:41.0</lastUpdated>
+                        <code>taskFinish</code>
+                        <label><![CDATA[Affichage des versement du compte]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7683</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-25 12:58:02.0</dateCreated>
+                        <lastUpdated>2021-05-25 12:58:02.0</lastUpdated>
+                        <code>taskInprogress</code>
+                        <label><![CDATA[Affichage des versement du compte]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7683</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-28 06:05:04.0</dateCreated>
+                        <lastUpdated>2021-05-28 06:05:04.0</lastUpdated>
+                        <code>taskFinish</code>
+                        <label><![CDATA[Affichage des versement du compte]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7683</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                    </activities>
+                  </task>
+                </tasks>
                 <attachments />
                 <voters />
               </story>
               <story uid='4'>
                 <type>0</type>
                 <rank>2</rank>
-                <state>4</state>
+                <state>7</state>
                 <value>0</value>
                 <effort>5.00</effort>
-                <doneDate />
+                <doneDate>2021-05-31 06:12:20.0</doneDate>
                 <plannedDate>2021-05-06 14:04:34.0</plannedDate>
                 <acceptedDate>2021-05-06 14:01:53.0</acceptedDate>
                 <todoDate>2021-05-03 08:10:41.0</todoDate>
-                <lastUpdated>2021-05-06 14:04:34.0</lastUpdated>
+                <lastUpdated>2021-05-31 06:12:20.0</lastUpdated>
                 <dateCreated>2021-05-03 08:10:41.0</dateCreated>
                 <affectVersion />
                 <frozenDate />
                 <suggestedDate>2021-05-03 08:10:41.0</suggestedDate>
                 <estimatedDate>2021-05-06 14:02:39.0</estimatedDate>
-                <inProgressDate />
+                <inProgressDate>2021-05-25 07:55:58.0</inProgressDate>
                 <inReviewDate />
                 <tags><![CDATA[]]></tags>
                 <name><![CDATA[Liste des opérations en indiquant une date de début et une date de fin]]></name>
@@ -2604,10 +4119,36 @@ Le client voit sa liste des opérations qui a été mise à jour avec le nouveau
                     <parentRef>2470</parentRef>
                     <parentType>story</parentType>
                   </activity>
+                  <activity>
+                    <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <dateCreated>2021-05-25 07:55:59.0</dateCreated>
+                    <lastUpdated>2021-05-25 07:55:59.0</lastUpdated>
+                    <code>updateState</code>
+                    <label><![CDATA[Liste des opérations en indiquant une date de début et une date de fin]]></label>
+                    <field><![CDATA[state]]></field>
+                    <beforeValue><![CDATA[4]]></beforeValue>
+                    <afterValue><![CDATA[5]]></afterValue>
+                    <afterLabel><![CDATA[]]></afterLabel>
+                    <parentRef>2470</parentRef>
+                    <parentType>story</parentType>
+                  </activity>
+                  <activity>
+                    <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <dateCreated>2021-05-31 06:12:20.0</dateCreated>
+                    <lastUpdated>2021-05-31 06:12:20.0</lastUpdated>
+                    <code>updateState</code>
+                    <label><![CDATA[Liste des opérations en indiquant une date de début et une date de fin]]></label>
+                    <field><![CDATA[state]]></field>
+                    <beforeValue><![CDATA[5]]></beforeValue>
+                    <afterValue><![CDATA[7]]></afterValue>
+                    <afterLabel><![CDATA[]]></afterLabel>
+                    <parentRef>2470</parentRef>
+                    <parentType>story</parentType>
+                  </activity>
                 </activities>
                 <acceptanceTests>
                   <acceptanceTest uid='10'>
-                    <state>1</state>
+                    <state>10</state>
                     <rank>1</rank>
                     <creator uid='b2d23f9f74804ffeca83bff680cc483d' />
                     <name><![CDATA[Filtre des opérations]]></name>
@@ -2657,10 +4198,23 @@ La liste des opérations affichera toutes les dates correspondant aux dates du f
                         <parentRef>6954</parentRef>
                         <parentType>acceptanceTest</parentType>
                       </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-31 06:12:09.0</dateCreated>
+                        <lastUpdated>2021-05-31 06:12:09.0</lastUpdated>
+                        <code>acceptanceTestSuccess</code>
+                        <label><![CDATA[Filtre des opérations]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>6954</parentRef>
+                        <parentType>acceptanceTest</parentType>
+                      </activity>
                     </activities>
                   </acceptanceTest>
                   <acceptanceTest uid='11'>
-                    <state>1</state>
+                    <state>10</state>
                     <rank>2</rank>
                     <creator uid='b2d23f9f74804ffeca83bff680cc483d' />
                     <name><![CDATA[Date de filtre incompatible]]></name>
@@ -2684,6 +4238,59 @@ Le logiciel renvoi un message d'erreur disant qu' il y a une erreur dans les cha
                         <parentRef>6957</parentRef>
                         <parentType>acceptanceTest</parentType>
                       </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-31 06:12:12.0</dateCreated>
+                        <lastUpdated>2021-05-31 06:12:12.0</lastUpdated>
+                        <code>acceptanceTestSuccess</code>
+                        <label><![CDATA[Date de filtre incompatible]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>6957</parentRef>
+                        <parentType>acceptanceTest</parentType>
+                      </activity>
+                    </activities>
+                  </acceptanceTest>
+                  <acceptanceTest uid='23'>
+                    <state>10</state>
+                    <rank>3</rank>
+                    <creator uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <name><![CDATA[Même date dans les deux champs]]></name>
+                    <description><![CDATA[_*Given*_ 
+Le client est dans la page principale
+_*When*_ 
+Le client indique la même date dans les deux champs et clique sur le bouton "filtrer"
+_*Then*_
+la liste des opérations affichera seulement les opérations de la date indiqué]]></description>
+                    <activities>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-31 06:10:02.0</dateCreated>
+                        <lastUpdated>2021-05-31 06:10:02.0</lastUpdated>
+                        <code>acceptanceTestSave</code>
+                        <label><![CDATA[Même date dans les deux champs]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7685</parentRef>
+                        <parentType>acceptanceTest</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-31 06:12:14.0</dateCreated>
+                        <lastUpdated>2021-05-31 06:12:14.0</lastUpdated>
+                        <code>acceptanceTestSuccess</code>
+                        <label><![CDATA[Même date dans les deux champs]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7685</parentRef>
+                        <parentType>acceptanceTest</parentType>
+                      </activity>
                     </activities>
                   </acceptanceTest>
                 </acceptanceTests>
@@ -2691,17 +4298,124 @@ Le logiciel renvoi un message d'erreur disant qu' il y a une erreur dans les cha
                 <followers>
                   <user uid='b2d23f9f74804ffeca83bff680cc483d' />
                 </followers>
-                <tasks />
+                <tasks>
+                  <task uid='21'>
+                    <type />
+                    <rank>1</rank>
+                    <color>#ffcc01</color>
+                    <state>2</state>
+                    <blocked>false</blocked>
+                    <spent />
+                    <initial />
+                    <doneDate>2021-05-28 08:28:23.0</doneDate>
+                    <estimation>0.0</estimation>
+                    <todoDate>2021-05-25 08:00:03.0</todoDate>
+                    <inProgressDate>2021-05-28 06:05:05.0</inProgressDate>
+                    <creator uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <sprint id='1123' />
+                    <responsible uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <tags><![CDATA[]]></tags>
+                    <name><![CDATA[Filtre de la liste]]></name>
+                    <notes><![CDATA[]]></notes>
+                    <description><![CDATA[]]></description>
+                    <attachments />
+                    <comments />
+                    <activities>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-25 08:00:03.0</dateCreated>
+                        <lastUpdated>2021-05-25 08:00:03.0</lastUpdated>
+                        <code>taskSave</code>
+                        <label><![CDATA[Filtre de la liste]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7687</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-28 06:05:05.0</dateCreated>
+                        <lastUpdated>2021-05-28 06:05:05.0</lastUpdated>
+                        <code>taskInprogress</code>
+                        <label><![CDATA[Filtre de la liste]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7687</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-28 08:28:23.0</dateCreated>
+                        <lastUpdated>2021-05-28 08:28:23.0</lastUpdated>
+                        <code>taskFinish</code>
+                        <label><![CDATA[Filtre de la liste]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7687</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                    </activities>
+                  </task>
+                </tasks>
                 <attachments />
                 <voters />
               </story>
             </stories>
             <tasks />
-            <cliches />
+            <cliches>
+              <cliche id='13659'>
+                <id>13659</id>
+                <type>2</type>
+                <datePrise>2021-05-25 07:55:59.0</datePrise>
+                <data><![CDATA[<cliche><stories>2</stories><inprogressStories>2</inprogressStories><inreviewStories>0</inreviewStories><doneStories>0</doneStories><pointsStories>8.00</pointsStories><totalPointsStories>0</totalPointsStories><tasks>4</tasks><waitTasks>1</waitTasks><inprogressTasks>1</inprogressTasks><doneTasks>2</doneTasks><sprintTasks>0</sprintTasks><recurrentTasks>0</recurrentTasks><urgentTasks>0</urgentTasks><storyTasks>4</storyTasks><remainingHours>0.0</remainingHours><spentHours>0.0</spentHours></cliche>]]></data>
+              </cliche>
+              <cliche id='13833'>
+                <id>13833</id>
+                <type>2</type>
+                <datePrise>2021-05-26 07:55:59.0</datePrise>
+                <data><![CDATA[<cliche><stories>2</stories><inprogressStories>2</inprogressStories><inreviewStories>0</inreviewStories><doneStories>0</doneStories><pointsStories>8.00</pointsStories><totalPointsStories>0</totalPointsStories><tasks>4</tasks><waitTasks>1</waitTasks><inprogressTasks>1</inprogressTasks><doneTasks>2</doneTasks><sprintTasks>0</sprintTasks><recurrentTasks>0</recurrentTasks><urgentTasks>0</urgentTasks><storyTasks>4</storyTasks><remainingHours>0.0</remainingHours><spentHours>0.0</spentHours></cliche>]]></data>
+              </cliche>
+              <cliche id='13834'>
+                <id>13834</id>
+                <type>2</type>
+                <datePrise>2021-05-27 07:55:59.0</datePrise>
+                <data><![CDATA[<cliche><stories>2</stories><inprogressStories>2</inprogressStories><inreviewStories>0</inreviewStories><doneStories>0</doneStories><pointsStories>8.00</pointsStories><totalPointsStories>0</totalPointsStories><tasks>4</tasks><waitTasks>1</waitTasks><inprogressTasks>1</inprogressTasks><doneTasks>2</doneTasks><sprintTasks>0</sprintTasks><recurrentTasks>0</recurrentTasks><urgentTasks>0</urgentTasks><storyTasks>4</storyTasks><remainingHours>0.0</remainingHours><spentHours>0.0</spentHours></cliche>]]></data>
+              </cliche>
+              <cliche id='13835'>
+                <id>13835</id>
+                <type>2</type>
+                <datePrise>2021-05-28 06:05:04.0</datePrise>
+                <data><![CDATA[<cliche><stories>2</stories><inprogressStories>2</inprogressStories><inreviewStories>0</inreviewStories><doneStories>0</doneStories><pointsStories>8.00</pointsStories><totalPointsStories>0</totalPointsStories><tasks>4</tasks><waitTasks>0</waitTasks><inprogressTasks>0</inprogressTasks><doneTasks>4</doneTasks><sprintTasks>0</sprintTasks><recurrentTasks>0</recurrentTasks><urgentTasks>0</urgentTasks><storyTasks>4</storyTasks><remainingHours>0.0</remainingHours><spentHours>0.0</spentHours></cliche>]]></data>
+              </cliche>
+              <cliche id='13883'>
+                <id>13883</id>
+                <type>2</type>
+                <datePrise>2021-05-29 06:05:04.0</datePrise>
+                <data><![CDATA[<cliche><stories>2</stories><inprogressStories>2</inprogressStories><inreviewStories>0</inreviewStories><doneStories>0</doneStories><pointsStories>8.00</pointsStories><totalPointsStories>0</totalPointsStories><tasks>4</tasks><waitTasks>0</waitTasks><inprogressTasks>0</inprogressTasks><doneTasks>4</doneTasks><sprintTasks>0</sprintTasks><recurrentTasks>0</recurrentTasks><urgentTasks>0</urgentTasks><storyTasks>4</storyTasks><remainingHours>0.0</remainingHours><spentHours>0.0</spentHours></cliche>]]></data>
+              </cliche>
+              <cliche id='13884'>
+                <id>13884</id>
+                <type>2</type>
+                <datePrise>2021-05-30 06:05:04.0</datePrise>
+                <data><![CDATA[<cliche><stories>2</stories><inprogressStories>2</inprogressStories><inreviewStories>0</inreviewStories><doneStories>0</doneStories><pointsStories>8.00</pointsStories><totalPointsStories>0</totalPointsStories><tasks>4</tasks><waitTasks>0</waitTasks><inprogressTasks>0</inprogressTasks><doneTasks>4</doneTasks><sprintTasks>0</sprintTasks><recurrentTasks>0</recurrentTasks><urgentTasks>0</urgentTasks><storyTasks>4</storyTasks><remainingHours>0.0</remainingHours><spentHours>0.0</spentHours></cliche>]]></data>
+              </cliche>
+              <cliche id='13885'>
+                <id>13885</id>
+                <type>2</type>
+                <datePrise>2021-05-31 06:12:20.0</datePrise>
+                <data><![CDATA[<cliche><stories>2</stories><inprogressStories>0</inprogressStories><inreviewStories>0</inreviewStories><doneStories>2</doneStories><pointsStories>8.00</pointsStories><totalPointsStories>8.00</totalPointsStories><tasks>4</tasks><waitTasks>0</waitTasks><inprogressTasks>0</inprogressTasks><doneTasks>4</doneTasks><sprintTasks>0</sprintTasks><recurrentTasks>0</recurrentTasks><urgentTasks>0</urgentTasks><storyTasks>4</storyTasks><remainingHours>0.0</remainingHours><spentHours>0.0</spentHours></cliche>]]></data>
+              </cliche>
+            </cliches>
             <availabilities />
           </sprint>
           <sprint id='1124'>
-            <state>1</state>
+            <state>2</state>
             <endDate>2021-06-04 00:00:00.0</endDate>
             <velocity>0.0</velocity>
             <capacity>4.0</capacity>
@@ -2709,12 +4423,12 @@ Le logiciel renvoi un message d'erreur disant qu' il y a une erreur dans les cha
             <doneDate />
             <startDate>2021-05-31 00:00:00.0</startDate>
             <orderNumber>4</orderNumber>
-            <lastUpdated>2021-05-06 14:04:46.0</lastUpdated>
+            <lastUpdated>Thu Jun 03 08:39:49 UTC 2021</lastUpdated>
             <dateCreated>2021-05-06 09:56:47.0</dateCreated>
             <dailyWorkTime>8.0</dailyWorkTime>
-            <inProgressDate />
+            <inProgressDate>2021-05-31 06:12:47.0</inProgressDate>
             <deliveredVersion />
-            <initialRemainingTime />
+            <initialRemainingTime>0.0</initialRemainingTime>
             <goal><![CDATA[]]></goal>
             <description><![CDATA[]]></description>
             <retrospective><![CDATA[]]></retrospective>
@@ -2724,20 +4438,20 @@ Le logiciel renvoi un message d'erreur disant qu' il y a une erreur dans les cha
               <story uid='5'>
                 <type>0</type>
                 <rank>1</rank>
-                <state>4</state>
+                <state>5</state>
                 <value>0</value>
                 <effort>2.00</effort>
                 <doneDate />
                 <plannedDate>2021-05-06 14:04:46.0</plannedDate>
                 <acceptedDate>2021-05-06 14:01:54.0</acceptedDate>
                 <todoDate>2021-05-03 08:10:58.0</todoDate>
-                <lastUpdated>2021-05-06 14:04:46.0</lastUpdated>
+                <lastUpdated>Mon May 31 06:27:11 UTC 2021</lastUpdated>
                 <dateCreated>2021-05-03 08:10:58.0</dateCreated>
                 <affectVersion />
                 <frozenDate />
                 <suggestedDate>2021-05-03 08:10:58.0</suggestedDate>
                 <estimatedDate>2021-05-06 14:02:46.0</estimatedDate>
-                <inProgressDate />
+                <inProgressDate>2021-05-31 06:12:47.0</inProgressDate>
                 <inReviewDate />
                 <tags><![CDATA[]]></tags>
                 <name><![CDATA[Affichage du solde du compte]]></name>
@@ -2865,6 +4579,19 @@ Le logiciel renvoi un message d'erreur disant qu' il y a une erreur dans les cha
                     <parentRef>2472</parentRef>
                     <parentType>story</parentType>
                   </activity>
+                  <activity>
+                    <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <dateCreated>2021-05-31 06:12:47.0</dateCreated>
+                    <lastUpdated>2021-05-31 06:12:47.0</lastUpdated>
+                    <code>updateState</code>
+                    <label><![CDATA[Affichage du solde du compte]]></label>
+                    <field><![CDATA[state]]></field>
+                    <beforeValue><![CDATA[4]]></beforeValue>
+                    <afterValue><![CDATA[5]]></afterValue>
+                    <afterLabel><![CDATA[]]></afterLabel>
+                    <parentRef>2472</parentRef>
+                    <parentType>story</parentType>
+                  </activity>
                 </activities>
                 <acceptanceTests>
                   <acceptanceTest uid='13'>
@@ -2912,27 +4639,154 @@ Le client voit son solde actuel sur la page principale]]></description>
                 <followers>
                   <user uid='b2d23f9f74804ffeca83bff680cc483d' />
                 </followers>
-                <tasks />
+                <tasks>
+                  <task uid='23'>
+                    <type />
+                    <rank>1</rank>
+                    <color>#ffcc01</color>
+                    <state>2</state>
+                    <blocked>false</blocked>
+                    <spent />
+                    <initial />
+                    <doneDate>2021-05-31 06:27:10.0</doneDate>
+                    <estimation>0.0</estimation>
+                    <todoDate>2021-05-31 06:13:49.0</todoDate>
+                    <inProgressDate>2021-05-31 06:27:08.0</inProgressDate>
+                    <creator uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <sprint id='1124' />
+                    <responsible uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <tags><![CDATA[]]></tags>
+                    <name><![CDATA[solde affiché dans la page principale]]></name>
+                    <notes><![CDATA[]]></notes>
+                    <description><![CDATA[]]></description>
+                    <attachments />
+                    <comments />
+                    <activities>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-31 06:13:49.0</dateCreated>
+                        <lastUpdated>2021-05-31 06:13:49.0</lastUpdated>
+                        <code>taskSave</code>
+                        <label><![CDATA[solde affiché dans la page principale]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7862</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-31 06:27:08.0</dateCreated>
+                        <lastUpdated>2021-05-31 06:27:08.0</lastUpdated>
+                        <code>taskInprogress</code>
+                        <label><![CDATA[solde affiché dans la page principale]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7862</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-31 06:27:10.0</dateCreated>
+                        <lastUpdated>2021-05-31 06:27:10.0</lastUpdated>
+                        <code>taskFinish</code>
+                        <label><![CDATA[solde affiché dans la page principale]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7862</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                    </activities>
+                  </task>
+                  <task uid='24'>
+                    <type />
+                    <rank>2</rank>
+                    <color>#ffcc01</color>
+                    <state>2</state>
+                    <blocked>false</blocked>
+                    <spent />
+                    <initial />
+                    <doneDate>2021-05-31 06:27:11.0</doneDate>
+                    <estimation>0.0</estimation>
+                    <todoDate>2021-05-31 06:14:18.0</todoDate>
+                    <inProgressDate>2021-05-31 06:27:09.0</inProgressDate>
+                    <creator uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <sprint id='1124' />
+                    <responsible uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <tags><![CDATA[]]></tags>
+                    <name><![CDATA[Rafraichir le montant]]></name>
+                    <notes><![CDATA[]]></notes>
+                    <description><![CDATA[]]></description>
+                    <attachments />
+                    <comments />
+                    <activities>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-31 06:14:18.0</dateCreated>
+                        <lastUpdated>2021-05-31 06:14:18.0</lastUpdated>
+                        <code>taskSave</code>
+                        <label><![CDATA[Rafraichir le montant]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7863</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-31 06:27:09.0</dateCreated>
+                        <lastUpdated>2021-05-31 06:27:09.0</lastUpdated>
+                        <code>taskInprogress</code>
+                        <label><![CDATA[Rafraichir le montant]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7863</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-31 06:27:11.0</dateCreated>
+                        <lastUpdated>2021-05-31 06:27:11.0</lastUpdated>
+                        <code>taskFinish</code>
+                        <label><![CDATA[Rafraichir le montant]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7863</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                    </activities>
+                  </task>
+                </tasks>
                 <attachments />
                 <voters />
               </story>
               <story uid='6'>
                 <type>0</type>
                 <rank>2</rank>
-                <state>4</state>
+                <state>5</state>
                 <value>0</value>
                 <effort>2.00</effort>
                 <doneDate />
                 <plannedDate>2021-05-06 14:04:46.0</plannedDate>
                 <acceptedDate>2021-05-06 14:01:56.0</acceptedDate>
                 <todoDate>2021-05-03 08:11:20.0</todoDate>
-                <lastUpdated>2021-05-06 14:04:46.0</lastUpdated>
+                <lastUpdated>Mon May 31 11:38:07 UTC 2021</lastUpdated>
                 <dateCreated>2021-05-03 08:11:20.0</dateCreated>
                 <affectVersion />
                 <frozenDate />
                 <suggestedDate>2021-05-03 08:11:20.0</suggestedDate>
                 <estimatedDate>2021-05-06 14:02:51.0</estimatedDate>
-                <inProgressDate />
+                <inProgressDate>2021-05-31 06:12:47.0</inProgressDate>
                 <inReviewDate />
                 <tags><![CDATA[]]></tags>
                 <name><![CDATA[identification d'un utilisateur avec login et mot de passe]]></name>
@@ -3043,6 +4897,19 @@ Le client voit son solde actuel sur la page principale]]></description>
                     <field><![CDATA[state]]></field>
                     <beforeValue><![CDATA[3]]></beforeValue>
                     <afterValue><![CDATA[4]]></afterValue>
+                    <afterLabel><![CDATA[]]></afterLabel>
+                    <parentRef>2473</parentRef>
+                    <parentType>story</parentType>
+                  </activity>
+                  <activity>
+                    <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <dateCreated>2021-05-31 06:12:47.0</dateCreated>
+                    <lastUpdated>2021-05-31 06:12:47.0</lastUpdated>
+                    <code>updateState</code>
+                    <label><![CDATA[identification d'un utilisateur avec login et mot de passe]]></label>
+                    <field><![CDATA[state]]></field>
+                    <beforeValue><![CDATA[4]]></beforeValue>
+                    <afterValue><![CDATA[5]]></afterValue>
                     <afterLabel><![CDATA[]]></afterLabel>
                     <parentRef>2473</parentRef>
                     <parentType>story</parentType>
@@ -3214,13 +5081,254 @@ L'application se ferme]]></description>
                 <followers>
                   <user uid='b2d23f9f74804ffeca83bff680cc483d' />
                 </followers>
-                <tasks />
+                <tasks>
+                  <task uid='27'>
+                    <type />
+                    <rank>1</rank>
+                    <color>#ffcc01</color>
+                    <state>2</state>
+                    <blocked>false</blocked>
+                    <spent />
+                    <initial>20.0</initial>
+                    <doneDate>2021-05-31 11:38:07.0</doneDate>
+                    <estimation>0.0</estimation>
+                    <todoDate>2021-05-31 11:37:56.0</todoDate>
+                    <inProgressDate>2021-05-31 11:38:03.0</inProgressDate>
+                    <creator uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <sprint id='1124' />
+                    <responsible uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <tags><![CDATA[]]></tags>
+                    <name><![CDATA[password hash]]></name>
+                    <notes><![CDATA[]]></notes>
+                    <description><![CDATA[]]></description>
+                    <attachments />
+                    <comments />
+                    <activities>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-31 11:37:56.0</dateCreated>
+                        <lastUpdated>2021-05-31 11:37:56.0</lastUpdated>
+                        <code>taskSave</code>
+                        <label><![CDATA[password hash]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7871</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-31 11:38:03.0</dateCreated>
+                        <lastUpdated>2021-05-31 11:38:03.0</lastUpdated>
+                        <code>taskInprogress</code>
+                        <label><![CDATA[password hash]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7871</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-31 11:38:07.0</dateCreated>
+                        <lastUpdated>2021-05-31 11:38:07.0</lastUpdated>
+                        <code>taskFinish</code>
+                        <label><![CDATA[password hash]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7871</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                    </activities>
+                  </task>
+                  <task uid='25'>
+                    <type />
+                    <rank>2</rank>
+                    <color>#ffcc01</color>
+                    <state>2</state>
+                    <blocked>false</blocked>
+                    <spent />
+                    <initial>10.0</initial>
+                    <doneDate>2021-05-31 06:27:35.0</doneDate>
+                    <estimation>0.0</estimation>
+                    <todoDate>2021-05-31 06:14:53.0</todoDate>
+                    <inProgressDate>2021-05-31 06:27:30.0</inProgressDate>
+                    <creator uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <sprint id='1124' />
+                    <responsible uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <tags><![CDATA[]]></tags>
+                    <name><![CDATA[login view]]></name>
+                    <notes><![CDATA[]]></notes>
+                    <description><![CDATA[]]></description>
+                    <attachments />
+                    <comments />
+                    <activities>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-31 06:14:53.0</dateCreated>
+                        <lastUpdated>2021-05-31 06:14:53.0</lastUpdated>
+                        <code>taskSave</code>
+                        <label><![CDATA[login view]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7864</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-31 06:27:16.0</dateCreated>
+                        <lastUpdated>2021-05-31 06:27:16.0</lastUpdated>
+                        <code>taskInprogress</code>
+                        <label><![CDATA[login view]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7864</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-31 06:27:22.0</dateCreated>
+                        <lastUpdated>2021-05-31 06:27:22.0</lastUpdated>
+                        <code>taskWait</code>
+                        <label><![CDATA[login view]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7864</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-31 06:27:30.0</dateCreated>
+                        <lastUpdated>2021-05-31 06:27:30.0</lastUpdated>
+                        <code>taskInprogress</code>
+                        <label><![CDATA[login view]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7864</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-31 06:27:35.0</dateCreated>
+                        <lastUpdated>2021-05-31 06:27:35.0</lastUpdated>
+                        <code>taskFinish</code>
+                        <label><![CDATA[login view]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7864</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                    </activities>
+                  </task>
+                  <task uid='26'>
+                    <type />
+                    <rank>3</rank>
+                    <color>#ffcc01</color>
+                    <state>2</state>
+                    <blocked>false</blocked>
+                    <spent />
+                    <initial>60.0</initial>
+                    <doneDate>2021-05-31 11:38:01.0</doneDate>
+                    <estimation>0.0</estimation>
+                    <todoDate>2021-05-31 06:20:43.0</todoDate>
+                    <inProgressDate>2021-05-31 06:27:44.0</inProgressDate>
+                    <creator uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <sprint id='1124' />
+                    <responsible uid='b2d23f9f74804ffeca83bff680cc483d' />
+                    <tags><![CDATA[]]></tags>
+                    <name><![CDATA[Login]]></name>
+                    <notes><![CDATA[]]></notes>
+                    <description><![CDATA[]]></description>
+                    <attachments />
+                    <comments />
+                    <activities>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-31 06:20:43.0</dateCreated>
+                        <lastUpdated>2021-05-31 06:20:43.0</lastUpdated>
+                        <code>taskSave</code>
+                        <label><![CDATA[Login]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7865</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-31 06:27:44.0</dateCreated>
+                        <lastUpdated>2021-05-31 06:27:44.0</lastUpdated>
+                        <code>taskInprogress</code>
+                        <label><![CDATA[Login]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7865</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                      <activity>
+                        <poster uid='b2d23f9f74804ffeca83bff680cc483d' />
+                        <dateCreated>2021-05-31 11:38:01.0</dateCreated>
+                        <lastUpdated>2021-05-31 11:38:01.0</lastUpdated>
+                        <code>taskFinish</code>
+                        <label><![CDATA[Login]]></label>
+                        <field><![CDATA[null]]></field>
+                        <beforeValue><![CDATA[]]></beforeValue>
+                        <afterValue><![CDATA[]]></afterValue>
+                        <afterLabel><![CDATA[]]></afterLabel>
+                        <parentRef>7865</parentRef>
+                        <parentType>task</parentType>
+                      </activity>
+                    </activities>
+                  </task>
+                </tasks>
                 <attachments />
                 <voters />
               </story>
             </stories>
             <tasks />
-            <cliches />
+            <cliches>
+              <cliche id='13888'>
+                <id>13888</id>
+                <type>2</type>
+                <datePrise>2021-05-31 06:12:47.0</datePrise>
+                <data><![CDATA[<cliche><stories>2</stories><inprogressStories>2</inprogressStories><inreviewStories>0</inreviewStories><doneStories>0</doneStories><pointsStories>4.00</pointsStories><totalPointsStories>0</totalPointsStories><tasks>5</tasks><waitTasks>0</waitTasks><inprogressTasks>0</inprogressTasks><doneTasks>5</doneTasks><sprintTasks>0</sprintTasks><recurrentTasks>0</recurrentTasks><urgentTasks>0</urgentTasks><storyTasks>5</storyTasks><remainingHours>0.0</remainingHours><spentHours>0.0</spentHours></cliche>]]></data>
+              </cliche>
+              <cliche id='14100'>
+                <id>14100</id>
+                <type>2</type>
+                <datePrise>2021-06-01 06:12:47.0</datePrise>
+                <data><![CDATA[<cliche><stories>2</stories><inprogressStories>2</inprogressStories><inreviewStories>0</inreviewStories><doneStories>0</doneStories><pointsStories>4.00</pointsStories><totalPointsStories>0</totalPointsStories><tasks>5</tasks><waitTasks>0</waitTasks><inprogressTasks>0</inprogressTasks><doneTasks>5</doneTasks><sprintTasks>0</sprintTasks><recurrentTasks>0</recurrentTasks><urgentTasks>0</urgentTasks><storyTasks>5</storyTasks><remainingHours>0.0</remainingHours><spentHours>0.0</spentHours></cliche>]]></data>
+              </cliche>
+              <cliche id='14101'>
+                <id>14101</id>
+                <type>2</type>
+                <datePrise>2021-06-02 06:12:47.0</datePrise>
+                <data><![CDATA[<cliche><stories>2</stories><inprogressStories>2</inprogressStories><inreviewStories>0</inreviewStories><doneStories>0</doneStories><pointsStories>4.00</pointsStories><totalPointsStories>0</totalPointsStories><tasks>5</tasks><waitTasks>0</waitTasks><inprogressTasks>0</inprogressTasks><doneTasks>5</doneTasks><sprintTasks>0</sprintTasks><recurrentTasks>0</recurrentTasks><urgentTasks>0</urgentTasks><storyTasks>5</storyTasks><remainingHours>0.0</remainingHours><spentHours>0.0</spentHours></cliche>]]></data>
+              </cliche>
+              <cliche id='14102'>
+                <id>14102</id>
+                <type>2</type>
+                <datePrise>2021-06-03 08:39:49.0</datePrise>
+                <data><![CDATA[<cliche><stories>2</stories><inprogressStories>2</inprogressStories><inreviewStories>0</inreviewStories><doneStories>0</doneStories><pointsStories>4.00</pointsStories><totalPointsStories>0</totalPointsStories><tasks>5</tasks><waitTasks>0</waitTasks><inprogressTasks>0</inprogressTasks><doneTasks>5</doneTasks><sprintTasks>0</sprintTasks><recurrentTasks>0</recurrentTasks><urgentTasks>0</urgentTasks><storyTasks>5</storyTasks><remainingHours>0.0</remainingHours><spentHours>0.0</spentHours></cliche>]]></data>
+              </cliche>
+            </cliches>
             <availabilities />
           </sprint>
         </sprints>
@@ -3232,6 +5340,42 @@ L'application se ferme]]></description>
             <type>0</type>
             <datePrise>2021-05-07 09:13:19.0</datePrise>
             <data><![CDATA[<cliche><sprintID>R1S1</sprintID><activationDate>Fri May 07 09:13:19 UTC 2021</activationDate><sprintCapacity>4</sprintCapacity><functionalStoryCapacity>4.00</functionalStoryCapacity><technicalStoryCapacity>0</technicalStoryCapacity><defectStoryCapacity>0</defectStoryCapacity><functionalStoryBacklogPoints>32.00</functionalStoryBacklogPoints><technicalStoryBacklogPoints>0</technicalStoryBacklogPoints><defectStoryBacklogPoints>0</defectStoryBacklogPoints><productBacklogPoints>32</productBacklogPoints><functionalStoryProductRemainingPoints>32.00</functionalStoryProductRemainingPoints><defectStoryProductRemainingPoints>0</defectStoryProductRemainingPoints><technicalStoryProductRemainingPoints>0</technicalStoryProductRemainingPoints><epicStoryProductRemainingPoints>0</epicStoryProductRemainingPoints><productRemainingBacklogPoints>32</productRemainingBacklogPoints><functionalStoryReleaseRemainingPoints>32.00</functionalStoryReleaseRemainingPoints><technicalStoryReleaseRemainingPoints>0</technicalStoryReleaseRemainingPoints><defectStoryReleaseRemainingPoints>0</defectStoryReleaseRemainingPoints><finishedStories>0</finishedStories><inProgressStories>3</inProgressStories><plannedStories>6</plannedStories><estimatedStories>0</estimatedStories><acceptedStories>0</acceptedStories><suggestedStories>0</suggestedStories></cliche>]]></data>
+          </cliche>
+          <cliche id='13030'>
+            <id>13030</id>
+            <type>0</type>
+            <datePrise>2021-05-10 12:05:17.0</datePrise>
+            <data><![CDATA[<cliche><sprintID>R1S2</sprintID><activationDate>Mon May 10 12:05:16 UTC 2021</activationDate><sprintCapacity>16</sprintCapacity><functionalStoryCapacity>16.00</functionalStoryCapacity><technicalStoryCapacity>0</technicalStoryCapacity><defectStoryCapacity>0</defectStoryCapacity><functionalStoryBacklogPoints>32.00</functionalStoryBacklogPoints><technicalStoryBacklogPoints>0</technicalStoryBacklogPoints><defectStoryBacklogPoints>0</defectStoryBacklogPoints><productBacklogPoints>32</productBacklogPoints><functionalStoryProductRemainingPoints>28.00</functionalStoryProductRemainingPoints><defectStoryProductRemainingPoints>0</defectStoryProductRemainingPoints><technicalStoryProductRemainingPoints>0</technicalStoryProductRemainingPoints><epicStoryProductRemainingPoints>0</epicStoryProductRemainingPoints><productRemainingBacklogPoints>28</productRemainingBacklogPoints><functionalStoryReleaseRemainingPoints>28.00</functionalStoryReleaseRemainingPoints><technicalStoryReleaseRemainingPoints>0</technicalStoryReleaseRemainingPoints><defectStoryReleaseRemainingPoints>0</defectStoryReleaseRemainingPoints><finishedStories>3</finishedStories><inProgressStories>2</inProgressStories><plannedStories>4</plannedStories><estimatedStories>0</estimatedStories><acceptedStories>0</acceptedStories><suggestedStories>0</suggestedStories></cliche>]]></data>
+          </cliche>
+          <cliche id='13658'>
+            <id>13658</id>
+            <type>0</type>
+            <datePrise>2021-05-25 07:55:59.0</datePrise>
+            <data><![CDATA[<cliche><sprintID>R1S3</sprintID><activationDate>Tue May 25 07:55:58 UTC 2021</activationDate><sprintCapacity>8</sprintCapacity><functionalStoryCapacity>8.00</functionalStoryCapacity><technicalStoryCapacity>0</technicalStoryCapacity><defectStoryCapacity>0</defectStoryCapacity><functionalStoryBacklogPoints>32.00</functionalStoryBacklogPoints><technicalStoryBacklogPoints>0</technicalStoryBacklogPoints><defectStoryBacklogPoints>0</defectStoryBacklogPoints><productBacklogPoints>32</productBacklogPoints><functionalStoryProductRemainingPoints>12.00</functionalStoryProductRemainingPoints><defectStoryProductRemainingPoints>0</defectStoryProductRemainingPoints><technicalStoryProductRemainingPoints>0</technicalStoryProductRemainingPoints><epicStoryProductRemainingPoints>0</epicStoryProductRemainingPoints><productRemainingBacklogPoints>12</productRemainingBacklogPoints><functionalStoryReleaseRemainingPoints>12.00</functionalStoryReleaseRemainingPoints><technicalStoryReleaseRemainingPoints>0</technicalStoryReleaseRemainingPoints><defectStoryReleaseRemainingPoints>0</defectStoryReleaseRemainingPoints><finishedStories>5</finishedStories><inProgressStories>2</inProgressStories><plannedStories>2</plannedStories><estimatedStories>0</estimatedStories><acceptedStories>0</acceptedStories><suggestedStories>0</suggestedStories></cliche>]]></data>
+          </cliche>
+          <cliche id='13887'>
+            <id>13887</id>
+            <type>0</type>
+            <datePrise>2021-05-31 06:12:47.0</datePrise>
+            <data><![CDATA[<cliche><sprintID>R1S4</sprintID><activationDate>Mon May 31 06:12:47 UTC 2021</activationDate><sprintCapacity>4</sprintCapacity><functionalStoryCapacity>4.00</functionalStoryCapacity><technicalStoryCapacity>0</technicalStoryCapacity><defectStoryCapacity>0</defectStoryCapacity><functionalStoryBacklogPoints>32.00</functionalStoryBacklogPoints><technicalStoryBacklogPoints>0</technicalStoryBacklogPoints><defectStoryBacklogPoints>0</defectStoryBacklogPoints><productBacklogPoints>32</productBacklogPoints><functionalStoryProductRemainingPoints>4.00</functionalStoryProductRemainingPoints><defectStoryProductRemainingPoints>0</defectStoryProductRemainingPoints><technicalStoryProductRemainingPoints>0</technicalStoryProductRemainingPoints><epicStoryProductRemainingPoints>0</epicStoryProductRemainingPoints><productRemainingBacklogPoints>4</productRemainingBacklogPoints><functionalStoryReleaseRemainingPoints>4.00</functionalStoryReleaseRemainingPoints><technicalStoryReleaseRemainingPoints>0</technicalStoryReleaseRemainingPoints><defectStoryReleaseRemainingPoints>0</defectStoryReleaseRemainingPoints><finishedStories>7</finishedStories><inProgressStories>2</inProgressStories><plannedStories>0</plannedStories><estimatedStories>0</estimatedStories><acceptedStories>0</acceptedStories><suggestedStories>0</suggestedStories></cliche>]]></data>
+          </cliche>
+          <cliche id='13029'>
+            <id>13029</id>
+            <type>1</type>
+            <datePrise>2021-05-10 12:04:25.0</datePrise>
+            <data><![CDATA[<cliche><sprintID>R1S1</sprintID><closeDate>2021-05-10 12:04:25.0</closeDate><sprintVelocity>4</sprintVelocity><functionalStoryVelocity>4.00</functionalStoryVelocity><technicalStoryVelocity>0</technicalStoryVelocity><defectStoryVelocity>0</defectStoryVelocity><functionalStoryBacklogPoints>32.00</functionalStoryBacklogPoints><technicalStoryBacklogPoints>0</technicalStoryBacklogPoints><defectStoryBacklogPoints>0</defectStoryBacklogPoints><productBacklogPoints>32</productBacklogPoints><functionalStoryProductRemainingPoints>28.00</functionalStoryProductRemainingPoints><defectStoryProductRemainingPoints>0</defectStoryProductRemainingPoints><technicalStoryProductRemainingPoints>0</technicalStoryProductRemainingPoints><epicStoryProductRemainingPoints>0</epicStoryProductRemainingPoints><productRemainingBacklogPoints>28</productRemainingBacklogPoints><functionalStoryReleaseRemainingPoints>28.00</functionalStoryReleaseRemainingPoints><technicalStoryReleaseRemainingPoints>0</technicalStoryReleaseRemainingPoints><defectStoryReleaseRemainingPoints>0</defectStoryReleaseRemainingPoints><finishedStories>3</finishedStories><inProgressStories>0</inProgressStories><plannedStories>6</plannedStories><estimatedStories>0</estimatedStories><acceptedStories>0</acceptedStories><suggestedStories>0</suggestedStories></cliche>]]></data>
+          </cliche>
+          <cliche id='13657'>
+            <id>13657</id>
+            <type>1</type>
+            <datePrise>2021-05-25 07:55:52.0</datePrise>
+            <data><![CDATA[<cliche><sprintID>R1S2</sprintID><closeDate>2021-05-25 07:55:52.0</closeDate><sprintVelocity>16</sprintVelocity><functionalStoryVelocity>16.00</functionalStoryVelocity><technicalStoryVelocity>0</technicalStoryVelocity><defectStoryVelocity>0</defectStoryVelocity><functionalStoryBacklogPoints>32.00</functionalStoryBacklogPoints><technicalStoryBacklogPoints>0</technicalStoryBacklogPoints><defectStoryBacklogPoints>0</defectStoryBacklogPoints><productBacklogPoints>32</productBacklogPoints><functionalStoryProductRemainingPoints>12.00</functionalStoryProductRemainingPoints><defectStoryProductRemainingPoints>0</defectStoryProductRemainingPoints><technicalStoryProductRemainingPoints>0</technicalStoryProductRemainingPoints><epicStoryProductRemainingPoints>0</epicStoryProductRemainingPoints><productRemainingBacklogPoints>12</productRemainingBacklogPoints><functionalStoryReleaseRemainingPoints>12.00</functionalStoryReleaseRemainingPoints><technicalStoryReleaseRemainingPoints>0</technicalStoryReleaseRemainingPoints><defectStoryReleaseRemainingPoints>0</defectStoryReleaseRemainingPoints><finishedStories>5</finishedStories><inProgressStories>0</inProgressStories><plannedStories>4</plannedStories><estimatedStories>0</estimatedStories><acceptedStories>0</acceptedStories><suggestedStories>0</suggestedStories></cliche>]]></data>
+          </cliche>
+          <cliche id='13886'>
+            <id>13886</id>
+            <type>1</type>
+            <datePrise>2021-05-31 06:12:20.0</datePrise>
+            <data><![CDATA[<cliche><sprintID>R1S3</sprintID><closeDate>2021-05-31 06:12:20.0</closeDate><sprintVelocity>8</sprintVelocity><functionalStoryVelocity>8.00</functionalStoryVelocity><technicalStoryVelocity>0</technicalStoryVelocity><defectStoryVelocity>0</defectStoryVelocity><functionalStoryBacklogPoints>32.00</functionalStoryBacklogPoints><technicalStoryBacklogPoints>0</technicalStoryBacklogPoints><defectStoryBacklogPoints>0</defectStoryBacklogPoints><productBacklogPoints>32</productBacklogPoints><functionalStoryProductRemainingPoints>4.00</functionalStoryProductRemainingPoints><defectStoryProductRemainingPoints>0</defectStoryProductRemainingPoints><technicalStoryProductRemainingPoints>0</technicalStoryProductRemainingPoints><epicStoryProductRemainingPoints>0</epicStoryProductRemainingPoints><productRemainingBacklogPoints>4</productRemainingBacklogPoints><functionalStoryReleaseRemainingPoints>4.00</functionalStoryReleaseRemainingPoints><technicalStoryReleaseRemainingPoints>0</technicalStoryReleaseRemainingPoints><defectStoryReleaseRemainingPoints>0</defectStoryReleaseRemainingPoints><finishedStories>7</finishedStories><inProgressStories>0</inProgressStories><plannedStories>2</plannedStories><estimatedStories>0</estimatedStories><acceptedStories>0</acceptedStories><suggestedStories>0</suggestedStories></cliche>]]></data>
           </cliche>
         </cliches>
       </release>
@@ -3271,7 +5415,6 @@ L'application se ferme]]></description>
     <hooks />
     <backlogs />
     <builds />
-    <btConfigs />
     <availabilityPreferences>
       <enable>false</enable>
       <displayLatitude>true</displayLatitude>
@@ -3355,5 +5498,6 @@ L'application se ferme]]></description>
     </featureMapConfig>
     <labelLists />
     <widgets />
+    <btConfigs />
   </project>
 </export>
